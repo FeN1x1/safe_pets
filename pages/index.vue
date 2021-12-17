@@ -1,15 +1,13 @@
 <template>
   <div>
-    <Nav />
     <Header />
     <Tokenomics />
-    <HowToBuy />
     <Charity />
     <Roadmap />
     <Faq />
     <OurTeam />
+    <HowToBuy />
     <Contact />
-    <Footer />
   </div>
 </template>
 

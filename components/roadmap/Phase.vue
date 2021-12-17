@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class='mt-4'>
-      <h6 class='mb-6 text-2xl font-extrabold leading-5 text-green-secondary uppercase'>Phase {{ this.phase }}</h6>
+      <h6 class='mb-6 text-2xl font-extrabold text-green-secondary uppercase'>Phase {{ this.phase }}</h6>
       <p v-html='this.text' class='text-base text-brown-secondary'>
       </p>
     </div>

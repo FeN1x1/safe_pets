@@ -1,6 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
-  mode: 'jit',
   theme: {
     extend: {
       fontFamily: {
@@ -13,12 +12,7 @@ module.exports = {
         'purple-secondary': '#FFC5DF',
         'brown-primary': '#110A01',
         'brown-secondary': '#362B26',
-        'theme-brown': '#744133',
-        'theme-light-brown': '#eobg81',
-        'theme-dark-brown': '#25211C',
-        'theme-light-gray': '#EAEDEE',
-        'theme-light-green': '#7DC4C0',
-        'theme-green': '#20d4A7',
+        'brown-tertiary': '#EDBF77',
         red: {
           50: '#ffebee',
           100: '#ffcdd2',

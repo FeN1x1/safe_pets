@@ -25,7 +25,7 @@
           Donation to shelter for pets
         </p>
         <p
-          class="mb-12 text-2xl tracking-wide text-white"
+          class="mb-12 text-xl tracking-wide text-white"
         >
           We serve as support of shetlers which help of providing protection,
           care to animals in need; a full-service animal adoption center. Animal

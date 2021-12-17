@@ -1,9 +1,9 @@
 <template>
   <div
-    class="py-8 mb-8 font-sans uppercase text-white md:mx-auto sm:text-center"
+    class="py-8 max-w-3xl mb-8 font-sans uppercase text-white md:mx-auto sm:text-center"
   >
     <h2
-      class="relative  before:bg-gradient-to-r before:from-purple-primary before:to-purple-secondary"
+      class="relative"
     >
       {{ title }}
     </h2>
@@ -23,11 +23,13 @@ export default {
 </script>
 
 <style scoped>
-div {
-  max-width: 48rem;
-}
+
 h2:before {
   content: '';
+  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  --tw-gradient-from: #FF1D6F;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 29, 111, 0));
+  --tw-gradient-to: #FFC5DF;
   display: block;
   width: 160px;
   height: 3px;
@@ -38,9 +40,9 @@ h2:before {
 h2:after {
   content: '';
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-  --tw-gradient-to: #FF1D6F;
+  --tw-gradient-from: #FF1D6F;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 29, 111, 0));
-  --tw-gradient-from: #FFC5DF;
+  --tw-gradient-to: #FFC5DF;
   display: block;
   width: 160px;
   height: 3px;

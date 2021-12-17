@@ -15,10 +15,12 @@
             >Safe Pets</span
           >
         </a>
-        <ul class="flex items-center space-x-12 lg:flex">
+        <ul class="flex items-center space-x-8 lg:flex">
           <NavButton name="Tokenomics" />
           <NavButton name="Charity" />
           <NavButton name="Roadmap" />
+          <NavButton name="FAQ" />
+          <NavButton name="Our Team" />
           <NavButton name="Contact" />
           <li>
             <div class="button">

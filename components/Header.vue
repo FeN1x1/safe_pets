@@ -42,11 +42,11 @@
             </p>
           </div>
           <div class="flex flex-col items-center md:flex-row">
-            <div class="flex items-center justify-center space-x-4">
+            <div class="flex items-center space-x-4">
               <button
-                class="px-4 py-2 font-bold text-black bg-white rounded-full"
+                class="px-32 uppercase text-right py-2 font-bold text-black bg-white rounded-full"
               >
-                0xf67006f8d22edEbd1191f3E728ab9a90289e6C38
+                Coming soon...
               </button>
               <button class="button-wider">Copy</button>
             </div>

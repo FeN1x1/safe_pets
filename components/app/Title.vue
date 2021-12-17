@@ -3,7 +3,7 @@
     class="py-8 mb-8 uppercase text-brown-secondary md:mx-auto sm:text-center"
   >
     <h2
-      class="relative  before:bg-gradient-to-r before:from-green-primary before:to-green-secondary"
+      class="relative"
     >
       {{ title }}
     </h2>
@@ -30,6 +30,11 @@ h2:before {
   content: '';
   display: block;
   width: 160px;
+  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  --tw-gradient-from: #00b3b7;
+  --tw-gradient-stops: var(--tw-gradient-from),
+  var(--tw-gradient-to, rgba(0, 179, 183, 0));
+  --tw-gradient-to: #0ce2af;
   height: 3px;
   left: 0;
   top: 50%;

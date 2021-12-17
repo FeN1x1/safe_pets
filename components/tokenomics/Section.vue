@@ -6,10 +6,10 @@
     >
       <slot></slot>
     </div>
-    <h6 class="mb-6 text-3xl font-extrabold leading-5 text-green-secondary">
+    <h6 class="mb-6 text-2xl font-extrabold leading-5 text-green-secondary">
       {{ title }}
     </h6>
-    <p class="mb-3 text-2xl tracking-wide text-brown-secondary">
+    <p class="mb-3 text-xl tracking-wide text-brown-secondary">
       {{ text }}
     </p>
   </div>

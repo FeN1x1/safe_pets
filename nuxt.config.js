@@ -21,7 +21,7 @@ export default {
     families: {
       Montserrat: [500],
       Sora: [500],
-      Lato: [400],
+      Nunito: [500],
       Raleway: {
         wght: [100, 400],
         ital: [100],
