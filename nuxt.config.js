@@ -41,14 +41,15 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    'nuxt-vite',
     '@nuxt/image',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+    ['vue-scrollto/nuxt', { duration: 300 }],
+  ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},

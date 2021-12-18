@@ -19,17 +19,17 @@
       <div class='grid gap-8 row-gap-5 md:grid-cols-2 sm:max-w-screen-lg mx-auto'>
         <nuxt-link
           to='/trustwallet' class='relative p-px overflow-hidden transition duration-300 transform rounded-xl cursor-pointer shadow-sm hover:scale-105 group hover:shadow-xl'>
-          <img
+          <nuxt-img
             class="object-cover w-full h-64"
-            src="~/assets/trustwallet.jpg"
+            src="trustwallet.jpg"
             alt="dog"
           />
         </nuxt-link>
         <nuxt-link
           to='/metamask' class='relative p-px overflow-hidden transition duration-300 transform rounded-xl cursor-pointer shadow-sm hover:scale-105 group hover:shadow-xl'>
-          <img
+          <nuxt-img
             class="object-cover w-full h-64"
-            src="~/assets/metamask.jpg"
+            src="/metamask.jpg"
             alt="dog"
           />
         </nuxt-link>

@@ -9,6 +9,12 @@
       <p class='text-base text-center tracking-wide text-gray-800'>
         {{ text }}
       </p>
+
+    </div>
+    <div v-if='personLinkedIn !== ""' class='flex' >
+      <a target='_blank' :href='personLinkedIn' class='mx-auto text-center mt-4 text-green-secondary'>
+        <SocialLinkedIn class='mx-auto' />
+      </a>
     </div>
   </div>
 </template>
@@ -34,6 +40,10 @@ export default {
       required: true
     },
     personImage: {
+      type: String,
+      required: true
+    },
+    personLinkedIn: {
       type: String,
       required: true
     },
