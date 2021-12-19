@@ -1,5 +1,5 @@
 <template>
-  <div class='relative bg-brown-primary'>
+  <div id='howToBuy' class='relative bg-brown-primary'>
     <div class='absolute inset-x-0 bottom-0'>
       <svg
         viewBox='0 0 224 12'

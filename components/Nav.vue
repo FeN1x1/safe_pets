@@ -6,14 +6,14 @@
       <div class='relative flex items-center justify-between'>
         <NavLogo class='inline-flex items-center'/>
         <ul class='flex items-center space-x-8 lg:flex'>
-          <NavButton name='Tokenomics' />
-          <NavButton name='Charity' />
-          <NavButton name='Roadmap' />
-          <NavButton name='FAQ' />
-          <NavButton name='Our Team' />
-          <NavButton name='Contact' />
+          <NavButton name='Tokenomics' to='tokenomics' />
+          <NavButton name='Charity' to='charity' />
+          <NavButton name='Roadmap' to='roadmap' />
+          <NavButton name='FAQ' to='faq' />
+          <NavButton name='Our Team' to='ourTeam' />
+          <NavButton name='Contact' to='contact' />
           <li>
-            <div class='button'>
+            <div class='button' v-scroll-to="'#howToBuy'">
               Buy Now!
             </div>
           </li>

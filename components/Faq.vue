@@ -1,5 +1,5 @@
 <template>
-  <div class='relative bg-brown-primary'>
+  <div id='faq' class='relative bg-brown-primary'>
     <div class='absolute inset-x-0 bottom-0'>
       <svg viewBox='0 0 224 12' fill='currentColor' class='w-full -mb-1 text-white' preserveAspectRa1tio='none'>
         <path

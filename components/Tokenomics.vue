@@ -1,5 +1,5 @@
 <template>
-  <div class='px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-16'>
+  <div id='tokenomics' class='px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-16'>
     <AppTitle title='Tokenomics' class='-mt-2' />
     <div class='grid row-gap-12 lg:grid-cols-2'>
       <TokenomicsSection

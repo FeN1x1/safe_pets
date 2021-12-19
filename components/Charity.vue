@@ -1,5 +1,5 @@
 <template>
-  <div class="relative bg-brown-primary">
+  <div id='charity' class="relative bg-brown-primary">
     <div class="absolute inset-x-0 bottom-0">
       <svg
         viewBox="0 0 224 12"
@@ -13,14 +13,14 @@
       </svg>
     </div>
     <div
-      class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 sm:py-16"
+      class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 sm:py-8"
     >
       <div
         class="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center"
       >
         <AppTitleSecondary title="Charity"  />
         <p
-          class="mb-10 title text-3xl font-extrabold leading-5 text-purple-primary py-2"
+          class="mb-10 title text-3xl font-extrabold leading-5 text-purple-primary"
         >
           Donation to shelter for pets
         </p>

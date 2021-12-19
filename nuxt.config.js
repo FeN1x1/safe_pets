@@ -33,7 +33,9 @@ export default {
   css: ['~/assets/css/styles.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    '~/plugins/vue-scrollTo.js'
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -44,11 +46,6 @@ export default {
     '@nuxt/image',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-  ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    ['vue-scrollto/nuxt', { duration: 300 }],
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
