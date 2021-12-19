@@ -9,7 +9,7 @@
     <div class='relative flex justify-end max-w-xl mx-auto xl:pr-32 lg:max-w-screen-xl'>
       <div class='mb-16 lg:pr-5 lg:max-w-lg lg:mb-0'>
         <div class='max-w-xl mb-6'>
-          <p class='text-base text-gray-700 md:text-lg text-center'>
+          <p class='text-base text-gray-700 md:text-lg text-left'>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
             laoreet dolore magna aliquam erat
             volutpat. Ut wisi
@@ -21,22 +21,27 @@
               placeholder='Your Name'
               required=''
               type='text'
-              class='flex-grow w-full h-12 px-4 mb-2 text-center transition duration-200 bg-white border border-green-secondary rounded-lg shadow-lg appearance-none md:mr-2 focus:border-green-primary focus:outline-none focus:shadow-outline'
+              class='flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-green-secondary rounded-lg shadow-lg appearance-none md:mr-2 focus:border-black focus:outline-none focus:shadow-outline'
             />
             <input
               placeholder='Your Email'
               required=''
               type='text'
-              class='flex-grow w-full h-12 px-4 mb-3 text-center transition duration-200 bg-white border border-green-secondary rounded-lg shadow-lg appearance-none md:mb-0 focus:border-green-primary focus:outline-none focus:shadow-outline'
+              class='flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-green-secondary rounded-lg shadow-lg appearance-none md:mb-0 focus:border-green-primary focus:outline-none focus:shadow-outline'
             />
           </div>
-          <input
-            placeholder='Your Message'
-            required=''
-            type='text'
-            class='flex-grow w-full h-32 px-4 mb-3 text-center transition duration-200 bg-white border border-green-secondary rounded-lg shadow-lg appearance-none md:mb-0 focus:border-green-primary focus:outline-none focus:shadow-outline'
-          />
-          <div class='mx-auto text-center py-4'>
+          <div>
+            <label for="about" class="block text-sm font-medium text-gray-700">
+              About
+            </label>
+            <div class="mt-1">
+              <textarea id="about" name="about" rows="3" class="shadow-sm focus:ring-green-primary focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 p-4 rounded-md" placeholder="Your message"></textarea>
+            </div>
+            <p class="mt-2 text-sm text-gray-500">
+              Brief description for your profile. URLs are hyperlinked.
+            </p>
+          </div>
+          <div class=' py-4'>
             <button class='button-wider w-32'>Send</button>
           </div>
         </form>

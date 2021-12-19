@@ -1,6 +1,6 @@
 <template>
   <div
-    class="py-8 mb-8 uppercase text-brown-secondary md:mx-auto sm:text-center"
+    class="py-8 mb-8 title uppercase font-extrabold text-brown-secondary md:mx-auto sm:text-center"
   >
     <h2
       class="relative"

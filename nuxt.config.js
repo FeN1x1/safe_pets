@@ -20,7 +20,7 @@ export default {
   googleFonts: {
     families: {
       Montserrat: [500],
-      Sora: [500],
+      Sora: [800],
       Nunito: [500],
       Raleway: {
         wght: [100, 400],

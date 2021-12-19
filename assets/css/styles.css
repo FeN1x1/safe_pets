@@ -2,6 +2,10 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+.title {
+  font-family: 'Sora', sans-serif;
+}
+
 .button {
   @apply inline-flex items-center cursor-pointer text-sm justify-center h-10 px-4 tracking-wide uppercase font-bold text-white transition duration-200 rounded-xl shadow-md bg-green-primary hover:bg-green-secondary focus:shadow-outline focus:outline-none;
 }

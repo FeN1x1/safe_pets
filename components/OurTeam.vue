@@ -34,7 +34,7 @@ export default {
           personLinkedIn: ''
         },
         {
-          title: 'Martin',
+          title: 'Martin Gelo',
           profession: 'Product Manager',
           text: 'Our computer scientist and full-stack developer experienced in Blockchain, Trading and Technical analysis.  He is also working as programmer for a company that develops electric chargers for electric cars.\n',
           personClass: 'text-green-secondary',

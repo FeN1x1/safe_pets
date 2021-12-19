@@ -20,7 +20,7 @@
       >
         <AppTitleSecondary title="Charity"  />
         <p
-          class="mb-10 text-3xl font-extrabold leading-5 text-purple-primary py-2"
+          class="mb-10 title text-3xl font-extrabold leading-5 text-purple-primary py-2"
         >
           Donation to shelter for pets
         </p>
