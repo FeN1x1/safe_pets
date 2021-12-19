@@ -1,12 +1,12 @@
 <template>
   <div>
-    <img class='object-cover mx-auto w-36 h-36 rounded-full shadow'
+    <img class='object-cover mx-auto w-44 h-44 rounded-full shadow'
          src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260'
          alt='Person' />
     <div class='flex flex-col justify-center mt-4'>
-      <p class='text-2xl title text-center font-extrabold'>{{ title }}</p>
-      <p class='mb-4 text-lg text-center' :class='personClass'>{{ profession }}</p>
-      <p class='text-base text-center tracking-wide text-gray-800'>
+      <p class='text-3xl title text-center text-brown-primary uppercase font-extrabold'>{{ title }}</p>
+      <p class='mb-4 text-xl text-center light-font' :class='personClass'>{{ profession }}</p>
+      <p class='text-center tracking-wide light-font text-gray-800 text-xl'>
         {{ text }}
       </p>
 

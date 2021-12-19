@@ -1,13 +1,14 @@
 <template>
-  <div id='ourTeam' class='px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-16'>
+  <div id='ourTeam' class='relative py-8 mx-auto lg:px-32 lg:pb-32 lg:pt-16'>
     <AppTitle title='Our Team' />
-    <div class='grid pt-8 gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-lg'>
+    <div class='relative grid pt-16 gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-xl'>
       <OurTeamPerson v-for='person in persons' :key='person.title' :title='person.title' :profession='person.profession'
                      :text='person.text'
                      :person-class='person.personClass' :person-image='person.personImage'
                      :person-linked-in='person.personLinkedIn'
       />
     </div>
+    <nuxt-img class='absolute' src='dog-question.png' />
   </div>
 </template>
 

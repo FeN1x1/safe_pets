@@ -10,7 +10,7 @@
     <div class='relative flex justify-end max-w-xl mx-auto xl:pr-32 lg:max-w-screen-xl'>
       <div class='mb-16 lg:pr-5 lg:max-w-lg lg:mb-0'>
         <div class='max-w-xl mb-6'>
-          <p class='text-base text-gray-700 md:text-lg text-left'>
+          <p class='text-base font-light text-gray-700 md:text-lg text-left'>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
             laoreet dolore magna aliquam erat
             volutpat. Ut wisi
@@ -32,15 +32,11 @@
             />
           </div>
           <div>
-            <label for="about" class="block text-sm font-medium text-gray-700">
-              About
-            </label>
             <div class="mt-1">
-              <textarea id="about" name="about" rows="3" class="shadow-sm focus:ring-green-primary focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 p-4 rounded-md" placeholder="Your message"></textarea>
+              <textarea id="about" name="about" rows="3"
+                        class='flex-grow w-full p-4 transition duration-200 bg-white border border-green-secondary rounded-lg shadow-lg appearance-none md:mb-0 focus:border-green-primary focus:outline-none focus:shadow-outline'
+                        placeholder="Your message"></textarea>
             </div>
-            <p class="mt-2 text-sm text-gray-500">
-              Brief description for your profile. URLs are hyperlinked.
-            </p>
           </div>
           <div class=' py-4'>
             <button class='button-wider w-32'>Send</button>
