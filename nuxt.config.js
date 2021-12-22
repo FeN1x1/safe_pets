@@ -50,4 +50,22 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  modules: [
+    // Simple usage
+    'nuxt-breakpoints',
+  ],
+
+  // Another way to use options
+  breakpoints: {
+    // default options
+    sm: 640,
+    md: 768,
+    lg: 1024,
+    xl: 1280,
+    options: {
+      polyfill: true,
+      throttle: 200
+    }
+  }
 }

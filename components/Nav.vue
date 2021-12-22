@@ -7,7 +7,7 @@
         <nuxt-link to='/'>
           <nuxt-img src='logo.png' alt='logo' class='h-24' />
         </nuxt-link>
-        <ul class='flex items-center space-x-8 lg:flex'>
+        <ul v-if='isSmallThanLg' class='flex items-center space-x-8 lg:flex'>
           <NavButton name='Tokenomics' to='tokenomics' />
           <NavButton name='Charity' to='charity' />
           <NavButton name='Roadmap' to='roadmap' />
@@ -24,3 +24,18 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  computed: {
+    isMdOrSm () { return this.$breakpoints.md || this.$breakpoints.sm },
+    isLargeThanSm() {
+      return this.$breakpoints.lSm // Is Large than sm include sm
+    },
+    isSmallThanLg() {
+      return this.$breakpoints.lLg // Is Small than md include md
+    }
+    // ... etc lSm lMd lLg, and sSm sMd sLg
+  }
+}
+</script>

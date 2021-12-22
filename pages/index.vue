@@ -6,8 +6,10 @@
     <Roadmap />
     <Faq />
     <OurTeam />
-    <HowToBuy />
-    <Contact />
+<!--    <ContactUsVol2 />-->
+    <Banners />
+<!--    <HowToBuy />-->
+<!--    <Contact />-->
   </div>
 </template>
 

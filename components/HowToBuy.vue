@@ -1,5 +1,5 @@
 <template>
-  <div id='howToBuy' class='relative bg-brown-primary'>
+  <div id='howToBuy' class='relative bg-brown-bg'>
     <div class='absolute inset-x-0 bottom-0'>
       <svg
         viewBox='0 0 224 12'
@@ -20,16 +20,16 @@
         <nuxt-link
           to='/trustwallet' class='relative p-px overflow-hidden transition duration-300 transform rounded-xl cursor-pointer shadow-sm hover:scale-105 group hover:shadow-xl'>
           <nuxt-img
-            class="object-cover w-full h-64"
-            src="trustwallet.jpg"
+            class="object-fill w-full"
+            src="trustwallet.png"
             alt="dog"
           />
         </nuxt-link>
         <nuxt-link
           to='/metamask' class='relative p-px overflow-hidden transition duration-300 transform rounded-xl cursor-pointer shadow-sm hover:scale-105 group hover:shadow-xl'>
           <nuxt-img
-            class="object-cover w-full h-64"
-            src="/metamask.jpg"
+            class="object-fill w-full"
+            src="/metamask.png"
             alt="dog"
           />
         </nuxt-link>

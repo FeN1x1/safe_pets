@@ -26,30 +26,38 @@ export default {
     return {
       phasesPart1: [
         {
-          phase: ' - Etiam purus neque, tempus sed efficitur ut <br> - In sit amet facilisis lorem. <br> - Ut vitae auctor ante, sed suscipit massa. <br> - Quisque vestibulum mauris',
+          phase: ' - Website launch <br> - Pre sale <br> - Token Launch <br> - Launching a token on social media networks <br> - Launch charity & marketing wallet',
           phaseNumber: 1
         },
         {
-          phase: ' - Etiam purus neque, tempus sed efficitur ut <br> - In sit amet facilisis lorem. <br> - Ut vitae auctor ante, sed suscipit massa. <br> - Quisque vestibulum mauris',
+          phase: ' - <span class="font-bold">~500</span> holders <br> - <span class="font-bold">~1 000</span> telegram members <br> - Marketing push to spread awareness <br> - New Partnerships with international organizations and universities <br> - First charity donation ',
           phaseNumber: 2
         },
         {
-          phase: ' - Etiam purus neque, tempus sed efficitur ut <br> - In sit amet facilisis lorem. <br> - Ut vitae auctor ante, sed suscipit massa. <br> - Quisque vestibulum mauris',
+          phase: ' - <span class="font-bold">~1 000</span> holders <br> - <span class="font-bold">~2 000</span> telegram members <br> - Listing on Coinmarketcap and Coingecko <br> - NFT Gallery <br> - Second charity donation',
           phaseNumber: 3
+        },
+        {
+          phase: ' - <span class="font-bold">~2 500</span> holders <br> - <span class="font-bold">~5 000</span> telegram members <br> - NFT Trading programme <br> - Customer service management <br> - Third donation to charity',
+          phaseNumber: 4
         }
       ],
       phasesPart2: [
         {
-          phase: ' - Etiam purus neque, tempus sed efficitur ut <br> - In sit amet facilisis lorem. <br> - Ut vitae auctor ante, sed suscipit massa. <br> - Quisque vestibulum mauris',
-          phaseNumber: 4
-        },
-        {
-          phase: ' - Etiam purus neque, tempus sed efficitur ut <br> - In sit amet facilisis lorem. <br> - Ut vitae auctor ante, sed suscipit massa. <br> - Quisque vestibulum mauris',
+          phase: ' - <span class="font-bold">~5 000</span> holders <br> - <span class="font-bold">~10 000</span> telegram members <br> - Listing on bigger CEXs <br> - Safe Pets app for android/iOS <br> - Fourth charity donation <br> - Opening our first office in Bratislava',
           phaseNumber: 5
         },
         {
-          phase: ' - Etiam purus neque, tempus sed efficitur ut <br> - In sit amet facilisis lorem. <br> - Ut vitae auctor ante, sed suscipit massa. <br> - Quisque vestibulum mauris',
+          phase: ' - <span class="font-bold">~10 000</span> holders <br> - <span class="font-bold">~25 000</span> telegram members <br> - Safe Pets Swap <br> - TV and Radio interview. <br> - Fifth charity donation',
           phaseNumber: 6
+        },
+        {
+          phase: ' - <span class="font-bold">~20 000+</span> holders <br> - <span class="font-bold">~50 000</span> telegram members <br> - NFT game <br> - Listing on more exchanges <br> - Sixth charity donation',
+          phaseNumber: 7
+        },
+        {
+          phase: ' - <span class="font-bold">~50 000+</span> holders <br> - <span class="font-bold">~80 000</span> telegram members <br> - New partnerships <br> - Massive internet campaign <br> - Building own pet shelter',
+          phaseNumber: 8
         }
       ]
     }

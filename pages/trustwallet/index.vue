@@ -1,5 +1,5 @@
 <template>
-  <LazyHowToBuyTemplate image-alt='trustwallet' image-url='trustwallet.jpg' title4='Swap BNB for SafePets token' title3='Connect your Trust wallet to Pancakeswap' title2='Send BNB to your wallet' title1='Create Trust Wallet wallet' >
+  <LazyHowToBuyTemplate image-alt='trustwallet' image-url='trustwallet.png' title4='Swap BNB for SafePets token' title3='Connect your Trust wallet to Pancakeswap' title2='Send BNB to your wallet' title1='Create Trust Wallet wallet' >
     <template slot='section1'>
       Create a Trust Wallet Wallet using either a desktop computer or an iOS/Android mobile device. That will allow you to buy, sell, send, and receive Safe Pets token.
     </template>

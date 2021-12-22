@@ -30,7 +30,7 @@ export default {
       require: true
     },
     imageClass: {
-      type: Array,
+      type: String,
       require: false
     },
     image: {

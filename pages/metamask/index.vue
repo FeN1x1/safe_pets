@@ -1,5 +1,5 @@
 <template>
-  <LazyHowToBuyTemplate image-alt='metamask' image-url='metamask.jpg' title4='Swap BNB for SafePets token' title3='Connect your Metamask wallet to Pancakeswap' title2='Send BNB to your wallet' title1='Create MetaMask wallet' >
+  <LazyHowToBuyTemplate image-alt='metamask' image-url='metamask.png' title4='Swap BNB for SafePets token' title3='Connect your Metamask wallet to Pancakeswap' title2='Send BNB to your wallet' title1='Create MetaMask wallet' >
     <template slot='section1'>
       Create a MetaMask Wallet using either a desktop computer or an iOS/Android mobile device. That will allow
       you to buy, sell, send, and receive Safe Pets token.
