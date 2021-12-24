@@ -9,10 +9,10 @@
       </p>
     </div>
     <div class='grid mx-auto space-y-6 lg:grid-cols-2 lg:space-y-0'>
-      <div class='space-y-6 '>
+      <div class='space-y-6 sm:px-8'>
         <RoadmapPhase v-for='item in phasesPart1' :key='item.phaseNumber' :text='item.phase' :phase='item.phaseNumber' />
       </div>
-      <div class="space-y-6 ">
+      <div class="space-y-6 sm:px-8">
         <RoadmapPhase v-for='item in phasesPart2' :key='item.phaseNumber' :text='item.phase' :phase='item.phaseNumber' />
       </div>
     </div>

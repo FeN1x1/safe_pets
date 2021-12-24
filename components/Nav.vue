@@ -5,7 +5,7 @@
     >
       <div class='relative flex items-center justify-between'>
         <nuxt-link to='/'>
-          <nuxt-img src='logo.png' alt='logo' class='h-24' />
+          <nuxt-img src='logo.png' alt='logo' class='sm:h-20 h-16' />
         </nuxt-link>
         <ul v-if='isSmallThanLg' class='flex items-center space-x-8 lg:flex'>
           <NavButton name='Tokenomics' to='tokenomics' />

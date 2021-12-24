@@ -8,10 +8,10 @@
         :class='imageClass'
       />
     </div>
-    <h6 class='my-8 title text-3xl font-extrabold leading-5 text-green-primary'>
+    <h6 class='sm:my-8 my-4 title text-2xl sm:text-3xl font-extrabold leading-5 text-green-primary'>
       {{ title }}
     </h6>
-    <p class='mb-3 text-2xl light-font tracking-wide text-brown-secondary'>
+    <p class='mb-3 text-xl sm:text-2xl light-font tracking-wide text-brown-secondary'>
       {{ text }}
     </p>
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="py-8 mb-8 title uppercase font-extrabold text-brown-primary md:mx-auto sm:text-center"
+    class="sm:py-8 py-4 sm:mb-8 title uppercase font-extrabold text-brown-primary md:mx-auto text-4xl sm:text-5xl sm:text-center"
   >
     <h2
       class="relative"
@@ -53,11 +53,5 @@ h2:after {
   right: 0;
   top: 50%;
   position: absolute;
-}
-
-h2 {
-  font-weight: 800;
-  font-size: 2.7rem;
-  line-height: 10px;
 }
 </style>

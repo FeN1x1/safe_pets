@@ -1,23 +1,23 @@
 <template>
   <div class='mb-8 text-white'>
-    <h1 class='text-3xl text-center mb-3 font-extralight'>When will Safe Pets Token Launch?*</h1>
+    <h1 class='text-3xl text-center mb-3 font-extralight'>When will Safe pets Token Launch?*</h1>
     <div class='text-6xl text-center flex w-full items-center justify-center'>
       <div class='text-2xl mr-1 font-extralight'>in</div>
       <div class='w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg'>
-        <div class='font-mono leading-none'>{{ times[0].time }}</div>
+        <div class='font-mono leading-none'>{{ days }}</div>
         <div class='font-mono uppercase text-sm leading-none'>Days</div>
       </div>
       <div class='w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg'>
-        <div class='font-mono leading-none'>00</div>
+        <div class='font-mono leading-none'>{{ hours }}</div>
         <div class='font-mono uppercase text-sm leading-none'>Hours</div>
       </div>
       <div class='w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg'>
-        <div class='font-mono leading-none'>00</div>
+        <div class='font-mono leading-none'>{{ minutes }}</div>
         <div class='font-mono uppercase text-sm leading-none'>Minutes</div>
       </div>
       <div class='text-2xl mx-1 font-extralight'>and</div>
       <div class='w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg'>
-        <div class='font-mono leading-none'>00</div>
+        <div class='font-mono leading-none'>{{ seconds }}</div>
         <div class='font-mono uppercase text-sm leading-none'>Seconds</div>
       </div>
     </div>
@@ -28,62 +28,72 @@
 <script>
 export default {
   name: 'Countdown',
+  props: ['starttime', 'endtime', 'trans'],
   data() {
     return {
-      startTime: 'July 7, 2017 12:03:00',
-      endTime: 'January 9, 2021 14:55:00',
-      times: [
-        { id: 0, text: 'Days', time: 1 },
-        { id: 1, text: 'Hours', time: 1 },
-        { id: 2, text: 'Minutes', time: 1 },
-        { id: 3, text: 'Seconds', time: 1 }
-      ],
-      progress: 100,
-      // isActive: false,
-      timeinterval: undefined
-    }
-  },
-  methods: {
-    updateTimer: function() {
-      if (
-        this.times[3].time > 0 ||
-        this.times[2].time > 0 ||
-        this.times[1].time > 0 ||
-        this.times[0].time > 0
-      ) {
-        this.getTimeRemaining()
-        this.updateProgressBar()
-      } else {
-        clearTimeout(this.timeinterval)
-        // this.times[3].time = this.times[2].time = this.times[1].time = this.times[0].time = 0;
-        this.progress = 0
-      }
-    },
-    getTimeRemaining: function() {
-      let t = Date.parse(new Date(this.endTime)) - Date.parse(new Date())
-      if (t >= 0) {
-        this.times[3].time = Math.floor(t / 1000 % 60) //seconds
-        this.times[2].time = Math.floor(t / 1000 / 60 % 60) //minutes
-        this.times[1].time = Math.floor(t / (1000 * 60 * 60) % 24) //hours
-        this.times[0].time = Math.floor(t / (1000 * 60 * 60 * 24)) //days
-      } else {
-        this.times[3].time = this.times[2].time = this.times[1].time = this.times[0].time = 0
-        this.progress = 0
-      }
-    },
-    updateProgressBar: function() {
-      let startTime = Date.parse(new Date(this.startTime))
-      let currentTime = Date.parse(new Date())
-      let endTime = Date.parse(new Date(this.endTime))
-      let interval = parseFloat(
-        (currentTime - startTime) / (endTime - startTime) * 100
-      ).toFixed(2)
-      this.progress = 100 - interval
+      timer: '',
+      wordString: {},
+      start: '',
+      end: '',
+      interval: '',
+      days: '',
+      minutes: '',
+      hours: '',
+      seconds: '',
+      message: '',
+      statusType: '',
+      statusText: ''
+
     }
   },
   created: function() {
-    this.updateTimer()
-    this.timeinterval = setInterval(this.updateTimer, 1000)
+    this.wordString = JSON.parse(this.trans)
+  },
+  mounted() {
+    this.start = new Date(this.starttime).getTime()
+    this.end = new Date(this.endtime).getTime()
+    // Update the count down every 1 second
+    this.timerCount(this.start, this.end)
+    this.interval = setInterval(() => {
+      this.timerCount(this.start, this.end)
+    }, 1000)
+  },
+  methods: {
+    timerCount: function(start, end) {
+      // Get todays date and time
+      var now = new Date().getTime()
+
+      // Find the distance between now an the count down date
+      var distance = start - now
+      var passTime = end - now
+
+      if (distance < 0 && passTime < 0) {
+        this.message = this.wordString.expired
+        this.statusType = 'expired'
+        this.statusText = this.wordString.status.expired
+        clearInterval(this.interval)
+        return
+
+      } else if (distance < 0 && passTime > 0) {
+        this.calcTime(passTime)
+        this.message = this.wordString.running
+        this.statusType = 'running'
+        this.statusText = this.wordString.status.running
+
+      } else if (distance > 0 && passTime > 0) {
+        this.calcTime(distance)
+        this.message = this.wordString.upcoming
+        this.statusType = 'upcoming'
+        this.statusText = this.wordString.status.upcoming
+      }
+    },
+    calcTime: function(dist) {
+      // Time calculations for days, hours, minutes and seconds
+      this.days = Math.floor(dist / (1000 * 60 * 60 * 24))
+      this.hours = Math.floor((dist % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+      this.minutes = Math.floor((dist % (1000 * 60 * 60)) / (1000 * 60))
+      this.seconds = Math.floor((dist % (1000 * 60)) / 1000)
+    }
   }
 }
 </script>

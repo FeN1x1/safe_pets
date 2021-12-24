@@ -34,7 +34,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/plugins/vue-scrollTo.js'
+    '~/plugins/vue-scrollTo.js',
+    { src: '~plugins/vue-burger-menu.js', ssr: false },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
