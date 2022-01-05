@@ -13,43 +13,43 @@
       </svg>
     </div>
     <div
-      class='px-4 mx-auto pb-14 sm:pt-12 pt-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-16 lg:px-8'
+      class='px-4 pt-4 mx-auto  pb-14 sm:pt-12 sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-16'
     >
-      <div class='flex sm:mb-16 flex-col items-center justify-between lg:flex-row'>
+      <div
+        class='flex flex-col items-center justify-between sm:mb-16 lg:flex-row'
+      >
         <div class='lg:pr-5 lg:mb-0'>
-          <div class='lg: max-w-xl mb-4'>
+          <div class='mb-4 lg:max-w-xl '>
             <div>
               <div
-                class='inline-block sm:px-16 px-8 pb-2 pt-3 mb-6 sm:text-3xl text-xl font-extrabold tracking-wide text-white uppercase rounded-full bg-gradient-to-r from-green-secondary to-green-primary'
+                class='inline-block px-8 pt-3 pb-2 mb-6 text-xl font-extrabold tracking-wide text-white uppercase rounded-full sm:px-16 sm:text-3xl bg-gradient-to-r from-green-secondary to-green-primary'
               >
-                Brand new token
+                {{ $t('header.brandNewToken') }}
               </div>
 
               <h2
-                class='max-w-lg title mb-3 sm:text-3xl text-xl font-bold tracking-tight text-white sm:text-3xl sm:leading-none'
+                class='max-w-lg mb-3 text-xl font-bold tracking-tight text-white title sm:text-3xl sm:leading-none'
               >
-                World's Community coin created for helping
+                {{ $t('header.title.part1') }}
                 <span class='inline-block text-green text-green-secondary'
-                >innocent pets</span
+                >{{ $t('header.title.part2') }}</span
                 >
               </h2>
             </div>
-            <p class='text-base font-medium light-font text-gray-100 md:text-lg'>
-              We're proud to be the first crypto currency creators who have just
-              one purpose, help shelter for pets around the World. Safe Pets
-              provides static reflections, every purchase automatically added to
-              charity wallet 2% of transaction what will be provided to chosen
-              shelters for pets.
+            <p
+              class='text-base font-medium text-gray-100 light-font md:text-lg'
+            >
+              {{ $t('header.text') }}
             </p>
           </div>
-          <div class='flex sm:mt-12 mt-0 flex-col md:flex-row sm:items-center'>
+          <div class='flex flex-col mt-0 lg:mt-12 md:flex-row'>
             <div class='flex space-x-4'>
               <button
-                class='md:px-32 px-4 uppercase text-sm text-right pb-2 pt-3 bg-white rounded-full'
+                class='px-4 pt-3 pb-2 text-sm text-right uppercase bg-white rounded-full  lg:px-32'
               >
-                Coming soon...
+                {{ $t('header.comingSoon') }}
               </button>
-              <button class='button-wider'>Copy</button>
+              <button class='button-wider'>{{ $t('header.copy') }}</button>
             </div>
           </div>
         </div>
@@ -60,8 +60,10 @@
             alt='safe pets'
           />
         </div>
-        <div class='flex lg:pl-8 pl-0 lg:flex-col flex-row lg:space-y-10 my-auto lg:pb-8 pb-0'>
-          <div class='my-auto px-4 lg:px-0'>
+        <div
+          class='flex flex-row pb-0 pl-0 my-auto  lg:pl-8 lg:flex-col lg:space-y-10 lg:pb-8'
+        >
+          <div class='px-4 my-auto lg:px-0'>
             <a target='_blank' href='https://twitter.com/safepets_token'>
               <nuxt-img
                 class='object-cover w-10'
@@ -70,7 +72,7 @@
               />
             </a>
           </div>
-          <div class='my-auto px-4 lg:px-0'>
+          <div class='px-4 my-auto lg:px-0'>
             <a target='_blank' href='https://discord.gg/Q9yqvDbM'>
               <nuxt-img
                 class='object-cover w-10'
@@ -79,7 +81,7 @@
               />
             </a>
           </div>
-          <div class='my-auto px-4 lg:px-0'>
+          <div class='px-4 my-auto lg:px-0'>
             <a target='_blank' href='https://t.me/Safepets_Official'>
               <nuxt-img
                 class='object-cover w-10'
@@ -88,8 +90,11 @@
               />
             </a>
           </div>
-          <div class='my-auto px-4 lg:px-0'>
-            <a target='_blank' href='https://www.reddit.com/user/Safe_Pets_Official'>
+          <div class='px-4 my-auto lg:px-0'>
+            <a
+              target='_blank'
+              href='https://www.reddit.com/user/Safe_Pets_Official'
+            >
               <nuxt-img
                 class='object-cover w-10'
                 src='social/reddit.png'
@@ -99,20 +104,20 @@
           </div>
         </div>
       </div>
-<!--      <AppCountdown endtime='Jan 7, 2022 16:37:25' starttime='Nov 5, 2018 15:37:25' trans='{-->
-<!--         "day":"Day",-->
-<!--         "hours":"Hours",-->
-<!--         "minutes":"Minuts",-->
-<!--         "seconds":"Seconds",-->
-<!--         "expired":"Event has been expired.",-->
-<!--         "running":"Till the end of event.",-->
-<!--         "upcoming":"Till start of event.",-->
-<!--         "status": {-->
-<!--            "expired":"Expired",-->
-<!--            "running":"Running",-->
-<!--            "upcoming":"Future"-->
-<!--           }}' />-->
-        <ButtonsDownButton class='sm:mt-0 mt-12 -mb-8 sm:mb-0' />
+      <AppCountdown class='sm:mt-0 mt-10' endtime='Jan 15, 2022 18:00:00' starttime='Nov 5, 2018 15:37:25' trans='{
+               "day":"Day",
+               "hours":"Hours",
+               "minutes":"Minuts",
+               "seconds":"Seconds",
+               "expired":"Event has been expired.",
+               "running":"Till the end of event.",
+               "upcoming":"Till start of event.",
+               "status": {
+                  "expired":"Expired",
+                  "running":"Running",
+                  "upcoming":"Future"
+                 }}' />
+      <AppDownButton class='mt-12 -mb-8 sm:mt-0 sm:mb-0' />
     </div>
   </div>
 </template>

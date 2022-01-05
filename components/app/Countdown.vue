@@ -1,27 +1,63 @@
 <template>
-  <div class='mb-8 text-white'>
-    <h1 class='text-3xl text-center mb-3 font-extralight'>When will Safe pets Token Launch?*</h1>
-    <div class='text-6xl text-center flex w-full items-center justify-center'>
-      <div class='text-2xl mr-1 font-extralight'>in</div>
-      <div class='w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg'>
-        <div class='font-mono leading-none'>{{ days }}</div>
-        <div class='font-mono uppercase text-sm leading-none'>Days</div>
+  <div class="mb-8 text-white">
+    <h1 class="text-3xl text-center mb-3 font-extralight">
+      {{ $t('countdown.title') }}<span class="text-green-primary">*</span>
+    </h1>
+    <div class="text-6xl text-center flex w-full items-center justify-center">
+      <div class="hidden sm:flex text-2xl mr-4 font-extralight">
+        {{ $t('countdown.in') }}
       </div>
-      <div class='w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg'>
-        <div class='font-mono leading-none'>{{ hours }}</div>
-        <div class='font-mono uppercase text-sm leading-none'>Hours</div>
+      <div class="w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg">
+        <div class="font-bold leading-none mt-1">{{ days }}</div>
+        <div class="font-bold uppercase text-base text-green-secondary leading-none">
+          {{ $t('countdown.days') }}
+        </div>
       </div>
-      <div class='w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg'>
-        <div class='font-mono leading-none'>{{ minutes }}</div>
-        <div class='font-mono uppercase text-sm leading-none'>Minutes</div>
+      <div class="w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg">
+        <div class="font-bold leading-none mt-1">{{ hours }}</div>
+        <div class="font-bold uppercase text-base text-green-secondary leading-none">
+          {{ $t('countdown.hours') }}
+        </div>
       </div>
-      <div class='text-2xl mx-1 font-extralight'>and</div>
-      <div class='w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg'>
-        <div class='font-mono leading-none'>{{ seconds }}</div>
-        <div class='font-mono uppercase text-sm leading-none'>Seconds</div>
+      <div class="w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg">
+        <div class="font-bold leading-none mt-1">{{ minutes }}</div>
+        <div class="font-bold uppercase text-base text-green-secondary leading-none">
+          {{ $t('countdown.minutes') }}
+        </div>
+      </div>
+      <div class="hidden sm:flex text-2xl mx-4 font-extralight">
+        {{ $t('countdown.and') }}
+      </div>
+      <div
+        class="
+          hidden
+          sm:block
+          w-24
+          mx-1
+          p-2
+          bg-white
+          text-brown-primary
+          rounded-lg
+        "
+      >
+        <div class="font-bold leading-none mt-1">{{ seconds }}</div>
+        <div class="font-bold uppercase text-base text-green-secondary leading-none">
+          {{ $t('countdown.seconds') }}
+        </div>
       </div>
     </div>
-    <p class='text-sm text-center mt-3'>*Time is only approximate and subject to change if necessary</p>
+    <p
+      class="
+        text-sm text-center
+        mt-3
+        text-transparent
+        bg-clip-text bg-gradient-to-r
+        from-green-secondary
+        to-green-primary
+      "
+    >
+      {{ $t('countdown.text') }}
+    </p>
   </div>
 </template>
 
@@ -42,11 +78,10 @@ export default {
       seconds: '',
       message: '',
       statusType: '',
-      statusText: ''
-
+      statusText: '',
     }
   },
-  created: function() {
+  created: function () {
     this.wordString = JSON.parse(this.trans)
   },
   mounted() {
@@ -59,7 +94,7 @@ export default {
     }, 1000)
   },
   methods: {
-    timerCount: function(start, end) {
+    timerCount: function (start, end) {
       // Get todays date and time
       var now = new Date().getTime()
 
@@ -73,13 +108,11 @@ export default {
         this.statusText = this.wordString.status.expired
         clearInterval(this.interval)
         return
-
       } else if (distance < 0 && passTime > 0) {
         this.calcTime(passTime)
         this.message = this.wordString.running
         this.statusType = 'running'
         this.statusText = this.wordString.status.running
-
       } else if (distance > 0 && passTime > 0) {
         this.calcTime(distance)
         this.message = this.wordString.upcoming
@@ -87,13 +120,13 @@ export default {
         this.statusText = this.wordString.status.upcoming
       }
     },
-    calcTime: function(dist) {
+    calcTime: function (dist) {
       // Time calculations for days, hours, minutes and seconds
       this.days = Math.floor(dist / (1000 * 60 * 60 * 24))
       this.hours = Math.floor((dist % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
       this.minutes = Math.floor((dist % (1000 * 60 * 60)) / (1000 * 60))
       this.seconds = Math.floor((dist % (1000 * 60)) / 1000)
-    }
-  }
+    },
+  },
 }
 </script>

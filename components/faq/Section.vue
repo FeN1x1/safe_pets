@@ -1,14 +1,14 @@
 <template>
   <div class='border-b-2'>
     <button type='button' @click='isShown = !isShown'
-            class='flex items-center justify-between w-full p-4 focus:outline-none'>
-      <p class='text-3xl font-extrabold text-white'>{{ title }}</p>
-      <SvgArrow class='fill-green-100' :isShown='isShown' />
+            class='flex items-center justify-between w-full sm:p-4 p-2 focus:outline-none'>
+      <div class='text-2xl text-left sm:text-center sm:text-3xl font-extrabold text-white'>{{ title }}</div>
+      <SvgArrow class='fill-green-100 ml-2 sm:ml-0' :isShown='isShown' />
     </button>
     <transition name='fade' mode='out-in' @beforeLeave='beforeLeave'
                 @enter='enter'
                 @afterEnter='afterEnter'>
-      <div v-show='isShown' class='p-4 mx-0 md:mx-16 pt-0 mb-4'>
+      <div v-show='isShown' class='p-4 lg:mx-12 mx-0 pt-0 sm:mb-4'>
         <p class='text-brown-tertiary text-xl light-font'>
           {{ text }}
         </p>
@@ -56,7 +56,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.3s;

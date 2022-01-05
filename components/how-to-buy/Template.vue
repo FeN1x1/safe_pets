@@ -1,17 +1,8 @@
 <template>
   <div class='px-4 pt-8 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
     <AppTitle title='How To Buy' />
-    <div class='flex'>
-<!--      <nuxt-img-->
-<!--        class='w-20'-->
-<!--        src='logo.png'-->
-<!--        alt='logo'-->
-<!--       />-->
-<!--      <div class='m-auto'>Safe Pets Token with</div>-->
-
-    </div>
     <nuxt-img
-      class='object-contain -mt-8 w-full h-64'
+      class='object-contain -mt-8 w-full h-32'
       :src='imageUrl'
       :alt='imageAlt'
     />

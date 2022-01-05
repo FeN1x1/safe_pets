@@ -12,36 +12,41 @@
         ></path>
       </svg>
     </div>
-    <div
-      class='mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl'
-    >
-      <div class='flex'>
+    <div class='mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl'>
+      <div v-if='isSmallThanLg' class='flex'>
         <div>
           <nuxt-img
             src='cat-with-wool.png'
-            class='relative cat-position scale-125 transform'
+            class='relative transform scale-125 cat-position'
           />
         </div>
-        <div
-          class='w-4/5 px-8 sm:m-auto sm:text-center'
-        >
-          <AppTitleSecondary title='Charity' />
+        <div class='w-4/5 px-8 sm:m-auto sm:text-center'>
+          <AppTitleSecondary :title='$t("charity.title")' class='-pb-4' />
           <p
-            class='mb-10 light-font title text-2xl tracking-wider text-purple-primary'
+            class='mb-10 text-2xl tracking-wider -mt-8 light-font title text-purple-primary'
           >
-            Donation to shelter for pets
+            {{ $t("charity.donationDescribtion") }}
           </p>
+          <p class='mb-12 text-2xl tracking-wider text-white light-font'>
+            {{ $t("charity.donationText") }}
+          </p>
+        </div>
+      </div>
+      <div v-else>
+        <div class='py-8 px-4 sm:m-auto sm:text-center'>
+          <AppTitleSecondary :title='$t("charity.title")' />
           <p
-            class='mb-12 light-font text-2xl tracking-wider text-white'
+            class='lg:mb-10 py-4 text-xl tracking-wider -mt-6 light-font title text-purple-primary'
           >
-            We serve as support of shetlers which help of providing protection,
-            care to animals in need; a full-service animal adoption center. Animal
-            shelters and rescues are amazing! Usually with limited resources and
-            very little publicity, they help untold numbers of animals which did
-            not have luck for happy life. Give back by choosing one or more of the
-            following ways to show your appreciation for the groups that do so
-            much for animals, people and your community.
+            {{ $t("charity.donationDescribtion") }}
           </p>
+          <p class='sm:mb-12 mb-4 text-lg tracking-wider text-white light-font'>
+            {{ $t("charity.donationText") }}
+          </p>
+          <nuxt-img
+            src='cat-with-wool.png'
+            class='w-ful'
+          />
         </div>
       </div>
     </div>
@@ -50,7 +55,12 @@
 
 <script>
 export default {
-  name: 'Charity'
+  name: 'Charity',
+  computed: {
+    isSmallThanLg() {
+      return this.$breakpoints.lLg
+    }
+  }
 }
 </script>
 

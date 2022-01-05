@@ -1,6 +1,9 @@
 <template>
   <li>
-    <div v-scroll-to="`#${to}`" class="cursor-pointer nav-item">{{ this.name }}</div>
+    <nuxt-link v-if='scroll' class="cursor-pointer nav-item" :to="localePath('/' + to)" >
+      {{ this.name }}
+    </nuxt-link>
+    <div v-else v-scroll-to="`#${to}`" class="cursor-pointer nav-item">{{ this.name }}</div>
   </li>
 </template>
 
@@ -14,6 +17,10 @@ export default {
      to: {
       type: String,
       required: true,
+    },
+    scroll: {
+      type: Boolean,
+      default: false
     }
   },
 }

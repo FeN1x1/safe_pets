@@ -1,0 +1,175 @@
+{
+  "header": {
+    "navigation": {
+      "tokenomics": "Tokenomics",
+      "charity": "Charity",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "ourTeam": "Our Team",
+      "contact": "Contact",
+      "buyNow": "Buy Now"
+    },
+    "brandNewToken": "Brand New Token",
+    "title": {
+      "part1": "World's Community coin created for helping",
+      "part2": "innocent pets"
+    },
+    "text": "World's Community Token created for helping to animals. We're proud to be the first crypto currency creators created unique token with unusual goals. Safe Pets token created with one purpose to help the endangered animals and to make a shelter for pets around the World. Safe Pets token provides static reflection that rewards holders, so more token being automatically added to your wallet each transaction, every purchase automatically added to charity wallet 2% of transaction what will be provided to chosen shetlers.",
+    "comingSoon": "Coming soon...",
+    "copy": "Copy"
+  },
+  "countdown": {
+    "title": "When will Safe pets Token Launch?",
+    "in": "in",
+    "and": "and",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "text": "*Time is only approximate and subject to change if necessary"
+  },
+  "tokenomics": {
+    "title": "Tokenomics",
+    "marketingTitle": "Huge Marketing",
+    "marketingText": "2% of every transaction is allocated to Marketing. This allows us to fuel our most ambitious projects in service of further rewarding our community.",
+    "rewardsTitle": "Rewards Holding",
+    "rewardsText": "2% of each transaction is redistributed to token holders. Thatm eans ou can earn more Safe pets token by just holding them in your wallet.",
+    "charityTitle": "Charity Wallet",
+    "charityText": "We have a designated charity wallet that receivers 2% of each transaction that are used to support our charity partners.",
+    "liquidityTitle": "Growing Liquidity",
+    "liquidityText": "4% of each transaction added to locked Pancakeswap liquidity pool."
+  },
+  "charity": {
+    "title": "Charity",
+    "donationDescribtion": "Donation to shelter for pets",
+    "donationText": "We serve as support of shetlers which help of providing protection, care to animals in need; a full-service animal adoption center. Animal shelters and rescues are amazing! Usually with limited resources and very little publicity, they help untold numbers of animals which did not have luck for happy life. Give back by choosing one or more of the following ways to show your appreciation for the groups that do so much for animals, people and your  community."
+  },
+  "roadmap": {},
+  "faq": {
+    "title": "faq",
+    "questions": [
+      {
+        "question": "What is Safe pets Token?",
+        "answer": "Safe pets token is a decentralised cryptocurrency based on the idea of saving pets and other species from extinction."
+      },
+      {
+        "question": "What do you mean by \"decentralised\"?",
+        "answer": "Safe pets is not run by any individual company or person. Technically speaking, it operates according to rules agreed by consensus, rather than decided upon by some founding or owning entity."
+      },
+      {
+        "question": "Will Safe pets token price go up?",
+        "answer": "We believe the project is unique and there is big chance to be succesfull."
+      },
+      {
+        "question": "Does Safe pets token have a future?",
+        "answer": "As we have a great team of professionals with that makes everything for it than definitely yes. Stay tuned!"
+      },
+      {
+        "question": "What do you mean by \"cryptocurrency\"?",
+        "answer": "A cryptocurrency is a digital currency that is secured by cryptography, in contrast to conventional (fiat) currencies where they are secured by a government or governments."
+      },
+      {
+        "question": "Okay, but what does that mean?",
+        "answer": "It means you don't have to trust any central organisation or person the way you would a bank, but also that you have to be your own bank. The developers can't seize your funds, but they also can't return them if you send them to the wrong address."
+      },
+      {
+        "question": "So who does run Safe pets token?",
+        "answer": "No-one, or everyone does equally, depending how you look at it. The developers can release new software, but the community have to choose to use that software. That community includes not just the end-users, but miners, exchanges, payment processors, etc. Typically the community does adopt new software we release because we have an established track record, but there's no special access we have."
+      },
+      {
+        "question": "How do I use/accept Safe pets token?",
+        "answer": "We plan to make a list of acceptors of the token to help indivitual organisations."
+      }
+    ]
+  },
+  "ourTeam": {
+    "title": "Our Team",
+    "persons": [
+      {
+        "title": "Michal",
+        "profession": "Project Leader",
+        "text": "Michal develops high quality business strategies and plans ensuring their alignment with short-term and long-term objectives. Experienced in Audit, Analysis & Forecasts. Also was a part of European voluntary organization. Manage important partnerships and Safe Pets token's team.",
+        "personClass": "text-green-primary",
+        "personLinkedIn": "https://www.linkedin.com/in/michal-sur%C5%BEin-1240851b3/"
+      },
+      {
+        "title": "Daniel",
+        "profession": "Networking Developer",
+        "text": "As a succesfully graduated student of the banking institute of Prague that he ended with the Law administration in business sphere programme. Daniel manages our campaigns, partnerships & law problems that occure. 15 years of experience in business makes him a key player for networking. He's favourite quote is: Sky is the limit!\n",
+        "personClass": "text-purple-primary",
+        "personLinkedIn": "https://www.linkedin.com/in/sucho-hajnik-30a8b282"
+      },
+      {
+        "title": "Martin",
+        "profession": "Lead Developer",
+        "text": "Our computer scientist and full-stack developer experienced in Blockchain, Trading and Technical analysis. He is also working as programmer for a company that develops electric chargers for electric cars.",
+        "personClass": "text-green-secondary",
+        "personLinkedIn": "https://www.linkedin.com/in/martin-gelo-2b5249224/"
+      },
+      {
+        "title": "Tomáš",
+        "profession": "Marketing Developer",
+        "text": "Our marketing specialist experienced in Trading, Marketing and Bank sector. Tomas is currently working as sales manager in IT company, where he focuses on marketing and brand building. He tries to implement all experiences and knowledge to doing effective marketing and promotion through social networks and online marketing.",
+        "personClass": "text-green-secondary",
+        "personLinkedIn": ""
+      },
+      {
+        "title": "Štefan",
+        "profession": "Fullstack Developer",
+        "text": "Štefan is a fullstack developer currently working for a digital health company in Bratislava. He takes care of website infrastructure and possibly (in the future) mobile apps for Android and iOS.",
+        "personClass": "text-green-primary",
+        "personLinkedIn": ""
+      },
+      {
+        "title": "Alexandra",
+        "profession": "Graphic Designer",
+        "text": "She helped us with website design and made all our graphics that is used on website and marketing material (logo, social banners, etc.)",
+        "personClass": "text-purple-primary",
+        "personLinkedIn": ""
+      },
+      {
+        "title": "Peter",
+        "profession": "Marketing Developer",
+        "text": "Peter developed own trading system which provides fx signals. Manages our marketing campaigns, builds important partnerships and engages our community.",
+        "personClass": "text-purple-secondary",
+        "personLinkedIn": "https://www.linkedin.com/in/peter-jandura-1b658b122"
+      }
+    ]
+  },
+  "howToBuy": {
+    "title": "How To Buy",
+    "antiWhaleShield": {
+      "title": "Anti-Whale Shield",
+      "text": "Safe Pets is one of the cryptocurrencies which use the Anti-Whale Mechanism. The system was designed to save holders from whales trying to manipulate the price in their favour or from dumping the token by selling out."
+    },
+    "exchanges": {
+      "title": "title"
+    },
+    "trustwallet" : {
+      "step1Title" : "Create Trust Wallet wallet",
+      "step1Text" : "Create a Trust Wallet Wallet using either a desktop computer or an iOS/Android mobile device. That will allow you to buy, sell, send, and receive Safe Pets token.",
+      "step2Title" : "Send BNB to your wallet",
+      "step2Text" : "The fastest way to buy BNB is directly from Binance and send it to your trust wallet. You can buy BNB directly on MetaMask or transfer it to your MetaMask Wallet from exchanges like Coinbase, Binance, etc.",
+      "step3Title" : "Connect your Trust wallet to Pancakeswap",
+      "step3Text" : "Access your wallet to PancakeSwap by clicking ‘Connect to a wallet’ and selecting MetaMask.",
+      "step4Title" : "Swap BNB for SafePets token",
+      "step4Text" : "You can start swapping as soon as you have BNB available! Press ‘Select a token’ and enter the token address or search for it on the tokens list."
+    },
+    "metamask" : {
+      "step1Title" : "Create MetaMask wallet",
+      "step1Text" : "Create a MetaMask Wallet using either a desktop computer or an iOS/Android mobile device. That will allow you to buy, sell, send, and receive Safe Pets token.",
+      "step2Title" : "Send BNB to your wallet",
+      "step2Text1" : "The next step is to add the Binance smart chain to your wallet. By default, Metamask wallets link to the Ethereum Mainnet. Navigate to the top of your wallet where your thumbnail is located to find the settings button. Click “networks” and “add network”.\nNext, you’ll need to input the correct values for the Binance Smart Chain, seen below:",
+      "step2Text2" : "Network name: Binance Smart Chain<br>New RPC URL: https://bsc-dataseed.binance.org<br>Chain ID: 56<br>Symbol: BNB<br>Blockexplorer: https://bscscan.com",
+      "step2Text3" : "You can buy BNB directly on MetaMask or transfer it to your MetaMask Wallet from exchanges like Coinbase, Binance, etc.",
+      "step3Title" : "Connect your Metamask wallet to Pancakeswap",
+      "step3Text" : "Access your wallet to PancakeSwap by clicking ‘Connect to a wallet’ and selecting MetaMask.",
+      "step4Title" : "Swap BNB for SafePets token",
+      "step4Text" : "You can start swapping as soon as you have BNB available! Press ‘Select a token’ and enter the token address or search for it on the tokens list."
+    },
+    "success" : "Success"
+  },
+  "footer" : {
+    "text" : "Copyright © 2021 Safe Pets. All Rights Reserved - Privacy Policy - Terms and Conditions Safe Pets is not an investment. Safe Pets was created as a meme parody, makes no promises and is not responsible for any losses or errors."
+  }
+}

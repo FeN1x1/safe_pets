@@ -1,18 +1,18 @@
 <template>
-  <div>
-    <img class='object-cover mx-auto w-44 h-44 rounded-full shadow'
-         src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260'
+  <div class='child p-4'>
+    <nuxt-img class='object-cover sm:mx-auto mr-auto h-32 w-32 sm:w-40 sm:h-40 rounded-full shadow'
+        :src="`our-team/${image}.png`"
          alt='Person' />
     <div class='flex flex-col justify-center mt-4'>
-      <p class='text-3xl title text-center text-brown-primary uppercase font-extrabold'>{{ title }}</p>
-      <p class='mb-4 text-xl text-center light-font' :class='personClass'>{{ profession }}</p>
-      <p class='text-center tracking-wide light-font text-gray-800 text-xl'>
+      <p class='text-3xl title text-left sm:text-center text-brown-primary uppercase font-extrabold'>{{ title }}</p>
+      <p class='mb-4 text-xl text-left sm:text-center light-font' :class='personClass'>{{ profession }}</p>
+      <p class='text-left sm:text-center tracking-wide light-font text-gray-800 text-xl'>
         {{ text }}
       </p>
 
     </div>
     <div v-if='personLinkedIn !== ""' class='flex' >
-      <a target='_blank' :href='personLinkedIn' class='mx-auto text-center mt-4 text-green-secondary'>
+      <a target='_blank' :href='personLinkedIn' class='mr-auto sm:mx-auto text-center mt-4 text-green-secondary'>
         <SocialLinkedIn class='mx-auto' />
       </a>
     </div>
@@ -35,11 +35,11 @@ export default {
       type: String,
       required: true
     },
-    personClass: {
+    image: {
       type: String,
-      required: true
+      default: 'default'
     },
-    personImage: {
+    personClass: {
       type: String,
       required: true
     },
@@ -52,5 +52,7 @@ export default {
 </script>
 
 <style scoped>
-
+.child {
+  flex: 0 0 calc(25%);
+}
 </style>

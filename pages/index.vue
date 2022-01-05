@@ -6,13 +6,15 @@
     <Roadmap />
     <Faq />
     <OurTeam />
-<!--    <ContactUsVol2 />-->
-    <Banners />
-<!--    <HowToBuy />-->
-<!--    <Contact />-->
+    <AntiWhaleShield />
+    <HowToBuy />
+    <Contact class='hidden lg:flex' />
   </div>
 </template>
 
 <script>
-export default {}
+import transition from "~/utils/lgNoTransition.js";
+export default {
+  transition
+}
 </script>

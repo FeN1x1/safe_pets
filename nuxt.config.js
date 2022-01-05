@@ -6,27 +6,15 @@ export default {
   head: {
     title: 'safe_pets',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'format-detection', content: 'telephone=no' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-  },
-
-  googleFonts: {
-    families: {
-      Montserrat: [500],
-      Sora: [800],
-      Nunito: [500],
-      Raleway: {
-        wght: [100, 400],
-        ital: [100],
-      },
-    },
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -36,6 +24,8 @@ export default {
   plugins: [
     '~/plugins/vue-scrollTo.js',
     { src: '~plugins/vue-burger-menu.js', ssr: false },
+    "~/plugins/vee-validate.js",
+    '~/plugins/i18n.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -45,16 +35,20 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxt/image',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts',
+    '@nuxtjs/tailwindcss'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    transpile: ["vee-validate/dist/rules"],
+  },
 
   modules: [
     // Simple usage
     'nuxt-breakpoints',
+    '@nuxtjs/i18n',
+    'nuxt-seo',
+    '@nuxtjs/robots'
   ],
 
   // Another way to use options
@@ -67,6 +61,20 @@ export default {
     options: {
       polyfill: true,
       throttle: 200
+    }
+  },
+
+  i18n: {
+    locales: [
+      { code: 'en', iso: 'en-US', file: 'en.json' },
+      { code: 'cz', iso: 'cs-CZ', file: 'cz.json' },
+      { code: 'sk', iso: 'cs-CZ', file: 'sk.json' }
+    ],
+    defaultLocale: 'en',
+    lazy: true,
+    langDir: 'locales/',
+    vueI18n: {
+      fallbackLocale: 'en'
     }
   }
 }

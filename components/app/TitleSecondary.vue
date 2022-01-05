@@ -1,12 +1,18 @@
 <template>
   <div
-    class="py-8 title max-w-3xl mb-8 font-extrabold uppercase text-white md:mx-auto sm:text-center"
+    class="py-4 text-4xl font-extrabold uppercase sm:py-8 lg:mb-8 title text-white md:mx-auto sm:text-5xl sm:text-center"
   >
     <h2
-      class="relative"
+      class="relative" v-if='isSmallThanLg'
     >
       {{ title }}
     </h2>
+    <h3
+      class="relative underline-decoration"
+      v-else
+    >
+      {{ title }}
+    </h3>
   </div>
 </template>
 
@@ -19,6 +25,11 @@ export default {
       required: true,
     },
   },
+  computed: {
+    isSmallThanLg() {
+      return this.$breakpoints.lLg
+    }
+  }
 }
 </script>
 
@@ -51,9 +62,9 @@ h2:after {
   position: absolute;
 }
 
-h2 {
-  font-weight: 800;
-  font-size: 2.7rem;
-  line-height: 10px;
+.underline-decoration {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: #FF1D6F;
 }
 </style>

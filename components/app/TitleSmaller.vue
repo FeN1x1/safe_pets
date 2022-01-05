@@ -1,14 +1,14 @@
 <template>
   <div
-    class="py-4 text-4xl font-extrabold uppercase sm:py-8 lg:mb-8 title text-brown-primary md:mx-auto sm:text-5xl sm:text-center"
+    class="text-3xl font-extrabold uppercase py-12 title text-brown-primary md:mx-auto sm:text-4xl sm:text-center"
   >
     <h2 v-if='isSmallThanLg'
-      class="relative"
+        class="relative"
     >
       {{ title }}
     </h2>
     <h3 v-else
-      class="relative underline-decoration"
+        class="relative underline-decoration"
     >
       {{ title }}
     </h3>
@@ -16,10 +16,8 @@
 </template>
 
 <script>
-import Person from '~/components/our-team/Person'
 export default {
-  name: 'Title',
-  components: { Person },
+  name: 'TitleSmaller',
   props: {
     title: {
       type: String,
@@ -34,6 +32,7 @@ export default {
 }
 </script>
 
+
 <style scoped>
 div {
   max-width: 48rem;
@@ -41,14 +40,14 @@ div {
 h2:before {
   content: '';
   display: block;
-  width: 160px;
+  width: 100px;
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
   --tw-gradient-from: #00b3b7;
   --tw-gradient-stops: var(--tw-gradient-from),
   var(--tw-gradient-to, rgba(0, 179, 183, 0));
   --tw-gradient-to: #0ce2af;
   height: 3px;
-  left: 0;
+  left: 50px;
   top: 50%;
   position: absolute;
 }
@@ -57,19 +56,18 @@ h2:after {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
   --tw-gradient-from: #00b3b7;
   --tw-gradient-stops: var(--tw-gradient-from),
-    var(--tw-gradient-to, rgba(0, 179, 183, 0));
+  var(--tw-gradient-to, rgba(0, 179, 183, 0));
   --tw-gradient-to: #0ce2af;
   display: block;
-  width: 160px;
+  width: 100px;
   height: 3px;
-  right: 0;
+  right: 50px;
   top: 50%;
   position: absolute;
 }
 
 .underline-decoration {
   text-decoration: underline;
-  text-underline-offset: 10px;
   text-decoration-color: #00b3b7;
 }
 </style>
