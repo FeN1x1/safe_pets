@@ -1,6 +1,6 @@
 <template>
   <a target='_blank' :href='link' class='text-center my-auto px-4'>
-    <nuxt-img :src='`partners/${image}.png`' />
+    <nuxt-img :src='`partners/${image}.png`' :alt='image' />
   </a>
 </template>
 

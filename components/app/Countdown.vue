@@ -1,8 +1,8 @@
 <template>
   <div class="mb-8 text-white">
-    <h1 class="text-3xl text-center mb-3 font-extralight">
+    <h2 class="text-3xl text-center mb-3 font-extralight">
       {{ $t('countdown.title') }}<span class="text-green-primary">*</span>
-    </h1>
+    </h2>
     <div class="text-6xl text-center flex w-full items-center justify-center">
       <div class="hidden sm:flex text-2xl mr-4 font-extralight">
         {{ $t('countdown.in') }}

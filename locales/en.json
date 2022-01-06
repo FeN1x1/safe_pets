@@ -12,9 +12,9 @@
     "brandNewToken": "Brand New Token",
     "title": {
       "part1": "World's Community coin created for helping",
-      "part2": "innocent pets"
+      "part2": "innocent pets & endangered animals"
     },
-    "text": "World's Community Token created for helping to animals. We're proud to be the first crypto currency creators created unique token with unusual goals. Safe Pets token created with one purpose to help the endangered animals and to make a shelter for pets around the World. Safe Pets token provides static reflection that rewards holders, so more token being automatically added to your wallet each transaction, every purchase automatically added to charity wallet 2% of transaction what will be provided to chosen shetlers.",
+    "text": "World's Community coin created for helping to animals. We're proud to be the first crypto currency creators created unique token with unusual goals. Safe Pets token created with one purpose to help the endangered animals and to make a shelter for pets around the World. Safe Pets token provides static reflection that rewards holders, so more token being automatically added to your wallet each transaction, every purchase automatically added to charity wallet 2% of transaction what will be provided to chosen shetlers.",
     "comingSoon": "Coming soon...",
     "copy": "Copy"
   },
@@ -386,7 +386,7 @@
     "text": "Copyright © 2021 Safe Pets. All Rights Reserved - Privacy Policy - Terms and Conditions Safe Pets is not an investment. Safe Pets was created as a meme parody, makes no promises and is not responsible for any losses or errors."
   },
   "contactUs": {
-    "text" : "Have some questions?Send us a message below",
+    "text" : "Have some questions?<br>Send us a message below",
     "placeholder": {
       "name": "Your Name",
       "email": "Your Email",
@@ -398,5 +398,19 @@
     "username": "Name is required",
     "email": "Email must be valid",
     "message": "Message is required"
+  },
+  "seo" : {
+    "homepage": {
+      "title" : "",
+      "description" : ""
+    },
+    "metamask": {
+      "title" : "",
+      "description" : ""
+    },
+    "trustwallet": {
+      "title" : "",
+      "description" : ""
+    }
   }
 }

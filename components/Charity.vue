@@ -18,6 +18,7 @@
           <nuxt-img
             src='cat-with-wool.png'
             class='relative transform scale-125 cat-position'
+            alt='cat'
           />
         </div>
         <div class='w-4/5 px-8 sm:m-auto sm:text-center'>
@@ -46,6 +47,7 @@
           <nuxt-img
             src='cat-with-wool.png'
             class='w-ful'
+            alt='cat-with-wool'
           />
         </div>
       </div>

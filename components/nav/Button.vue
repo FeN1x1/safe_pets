@@ -1,10 +1,35 @@
 <template>
-  <li>
-    <nuxt-link v-if='scroll' class="cursor-pointer nav-item" :to="localePath('/' + to)" >
-      {{ this.name }}
-    </nuxt-link>
-    <div v-else v-scroll-to="`#${to}`" class="cursor-pointer nav-item">{{ this.name }}</div>
-  </li>
+  <div>
+    <template v-if="desktop">
+      <nuxt-link
+        v-if="!checkIfHome()"
+        class="cursor-pointer nav-item"
+        :to="{ path: localePath('/'), hash: `#${to}` }"
+      >
+        {{ this.name }}
+      </nuxt-link>
+      <div v-else v-scroll-to="`#${to}`" class="cursor-pointer nav-item">
+        {{ this.name }}
+      </div>
+    </template>
+    <template v-else>
+      <div
+        v-if="!checkIfHome()"
+        class="px-4 py-3 text-3xl text-green-secondary cursor-pointer"
+      >
+        <nuxt-link :to="{ path: localePath('/'), hash: `#${to}` }">
+          {{ this.name }}
+        </nuxt-link>
+      </div>
+      <div
+        class="px-4 py-3 text-3xl text-green-secondary cursor-pointer"
+        v-else
+        v-scroll-to="`#${to}`"
+      >
+        {{ this.name }}
+      </div>
+    </template>
+  </div>
 </template>
 
 <script>
@@ -14,14 +39,23 @@ export default {
       type: String,
       required: true,
     },
-     to: {
+    to: {
       type: String,
       required: true,
     },
-    scroll: {
+    desktop: {
       type: Boolean,
-      default: false
-    }
+      default: true,
+    },
+  },
+  methods: {
+    checkIfHome() {
+      return (
+        this.$route.path === '/' ||
+        this.$route.path === '/sk' ||
+        this.$route.path === '/cz'
+      )
+    },
   },
 }
 </script>

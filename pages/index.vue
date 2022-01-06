@@ -8,7 +8,7 @@
     <OurTeam />
     <AntiWhaleShield />
     <HowToBuy />
-    <Contact class='hidden lg:flex' />
+    <Contact />
   </div>
 </template>
 

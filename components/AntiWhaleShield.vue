@@ -13,7 +13,6 @@
       </svg>
     </div>
     <div
-      id="howToBuy"
       class="
         px-4
         py-8
@@ -29,7 +28,7 @@
         :title="$t('howToBuy.antiWhaleShield.title')"
         class="mt-6 max-w-screen-lg"
       />
-      <nuxt-img src="antiwhaleshield.png" class="text-center sm:mx-auto h-64" />
+      <nuxt-img src="antiwhaleshield.png" class="text-center sm:mx-auto h-64" alt='antiwhaleshield' />
       <div
         class="
           sm:text-2xl

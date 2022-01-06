@@ -1,42 +1,44 @@
-
 .button {
-    @apply inline-flex items-center pt-1 cursor-pointer text-sm justify-center h-10 px-4 tracking-wide uppercase font-bold text-white transition duration-200 rounded-xl shadow-md bg-green-secondary hover:bg-green-tertiary focus:shadow-outline focus:outline-none;
+  @apply inline-flex items-center pt-1 cursor-pointer text-sm justify-center h-10 px-4 tracking-wide uppercase font-bold text-white transition duration-200 rounded-xl shadow-md bg-green-secondary hover:bg-green-tertiary focus:shadow-outline focus:outline-none;
 }
 
 .button-wider {
-    @apply inline-flex pt-1 items-center cursor-pointer text-sm justify-center h-10 px-6 tracking-wide uppercase font-bold text-white transition duration-200 rounded-xl shadow-md bg-green-secondary hover:bg-green-tertiary focus:shadow-outline focus:outline-none;
+  @apply inline-flex pt-1 items-center cursor-pointer text-sm justify-center h-10 px-6 tracking-wide uppercase font-bold text-white transition duration-200 rounded-xl shadow-md bg-green-secondary hover:bg-green-tertiary focus:shadow-outline focus:outline-none;
 }
 
 .nav-item {
-    @apply font-bold text-base tracking-wide text-gray-100 transition-colors duration-200 hover:text-green-secondary;
+  @apply font-bold text-base tracking-wide text-gray-100 transition-colors duration-200 hover:text-green-secondary;
+}
+
+.rotate-270 {
+  transform: rotate(270deg);
 }
 
 .page-enter-active,
 .page-leave-active {
-    transition: opacity 0.2s;
+  transition: opacity 0.2s;
 }
 
 .page-enter,
 .page-leave-to {
-    opacity: 0;
+  opacity: 0;
 }
 
 @font-face {
-    font-family: "AzoSans";
-    src: local("AzoSans"),
-    url(~assets/Fonts/AzoSans-Black.ttf) format("truetype");
+  font-family: 'AzoSans';
+  src: local('AzoSans'), url(~assets/Fonts/AzoSans-Black.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: "AzoSans-Regular";
-    src: local("AzoSans-Regular"),
-    url(~assets/Fonts/AzoSans-Regular.ttf) format("truetype");
+  font-family: 'AzoSans-Regular';
+  src: local('AzoSans-Regular'),
+    url(~assets/Fonts/AzoSans-Regular.ttf) format('truetype');
 }
 
 html {
-    font-family: "AzoSans", sans-serif;
+  font-family: 'AzoSans', sans-serif;
 }
 
 .light-font {
-    font-family: "AzoSans-Regular", sans-serif;
+  font-family: 'AzoSans-Regular', sans-serif;
 }

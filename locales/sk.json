@@ -386,7 +386,7 @@
     "text": "Copyright © 2021 Safe Pets. Všetky práva vyhradené - Zásady ochrany osobných údajov - Zmluvné podmienky Safe Pets nieje investícia. Safe Pets bol vytvorený ako meme parodia, nič neslubuje a nieje zodpovedná za prípadné straty alebo chyby."
   },
   "contactUs": {
-    "text" : "Máte nejaké otázky??Pošlite nám správu.",
+    "text" : "Máte nejaké otázky?<br>Pošlite nám správu.",
     "placeholder": {
       "name": "Vaše meno",
       "email": "Váš Email",
@@ -398,5 +398,19 @@
     "username": "Meno je vyžadované",
     "email": "Email musí byť valídny",
     "message": "Správa je vyžadovaná"
+  },
+  "seo" : {
+    "homepage": {
+      "title" : "",
+      "description" : ""
+    },
+    "metamask": {
+      "title" : "",
+      "description" : ""
+    },
+    "trustwallet": {
+      "title" : "",
+      "description" : ""
+    }
   }
 }

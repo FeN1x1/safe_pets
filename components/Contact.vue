@@ -3,31 +3,36 @@
     id="contactUs"
     class="
       mx-auto
-      pb-20
-      pt-36
+      lg:pb-20
+      lg:pt-36
+      py-8
+      lg:py-0
       sm:max-w-xl
-      px-8
       md:max-w-full
       lg:max-w-screen-xl
     "
   >
-    <div class="z-0 grid grid-cols-2 sm:mb-8">
-      <div class="space-x-10">
+    <div class="z-0 grid grid-cols-1 lg:grid-cols-2 sm:mb-8">
+      <div class="lg:space-x-10">
         <nuxt-img
-          src="notebook-safepets.png"
-          class="relative transform scale-150 notebook"
+          src="notebook.png"
+          class="hidden lg:block relative transform scale-150 notebook"
+        />
+        <nuxt-img
+          src="notebook-mobile.png"
+          class="block lg:hidden mx-auto px-8 pb-8"
         />
       </div>
-      <div class="space-x-10 flex w-max z-10 max-w-screen-md">
-        <div class="ml-auto ">
-          <div class="max-w-xl mb-3">
+      <div class="space-x-10 m-auto lg:ml-auto flex z-10">
+        <div class="m-auto">
+          <div :class='{"text-width" : isLsm}' class="mb-3">
             <p
               v-html="$t('contactUs.text')"
               class="text-3xl text-brown-primary text-left"
             ></p>
           </div>
-          <ValidationObserver v-slot="{ invalid }">
-            <form @submit.prevent="onSubmit">
+          <ValidationObserver v-slot="{ handleSubmit }">
+            <form @submit.prevent="handleSubmit(onSubmit)">
               <div class="flex flex-col">
                 <ValidationProvider
                   v-slot="{ errors }"
@@ -37,6 +42,7 @@
                   <input
                     :placeholder="$t('contactUs.placeholder.name')"
                     type="text"
+                    label='username'
                     v-model="username"
                     class="
                       flex-grow
@@ -67,6 +73,7 @@
                 >
                   <input
                     :placeholder="$t('contactUs.placeholder.email')"
+                    label='email'
                     type="email"
                     v-model="email"
                     class="
@@ -91,7 +98,6 @@
                     {{ errors[0] }}
                   </span>
                 </ValidationProvider>
-
                 <div class="mt-1">
                   <ValidationProvider
                     v-slot="{ errors }"
@@ -99,6 +105,7 @@
                     rules="message"
                   >
                     <textarea
+                      label='message'
                       name="message"
                       rows="4"
                       v-model="message"
@@ -158,9 +165,14 @@ export default {
       message: '',
     }
   },
+  computed: {
+    isLsm() {
+      return this.$breakpoints.lSm
+    },
+  },
   methods: {
     onSubmit() {
-      alert('test')
+      alert('Successful (placeholder)')
     },
   },
 }
@@ -171,5 +183,9 @@ export default {
   left: 5rem;
   bottom: 2rem;
   overflow: visible;
+}
+
+.text-width {
+  width: 30rem;
 }
 </style>

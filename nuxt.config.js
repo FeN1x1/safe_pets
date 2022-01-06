@@ -1,4 +1,7 @@
 export default {
+  server: {
+    port: '8000' // default: localhost
+  },
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -6,15 +9,15 @@ export default {
   head: {
     title: 'safe_pets',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -23,9 +26,9 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/vue-scrollTo.js',
-    { src: '~plugins/vue-burger-menu.js', ssr: false },
-    "~/plugins/vee-validate.js",
-    '~/plugins/i18n.js'
+    { src: '~/plugins/vue-burger-menu.js', ssr: false },
+    '~/plugins/vee-validate.js',
+    '~/plugins/i18n.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -35,12 +38,16 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxt/image',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/html-validator'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    transpile: ["vee-validate/dist/rules"],
+    transpile: ['vee-validate/dist/rules'],
+    extend(config, ctx) {
+      config.resolve.symlinks = false
+    },
   },
 
   modules: [
@@ -48,7 +55,7 @@ export default {
     'nuxt-breakpoints',
     '@nuxtjs/i18n',
     'nuxt-seo',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
   ],
 
   // Another way to use options
@@ -60,21 +67,21 @@ export default {
     xl: 1280,
     options: {
       polyfill: true,
-      throttle: 200
-    }
+      throttle: 200,
+    },
   },
 
   i18n: {
     locales: [
       { code: 'en', iso: 'en-US', file: 'en.json' },
       { code: 'cz', iso: 'cs-CZ', file: 'cz.json' },
-      { code: 'sk', iso: 'cs-CZ', file: 'sk.json' }
+      { code: 'sk', iso: 'cs-CZ', file: 'sk.json' },
     ],
     defaultLocale: 'en',
     lazy: true,
     langDir: 'locales/',
     vueI18n: {
-      fallbackLocale: 'en'
-    }
-  }
+      fallbackLocale: 'en',
+    },
+  },
 }

@@ -2,7 +2,7 @@
   <div class='border-b-2'>
     <button type='button' @click='isShown = !isShown'
             class='flex items-center justify-between w-full sm:p-4 p-2 focus:outline-none'>
-      <div class='text-2xl text-left sm:text-center sm:text-3xl font-extrabold text-white'>{{ title }}</div>
+      <span class='text-2xl sm:text-3xl font-extrabold text-white'>{{ title }}</span>
       <SvgArrow class='fill-green-100 ml-2 sm:ml-0' :isShown='isShown' />
     </button>
     <transition name='fade' mode='out-in' @beforeLeave='beforeLeave'

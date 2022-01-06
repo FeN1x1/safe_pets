@@ -15,7 +15,7 @@
       </div>
     </div>
     <div>
-      <nuxt-img src='dog-question.png' class='dog absolute w-1/5' />
+<!--      <nuxt-img src='dog-question.png' class='dog absolute w-1/5' alt='dog' />-->
     </div>
   </div>
 </template>

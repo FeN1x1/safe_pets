@@ -398,5 +398,19 @@
     "username": "Name is required",
     "email": "Email must be valid",
     "message": "Message is required"
+  },
+  "seo" : {
+    "homepage": {
+      "title" : "",
+      "description" : ""
+    },
+    "metamask": {
+      "title" : "",
+      "description" : ""
+    },
+    "trustwallet": {
+      "title" : "",
+      "description" : ""
+    }
   }
 }

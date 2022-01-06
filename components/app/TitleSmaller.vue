@@ -69,5 +69,6 @@ h2:after {
 .underline-decoration {
   text-decoration: underline;
   text-decoration-color: #00b3b7;
+  text-underline-offset: 10px;
 }
 </style>
