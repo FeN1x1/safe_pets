@@ -42,5 +42,12 @@ import transition from '~/utils/lgNoTransition.js'
 
 export default {
   transition,
+  head({ $seo }) {
+    return $seo({
+      title: this.$t('seo.metamask.title'),
+      description: this.$t('seo.metamask.description'),
+      keywords: this.$t('seo.metamask.keywords'),
+    })
+  },
 }
 </script>

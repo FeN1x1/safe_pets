@@ -1,25 +1,28 @@
 <template>
   <div>
     <client-only>
-      <nuxt-img
-        v-if="position[1] > 1000"
-        src="button_up.png"
-        alt='button_up'
-        class="
-          z-40
-          sticky-btn
-          h-12
-          w-12
-          fixed
-          bottom-6
-          right-6
-          sm:bottom-12 sm:right-12
-          rotate-180
-          scale-200
-          cursor-pointer
-        "
-        v-scroll-to="'#navbar'"
-    /></client-only>
+      <transition name="fade" mode="out-in">
+        <nuxt-img
+          v-if="position[1] > 1000"
+          src="button_up.png"
+          alt="button_up"
+          class="
+            button-up
+            z-40
+            sticky-btn
+            h-12
+            w-12
+            fixed
+            bottom-6
+            right-6
+            sm:bottom-12 sm:right-12
+            transform
+            duration-300
+            hover:scale-110
+            cursor-pointer
+          "
+          v-scroll-to="'#navbar'" /></transition
+    ></client-only>
   </div>
 </template>
 
@@ -30,3 +33,9 @@ export default {
   mixins: [windowScrollPosition('position')],
 }
 </script>
+
+<style scoped>
+.button-up {
+  transform: rotate(0deg);
+}
+</style>

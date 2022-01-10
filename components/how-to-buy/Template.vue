@@ -182,8 +182,9 @@
             right-6
             sm:bottom-12 sm:right-12
             transform
+            duration-300
             rotate-270
-            scale-200
+            hover:scale-110
             cursor-pointer
           "
         />

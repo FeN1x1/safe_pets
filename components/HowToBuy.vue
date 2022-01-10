@@ -1,5 +1,5 @@
 <template>
-  <div id='howToBuy' class='px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
+  <article id='howToBuy' class='px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
     <AppTitle :title='$t("howToBuy.title")' />
     <div class='grid gap-8 row-gap-5 md:grid-cols-3 sm:max-w-screen-lg mx-auto'>
       <div
@@ -14,7 +14,7 @@
             class='absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-gradient-to-l from-green-secondary to-green-primary group-hover:scale-x-100'></div>
           <div
             class='absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-gradient-to-l from-green-secondary to-green-primary group-hover:scale-y-100'></div>
-          <div class='text-center my-auto py-auto p-4 lg:p-8'>
+          <div class='text-center my-auto py-auto p-4 lg:p-8 sm:mt-1'>
             <nuxt-img
               class='object-fill w-full'
               src='trustwallet.png'
@@ -35,7 +35,7 @@
             class='absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-gradient-to-l from-green-secondary to-green-primary group-hover:scale-x-100'></div>
           <div
             class='absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-gradient-to-l from-green-secondary to-green-primary group-hover:scale-y-100'></div>
-          <div class='text-center my-auto py-auto p-4 lg:p-8 mt-2'>
+          <div class='text-center my-auto py-auto p-4 lg:p-8'>
             <nuxt-img
               class='object-contain my-auto'
               src='metamask.png'
@@ -55,10 +55,10 @@
             class='absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-gradient-to-l from-green-secondary to-green-primary group-hover:scale-x-100'></div>
           <div
             class='absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-gradient-to-l from-green-secondary to-green-primary group-hover:scale-y-100'></div>
-          <div class='text-center my-auto py-auto p-4 lg:p-8 sm:mt-4'>
+          <div class='text-center my-auto py-auto p-4 lg:p-8 sm:mt-1'>
             <nuxt-img
               class='object-contain my-auto'
-              src='partners/pancake-swap.png'
+              src='pancake-swap.png'
               alt='pancake-swap'
             />
           </div>
@@ -69,7 +69,7 @@
     <div class='grid grid-cols-2 row-gap-8 md:grid-cols-4'>
       <BannersBanner v-for='banner in banners' :key='banner.image' :link='banner.link' :image='banner.image' />
     </div>
-  </div>
+  </article>
 </template>
 
 <script>

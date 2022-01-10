@@ -47,6 +47,7 @@
   "roadmap": {
     "title": "Roadmap",
     "text": "There is our amazing roadmap contained 9 phrases. Be part of the successful journey!",
+    "phase" : "Phase",
     "phases": [
       {
         "phases": [
@@ -256,23 +257,19 @@
     "questions": [
       {
         "question": "What is Safe pets Token?",
-        "answer": "Safe pets token is a decentralised cryptocurrency based on the idea of saving pets and other species from extinction."
+        "answer": "Safe pets token is a decentralised cryptocurrency based on the idea of saving pets and other species from extinction. Each transaction also raises an amount that will be sent to organizations for saving endangered animals."
       },
       {
         "question": "What do you mean by \"decentralised\"?",
-        "answer": "Safe pets is not run by any individual company or person. Technically speaking, it operates according to rules agreed by consensus, rather than decided upon by some founding or owning entity."
-      },
-      {
-        "question": "Will Safe pets token price go up?",
-        "answer": "We believe the project is unique and there is big chance to be succesfull."
+        "answer": "Safe pets is designed so that no one, not the creator or other individuals, groups or governments, can influence, counterfeit or seize the cryptocurrency account. There is no central point. Technically speaking, it operates according to rules agreed by consensus, rather than decided upon by some founding or owning entity."
       },
       {
         "question": "Does Safe pets token have a future?",
-        "answer": "As we have a great team of professionals with that makes everything for it than definitely yes. Stay tuned!"
+          "answer": "As we have a great team of professionals with that makes everything for it than definitely yes. 35 thousand kinds of animals are critically endangered on earth. Money for the protection and restoration of the fauna is lacking and the support of organizations is stagnant. Without animals the planet cannot function."
       },
       {
         "question": "What do you mean by \"cryptocurrency\"?",
-        "answer": "A cryptocurrency is a digital currency that is secured by cryptography, in contrast to conventional (fiat) currencies where they are secured by a government or governments."
+        "answer": "A cryptocurrency is a digital currency that is secured by cryptography, in contrast to conventional (fiat) currencies where they are secured by a government or governments. It's money for the people, and the more people own and use it, the more useful it becomes"
       },
       {
         "question": "Okay, but what does that mean?",
@@ -284,7 +281,11 @@
       },
       {
         "question": "How do I use/accept Safe pets token?",
-        "answer": "We plan to make a list of acceptors of the token to help indivitual organisations."
+        "answer": "We plan to make a list of acceptors of the token to help indivitual organisations that need funds to rescue endangered or abandoned animals."
+      },
+      {
+        "question": "Is my investment in Safe pets safe?",
+        "answer": "Absolutely. Team members are doxxed and KYC. Contract that is audited in roadmap phase 7 will pass second audit. Safe pets is legally based on a civil association."
       }
     ]
   },
@@ -320,7 +321,7 @@
         "profession": "Marketing Developer",
         "text": "Our marketing specialist experienced in Trading, Marketing and Bank sector. Tomas is currently working as sales manager in IT company, where he focuses on marketing and brand building. He tries to implement all experiences and knowledge to doing effective marketing and promotion through social networks and online marketing.",
         "personClass": "text-green-secondary",
-        "image": "default",
+        "image": "Martin",
         "personLinkedIn": ""
       },
       {
@@ -328,7 +329,7 @@
         "profession": "Fullstack Developer",
         "text": "Stefan is a fullstack developer currently working for a digital health company in Bratislava. He takes care of website infrastructure and possibly (in the future) mobile apps for Android and iOS.",
         "personClass": "text-green-primary",
-        "image": "Stefan",
+        "image": "Martin",
         "personLinkedIn": ""
       },
       {
@@ -336,7 +337,7 @@
         "profession": "Graphic Designer",
         "text": "She helped us with website design and made all our graphics that is used on website and marketing material (logo, social banners, etc.)",
         "personClass": "text-purple-primary",
-        "image": "default",
+        "image": "Alex",
         "personLinkedIn": ""
       },
       {
@@ -402,15 +403,18 @@
   "seo" : {
     "homepage": {
       "title" : "",
-      "description" : ""
+      "description" : "",
+      "keywords": ""
     },
     "metamask": {
       "title" : "",
-      "description" : ""
+      "description" : "",
+      "keywords": ""
     },
     "trustwallet": {
       "title" : "",
-      "description" : ""
+      "description" : "",
+      "keywords": ""
     }
   }
 }

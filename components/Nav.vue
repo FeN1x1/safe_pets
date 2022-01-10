@@ -1,5 +1,5 @@
 <template>
-  <div id="navbar" class="bg-brown-bg">
+  <header id="navbar" class="bg-brown-bg">
     <div
       class="
         px-4
@@ -17,7 +17,7 @@
           <nuxt-img src="logo.png" alt="logo" class="sm:h-20 h-16" />
         </nuxt-link>
         <div v-if="isXl">
-          <div class="flex items-center space-x-8 lg:flex">
+          <nav class="flex items-center space-x-8 lg:flex">
             <NavButton
               :name="$t('header.navigation.tokenomics')"
               to="tokenomics"
@@ -31,12 +31,12 @@
               {{ this.$t('header.navigation.buyNow') }}
             </div>
             <AppLanguageDropdown />
-          </div>
+          </nav>
         </div>
         <div class="flex" v-else>
           <client-only>
             <Slide class="bottom-4" :closeOnNavigation="true" noOverlay right>
-              <div class="flex flex-col">
+              <nav class="flex flex-col">
                 <AppMobileLanguageChanger />
                 <NavButton
                   :name="$t('header.navigation.tokenomics')"
@@ -73,12 +73,12 @@
                   to="howToBuy"
                   :desktop="false"
                 />
-              </div> </Slide
+              </nav> </Slide
           ></client-only>
         </div>
       </div>
     </div>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -95,9 +95,11 @@ export default {
 <style>
 .bm-burger-bars {
   background-color: #0ce2af !important;
+  border-radius: 0.525rem;
 }
 .bm-burger-button {
   top: 1.2rem !important;
   right: 0.5rem !important;
+  transform: scale(0.80);
 }
 </style>

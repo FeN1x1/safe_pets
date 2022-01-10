@@ -1,5 +1,5 @@
 <template>
-  <div class="relative bg-brown-bg">
+  <article class="relative bg-brown-bg">
     <div class="absolute inset-x-0 bottom-0">
       <svg
         viewBox="0 0 224 12"
@@ -17,7 +17,8 @@
         px-4
         pt-4
         mx-auto
-        pb-14
+        pb-8
+        sm:pb-14
         sm:pt-12 sm:max-w-xl
         md:max-w-full
         lg:max-w-screen-2xl
@@ -27,7 +28,7 @@
       <div
         class="flex flex-col items-center justify-between sm:mb-16 lg:flex-row"
       >
-        <div class="lg:pr-5 lg:mb-0">
+        <section class="lg:pr-5 lg:mb-0">
           <div class="mb-4 lg:max-w-xl">
             <div>
               <div
@@ -81,14 +82,14 @@
               <button
                 type="button"
                 class="
-                  px-4
                   pt-3
                   pb-2
-                  text-sm text-right
+                  text-sm text-center
                   uppercase
                   bg-white
                   rounded-full
-                  lg:px-32
+                  sm:px-32
+                  w-full
                 "
               >
                 {{ $t('header.comingSoon') }}
@@ -98,7 +99,7 @@
               </button>
             </div>
           </div>
-        </div>
+        </section>
         <div class="lg:w-2/5">
           <nuxt-img
             class="object-cover w-full py-12 lg:py-0"
@@ -194,5 +195,5 @@
         "
       />
     </div>
-  </div>
+  </article>
 </template>

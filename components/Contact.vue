@@ -1,10 +1,9 @@
 <template>
-  <div
+  <article
     id="contactUs"
     class="
       mx-auto
-      lg:pb-20
-      lg:pt-36
+      lg:pb-20 lg:pt-36
       py-8
       lg:py-0
       sm:max-w-xl
@@ -12,7 +11,7 @@
       lg:max-w-screen-xl
     "
   >
-    <div class="z-0 grid grid-cols-1 lg:grid-cols-2 sm:mb-8">
+    <section class="z-0 grid grid-cols-1 lg:grid-cols-2 sm:mb-8">
       <div class="lg:space-x-10">
         <nuxt-img
           src="notebook.png"
@@ -20,12 +19,12 @@
         />
         <nuxt-img
           src="notebook-mobile.png"
-          class="block lg:hidden mx-auto px-8 pb-8"
+          class="block lg:hidden mx-auto px-4 pb-8"
         />
       </div>
-      <div class="space-x-10 m-auto lg:ml-auto flex z-10">
-        <div class="m-auto">
-          <div :class='{"text-width" : isLsm}' class="mb-3">
+      <section class="space-x-10 m-auto lg:ml-auto flex z-10">
+        <div class="m-auto p-4 sm:p-0">
+          <div :class="{ 'text-width': isLsm }" class="mb-3">
             <p
               v-html="$t('contactUs.text')"
               class="text-3xl text-brown-primary text-left"
@@ -42,7 +41,7 @@
                   <input
                     :placeholder="$t('contactUs.placeholder.name')"
                     type="text"
-                    label='username'
+                    label="username"
                     v-model="username"
                     class="
                       flex-grow
@@ -61,9 +60,11 @@
                       focus:border-black focus:outline-none focus:shadow-outline
                     "
                   />
-                  <span class="p-2 text-purple-primary">
-                    {{ errors[0] }}
-                  </span>
+                  <transition name="fade" mode="out-in">
+                    <span v-if="errors[0]" class="p-2 mb-1 text-purple-primary">
+                      {{ errors[0] }}
+                    </span>
+                  </transition>
                 </ValidationProvider>
 
                 <ValidationProvider
@@ -73,7 +74,7 @@
                 >
                   <input
                     :placeholder="$t('contactUs.placeholder.email')"
-                    label='email'
+                    label="email"
                     type="email"
                     v-model="email"
                     class="
@@ -94,9 +95,11 @@
                       focus:shadow-outline
                     "
                   />
-                  <span class="p-2 text-purple-primary">
-                    {{ errors[0] }}
-                  </span>
+                  <transition name="fade" mode="out-in">
+                    <span v-if="errors[0]" class="p-2 text-purple-primary">
+                      {{ errors[0] }}
+                    </span>
+                  </transition>
                 </ValidationProvider>
                 <div class="mt-1">
                   <ValidationProvider
@@ -105,7 +108,7 @@
                     rules="message"
                   >
                     <textarea
-                      label='message'
+                      label="message"
                       name="message"
                       rows="4"
                       v-model="message"
@@ -127,9 +130,11 @@
                       "
                       :placeholder="$t('contactUs.placeholder.message')"
                     />
-                    <span class="p-2 text-purple-primary">
-                      {{ errors[0] }}
-                    </span>
+                    <transition name="fade" mode="out-in">
+                      <span v-if="errors[0]" class="p-2 text-purple-primary">
+                        {{ errors[0] }}
+                      </span>
+                    </transition>
                   </ValidationProvider>
                 </div>
               </div>
@@ -144,9 +149,9 @@
             </form>
           </ValidationObserver>
         </div>
-      </div>
-    </div>
-  </div>
+      </section>
+    </section>
+  </article>
 </template>
 
 <script>

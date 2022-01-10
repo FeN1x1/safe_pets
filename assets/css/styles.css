@@ -1,9 +1,13 @@
 .button {
-  @apply inline-flex items-center pt-1 cursor-pointer text-sm justify-center h-10 px-4 tracking-wide uppercase font-bold text-white transition duration-200 rounded-xl shadow-md bg-green-secondary hover:bg-green-tertiary focus:shadow-outline focus:outline-none;
+  @apply inline-flex items-center pt-1 cursor-pointer text-sm justify-center h-10 px-4 tracking-wide uppercase font-bold text-white transition duration-200 rounded-xl shadow-md bg-gradient-to-r
+  from-green-secondary
+  to-green-primary hover:bg-green-tertiary focus:shadow-outline focus:outline-none;
 }
 
 .button-wider {
-  @apply inline-flex pt-1 items-center cursor-pointer text-sm justify-center h-10 px-6 tracking-wide uppercase font-bold text-white transition duration-200 rounded-xl shadow-md bg-green-secondary hover:bg-green-tertiary focus:shadow-outline focus:outline-none;
+  @apply inline-flex pt-1 items-center cursor-pointer text-sm justify-center h-10 px-6 tracking-wide uppercase font-bold text-white transition duration-200 rounded-xl shadow-md bg-gradient-to-r
+  from-green-secondary
+  to-green-primary hover:bg-green-tertiary focus:shadow-outline focus:outline-none;
 }
 
 .nav-item {

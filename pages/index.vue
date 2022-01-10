@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <Header />
     <Tokenomics />
     <Charity />
@@ -9,12 +9,19 @@
     <AntiWhaleShield />
     <HowToBuy />
     <Contact />
-  </div>
+  </main>
 </template>
 
 <script>
 import transition from "~/utils/lgNoTransition.js";
 export default {
-  transition
+  transition,
+  head({ $seo }) {
+    return $seo({
+      title: this.$t('seo.homepage.title'),
+      description: this.$t('seo.homepage.description'),
+      keywords: this.$t('seo.homepage.keywords')
+    })
+  }
 }
 </script>

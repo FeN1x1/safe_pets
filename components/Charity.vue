@@ -1,5 +1,5 @@
 <template>
-  <div id='charity' class='relative bg-brown-bg'>
+  <article id='charity' class='relative bg-brown-bg'>
     <div class='absolute inset-x-0 bottom-0'>
       <svg
         viewBox='0 0 224 12'
@@ -12,7 +12,7 @@
         ></path>
       </svg>
     </div>
-    <div class='mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl'>
+    <section class='mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl'>
       <div v-if='isSmallThanLg' class='flex'>
         <div>
           <nuxt-img
@@ -35,7 +35,7 @@
       </div>
       <div v-else>
         <div class='py-8 px-4 sm:m-auto sm:text-center'>
-          <AppTitleSecondary :title='$t("charity.title")' />
+          <AppTitleSecondary :title='$t("charity.title")' class='mb-4' />
           <p
             class='lg:mb-10 py-4 text-xl tracking-wider -mt-6 light-font title text-purple-primary'
           >
@@ -51,8 +51,8 @@
           />
         </div>
       </div>
-    </div>
-  </div>
+    </section>
+  </article>
 </template>
 
 <script>

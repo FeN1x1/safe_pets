@@ -35,15 +35,15 @@ export default {
       switch (language) {
         case 'en':
           return {
-            'border-green-primary border-4': this.$i18n.locale === 'en',
+            'border-green-secondary border-4 ': this.$i18n.locale === 'en',
           }
         case 'sk':
           return {
-            'border-green-primary border-4': this.$i18n.locale === 'sk',
+            'border-green-secondary border-4': this.$i18n.locale === 'sk',
           }
         case 'cz':
           return {
-            'border-green-primary border-4': this.$i18n.locale === 'cz',
+            'border-green-secondary border-4': this.$i18n.locale === 'cz',
           }
       }
     },

@@ -39,7 +39,8 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxt/image',
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/html-validator'
+    '@nuxtjs/html-validator',
+    '@nuxtjs/google-analytics'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -71,11 +72,15 @@ export default {
     },
   },
 
+  googleAnalytics: {
+    // Options
+  },
+
   i18n: {
     locales: [
       { code: 'en', iso: 'en-US', file: 'en.json' },
       { code: 'cz', iso: 'cs-CZ', file: 'cz.json' },
-      { code: 'sk', iso: 'cs-CZ', file: 'sk.json' },
+      { code: 'sk', iso: 'sk-SK', file: 'sk.json' },
     ],
     defaultLocale: 'en',
     lazy: true,

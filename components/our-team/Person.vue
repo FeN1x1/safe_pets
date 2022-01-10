@@ -1,7 +1,7 @@
 <template>
   <div class='child p-4'>
-    <nuxt-img class='object-cover sm:mx-auto mr-auto h-32 w-32 sm:w-40 sm:h-40 rounded-full shadow'
-        :src="`our-team/${image}.png`"
+    <nuxt-img class='sm:mx-auto mr-auto w-1/2'
+        :src="`our-team-updated/${image}.png`"
          alt='Person' />
     <div class='flex flex-col justify-center mt-4'>
       <p class='text-3xl title text-left sm:text-center text-brown-primary uppercase font-extrabold'>{{ title }}</p>

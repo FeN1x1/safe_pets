@@ -1,22 +1,22 @@
 {
   "header": {
     "navigation": {
-      "tokenomics": "Tokenomia",
+      "tokenomics": "Tokenómia",
       "charity": "Charita",
       "roadmap": "Plán rozvoja",
       "faq": "Časté otázky",
-      "ourTeam": "Náš tým",
+      "ourTeam": "Náš tím",
       "contact": "Kontakt",
-      "buyNow": "Kúpit"
+      "buyNow": "Kúpiť"
     },
     "brandNewToken": "Nový Token",
     "title": {
       "part1": "Celosvetový komunitný token vytvorený za účelom pomáhať",
-      "part2": "nevinné domáce zvieratka"
+      "part2": "nevinným domácim zvieratkám"
     },
-    "text": "Celosvetový komunitný token, vytvorený za účelom pomáhať zvierám. Sme hrdý na to, že sme ako prvý tvorci kryptomeny vytvorili unikátny token s neobvyklými cielmi. Safe Pets token je vytvorený s jediným cielem – pomáhať ohrozeným zvieratám a vytvoriť útulok pre domácich maznáčikov po celom svete. Safe Pets token poskytuje statické odmeny pre investorov. Každú transakciu automaticky narastá počet mincí v peňaženke držiteľa tokenu. Každou transakciou sa taktiež automaticky pridává 2% z transakcie do charitatívnej peňaženky. Vybrané prostriedky budú poskytnuté vybraným útulkom.",
+    "text": "Celosvetový komunitný token, vytvorený za účelom pomáhať zvieratám. Sme hrdý na to, že sme ako prvý tvorcovia kryptomeny vytvorili unikátny token s neobvyklými cieľmi. Safe Pets token je vytvorený s jediným cieľom – pomáhať ohrozeným zvieratám a vytvoriť útulok pre domácich maznáčikov po celom svete. Safe Pets token poskytuje statické odmeny pre investorov. Každú transakciu automaticky narastá počet mincí v peňaženke držiteľa tokenu. Každou transakciou sa taktiež automaticky pridáva 2% z transakcie do charitatívnej peňaženky. Vybrané prostriedky budú poskytnuté vybraným útulkom.",
     "comingSoon": "Čoskoro ...",
-    "copy": "Kopírovat"
+    "copy": "Kopírovať"
   },
   "countdown": {
     "title": "Kedy bude token Safe pets uvedený na trh?",
@@ -26,27 +26,28 @@
     "hours": "Hodín",
     "minutes": "Minút",
     "seconds": "Sekúnd",
-    "text": "*Čas je iba približný a v prípade potreby se môže zmeniť."
+    "text": "*Čas je iba približný a v prípade potreby sa môže zmeniť."
   },
   "tokenomics": {
     "title": "Tokenomia",
     "marketingTitle": "Intenzívny marketing",
-    "marketingText": "2 % z každej transakcie je určený na marketing. To nám umožňuje financovať naše nejambicióznejšie projekty, ktoré slúžia k daľšiemu odmeňovaniu komunity.",
+    "marketingText": "2 % z každej transakcie sú určené na marketing. To nám umožňuje financovať naše najambicióznejšie projekty, ktoré slúžia k ďalšiemu odmeňovaniu komunity.",
     "rewardsTitle": "Odmeny investorom",
-    "rewardsText": "2 % z každej transakcie sú prerozdelené držitelom tokenov. To znamená, že môžete zarábať viac tokenov Safe pets iba tým, že ich budete držať v peňaženke.",
-    "charityTitle": "Charitatítvna peňaženka",
-    "charityText": "Máme určenú charitatívnu peňaženku, ktorá prijímá 2 % z každej transakcie, ktorá je použitá na podporu našich charitatívních partnerov.",
+    "rewardsText": "2 % z každej transakcie sú prerozdelené držiteľom tokenov. To znamená, že môžete zarábať viac tokenov Safe pets iba tým, že ich budete držať v peňaženke.",
+    "charityTitle": "Charitatívna peňaženka",
+    "charityText": "Máme určenú charitatívnu peňaženku, ktorá prijíma 2 % z každej transakcie, ktorá je použitá na podporu našich charitatívnych partnerov.",
     "liquidityTitle": "Rastúca likvidita",
     "liquidityText": "4 % z každej transakcie pridáme do uzamknutého fondu likvidity Pancakeswap."
   },
   "charity": {
     "title": "Charita",
     "donationDescribtion": "Dar útulku pre domáce zvieratá",
-    "donationText": "Slúžíme ako podpora útulkom, ktoré poskytujú ochranu a starostlivosť zvieratám v núdzi; centrum pre adopciu zvierat s kompletnými službami. Útulky a záchranné stanice pre zvieratá sú úžasné! Obvykle s ombedzenými prostriedkami a veľmi malou publicitou pomáhajú nespočetnému množstvu zvierat, ktoré nemali šťastie na šťastný život. Vráťme im to tým, že si vyberiete jeden alebo viac z nasledujúcích zpôsobov, ako prejaviť uznánie skupinám, ktoré robia tolko pre zvieratá, ľudí a vašu komunitu."
+    "donationText": "Slúžime ako podpora útulkom, ktoré poskytujú ochranu a starostlivosť zvieratám v núdzi; centrum pre adopciu zvierat s kompletnými službami. Útulky a záchranné stanice pre zvieratá sú úžasné! Obvykle s obmedzenými prostriedkami a veľmi malou publicitou pomáhajú nespočetnému množstvu zvierat, ktoré nemali šťastie na šťastný život. Vráťme im to tým, že si vyberiete jeden alebo viac z nasledujúcich spôsobov, ako prejaviť uznanie skupinám, ktoré robia toľko pre zvieratá, ľudí a vašu komunitu."
   },
   "roadmap": {
     "title": "Plán rozvoja",
-    "text": "Tu je náš plán vývoja rozdelený do 9 fází. Staňte sa súčásťou úspešnej cesty!",
+    "text": "Tu je náš plán vývoja rozdelený do 9 fáz. Staňte sa súčasťou úspešnej cesty!",
+    "phase" : "Fáza",
     "phases": [
       {
         "phases": [
@@ -79,10 +80,10 @@
             "phase": "~1 000 Členov telegramovej skupiny"
           },
           {
-            "phase": "Marketingový tlak na šířenie povedomia"
+            "phase": "Marketingový tlak na šírenie povedomia"
           },
           {
-            "phase": "Nové partnerstvá s mezinárodnými organizáciami WWF, IUCN, UNEP"
+            "phase": "Nové partnerstvá s medzinárodnými organizáciami WWF, IUCN, UNEP"
           },
           {
             "phase": "Nové partnerstvá s univerzitami"
@@ -148,16 +149,16 @@
             "phase": "~10 000 Členov telegramovej skupiny"
           },
           {
-            "phase": "Uvedenie na velké centralizované burzy"
+            "phase": "Uvedenie na veľké centralizované burzy"
           },
           {
-            "phase": "Safe Pets aplikácia pre Android/iOS"
+            "phase": "Safe Pets aplikácia pre Android/IOS"
           },
           {
             "phase": "Štvrtý charitatívny dar"
           },
           {
-            "phase": "Otvorenie prvých kanceláríi v Bratislave"
+            "phase": "Otvorenie prvých kancelárii v Bratislave"
           }
         ]
       },
@@ -195,7 +196,7 @@
             "phase": "NFT hra"
           },
           {
-            "phase": "Uvedenie na daľších burzách"
+            "phase": "Uvedenie na ďalších burzách"
           },
           {
             "phase": "Druhý Audit"
@@ -245,7 +246,7 @@
             "phase": "Uvedenie na Coinbase"
           },
           {
-            "phase": "Masívny charitativní dar"
+            "phase": "Masívny charitatívny dar"
           }
         ]
       }
@@ -255,36 +256,36 @@
     "title": "Časté otázky",
     "questions": [
       {
-        "question": "Čo je Safe pets Token?",
-        "answer": "Safe pets token is a decentralised cryptocurrency based on the idea of saving pets and other species from extinction."
+        "question": "What is Safe pets Token?",
+        "answer": "Safe pets token is a decentralised cryptocurrency based on the idea of saving pets and other species from extinction. Each transaction also raises an amount that will be sent to organizations for saving endangered animals."
       },
       {
-        "question": "Čo máte na mysli pod pojmom \"decentralizovaný\"?",
-        "answer": "Safe pets is not run by any individual company or person. Technically speaking, it operates according to rules agreed by consensus, rather than decided upon by some founding or owning entity."
+        "question": "What do you mean by \"decentralised\"?",
+        "answer": "Safe pets is designed so that no one, not the creator or other individuals, groups or governments, can influence, counterfeit or seize the cryptocurrency account. There is no central point. Technically speaking, it operates according to rules agreed by consensus, rather than decided upon by some founding or owning entity."
       },
       {
-        "question": "Prečo by mala cena Safe pets tokenu stúpať?",
-        "answer": "We believe the project is unique and there is big chance to be succesfull."
+        "question": "Does Safe pets token have a future?",
+        "answer": "As we have a great team of professionals with that makes everything for it than definitely yes. 35 thousand kinds of animals are critically endangered on earth. Money for the protection and restoration of the fauna is lacking and the support of organizations is stagnant. Without animals the planet cannot function."
       },
       {
-        "question": "Má token Safe pets budúcnosť?",
-        "answer": "As we have a great team of professionals with that makes everything for it than definitely yes. Stay tuned!"
+        "question": "What do you mean by \"cryptocurrency\"?",
+        "answer": "A cryptocurrency is a digital currency that is secured by cryptography, in contrast to conventional (fiat) currencies where they are secured by a government or governments. It's money for the people, and the more people own and use it, the more useful it becomes"
       },
       {
-        "question": "Čo máte na mysli pod pojmom \"kryptomena\"?",
-        "answer": "A cryptocurrency is a digital currency that is secured by cryptography, in contrast to conventional (fiat) currencies where they are secured by a government or governments."
-      },
-      {
-        "question": "Dobre, ale čo to znamená?",
+        "question": "Okay, but what does that mean?",
         "answer": "It means you don't have to trust any central organisation or person the way you would a bank, but also that you have to be your own bank. The developers can't seize your funds, but they also can't return them if you send them to the wrong address."
       },
       {
-        "question": "Kto teda riadi token Safe pets?",
+        "question": "So who does run Safe pets token?",
         "answer": "No-one, or everyone does equally, depending how you look at it. The developers can release new software, but the community have to choose to use that software. That community includes not just the end-users, but miners, exchanges, payment processors, etc. Typically the community does adopt new software we release because we have an established track record, but there's no special access we have."
       },
       {
-        "question": "Ako môžem použiť/príjmať token Safe pets?",
-        "answer": "We plan to make a list of acceptors of the token to help indivitual organisations."
+        "question": "How do I use/accept Safe pets token?",
+        "answer": "We plan to make a list of acceptors of the token to help indivitual organisations that need funds to rescue endangered or abandoned animals."
+      },
+      {
+        "question": "Is my investment in Safe pets safe?",
+        "answer": "Absolutely. Team members are doxxed and KYC. Contract that is audited in roadmap phase 7 will pass second audit. Safe pets is legally based on a civil association."
       }
     ]
   },
@@ -294,7 +295,7 @@
       {
         "title": "Michal",
         "profession": "Project Leader",
-        "text": "Michal vytvára vysoko kvalitný obchodné stratégie a plány, ktoré zaisťujú ich súlad s krátkodobými a dlhodobými cielmi. Má skúsenosti s auditom, analýzami a prognózami. Bol taktiež súčásťou evropskej dobrovolnej organizace. Riadi dôležité partnerstvá a tím Safe Pets token.",
+        "text": "Michal vytvára vysoko kvalitný obchodné stratégie a plány, ktoré zaisťujú ich súlad s krátkodobými a dlhodobými cieľmi. Má skúsenosti s auditom, analýzami a prognózami. Bol taktiež súčasťou európskej dobrovoľnej organizácie. Riadi dôležité partnerstvá a tím Safe Pets token.",
         "personClass": "text-green-primary",
         "image": "Michal",
         "personLinkedIn": "https://www.linkedin.com/in/michal-sur%C5%BEin-1240851b3/"
@@ -302,7 +303,7 @@
       {
         "title": "Daniel",
         "profession": "Networking Developer",
-        "text": "Ako úspešný absolvent Bankového inštitútu v Prahe ukončil štúdium oboru Právo a správa v podnikatelskej sfére. Daniel riadi naše kampane, partnerstvá a právne problémy, ktoré sa vyskytujú. Vďaka 15 rokom skúseností v oblasti obchodu je klúčovým hráčom pre vytváranie sietí. Jeho oblúbeným citátom je: Možnosti sú nekonečné!\n",
+        "text": "Ako úspešný absolvent Bankového inštitútu v Prahe ukončil štúdium oboru Právo a správa v podnikateľskej sfére. Daniel riadi naše kampane, partnerstvá a právne problémy, ktoré sa vyskytujú. Vďaka 15 rokom skúseností v oblasti obchodu je kľúčovým hráčom pre vytváranie sietí. Jeho obľúbeným citátom je: Možnosti sú nekonečné!\n",
         "personClass": "text-purple-primary",
         "image": "Daniel",
         "personLinkedIn": "https://www.linkedin.com/in/sucho-hajnik-30a8b282"
@@ -310,7 +311,7 @@
       {
         "title": "Martin",
         "profession": "Lead Developer",
-        "text": "Náš informatik a full-stack vývojár so skúšenosťami v oblasti blockchainu, obchodovania a technickej analýzy. Pracuje tiež ako programátor pre spoločnosť, která vyvíja nabijačky pre elektromobily.",
+        "text": "Náš informatik a full-stack vývojár so skúsenosťami v oblasti blockchainu, obchodovania a technickej analýzy. Pracuje tiež ako programátor pre spoločnosť, ktorá vyvíja nabíjačky pre elektromobily.",
         "personClass": "text-green-secondary",
         "image": "Martin",
         "personLinkedIn": "https://www.linkedin.com/in/martin-gelo-2b5249224/"
@@ -318,25 +319,25 @@
       {
         "title": "Tomáš",
         "profession": "Marketing Developer",
-        "text": "Náš marketingový špecialista má skúsenosti v oblasti obchodu, marketingu a bankovníctva. Tomáš v súčasnej dobe pracuje ako obchodný manažer v IT spoločnosti, kde se zameriava na marketing a budovanie značky. Všetky skúsenosti a znalosti se snaží využiť k efektívnemu marketingu a propagacií prostredníctvom sociálnych sietí a online marketingu.",
+        "text": "Náš marketingový špecialista má skúsenosti v oblasti obchodu, marketingu a bankovníctva. Tomáš v súčasnej dobe pracuje ako obchodný manažér v IT spoločnosti, kde sa zameriava na marketing a budovanie značky. Všetky skúsenosti a znalosti sa snaží využiť k efektívnemu marketingu a propagácií prostredníctvom sociálnych sietí a online marketingu.",
         "personClass": "text-green-secondary",
-        "image": "default",
+        "image": "Martin",
         "personLinkedIn": ""
       },
       {
         "title": "Štefan",
         "profession": "Fullstack Developer",
-        "text": "Štefan je fullstack vývojár, ktorý v súčasnej dobe pracuje pre digitálnu zdravotnícku spoločnosť v Bratislave. Stará se o infrastrukturu webových stránok a prípadne (v budúcnosti) o mobilnú aplikáciu pre Android a iOS.",
+        "text": "Štefan je fullstack vývojár, ktorý v súčasnej dobe pracuje pre digitálnu zdravotnícku spoločnosť v Bratislave. Stará sa o infraštruktúru webových stránok a prípadne (v budúcnosti) o mobilnú aplikáciu pre Android a IOS.",
         "personClass": "text-green-primary",
-        "image": "Stefan",
+        "image": "Martin",
         "personLinkedIn": ""
       },
       {
         "title": "Alexandra",
         "profession": "Graphic Designer",
-        "text": "Alex nám pomohla s návrhom webových stránok a vytvorila všetku grafiku, ktorá se používa na webových stránkách a marketingových materiáloch (logo, bannery na socialne siete atd.).",
+        "text": "Alex nám pomohla s návrhom webových stránok a vytvorila všetku grafiku, ktorá sa používa na webových stránkach a marketingových materiáloch (logo, bannery na sociálne siete atd.).",
         "personClass": "text-purple-primary",
-        "image": "default",
+        "image": "Alex",
         "personLinkedIn": ""
       },
       {
@@ -353,64 +354,67 @@
     "title": "Ako nakúpiť",
     "antiWhaleShield": {
       "title": "Anti-Whale štít",
-      "text": "Safe Pets je jednou z kryptomien, ktorá používa mechanizmus Anti-Whale. Tento systém byl navržen tak, aby uchránil držiteľov pred velrybami, ktoré sa snažia manipulovat s cenou vo svoj prospech, alebo pred dumpingom tokenu predajom."
+      "text": "Safe Pets je jednou z kryptomien, ktorá používa mechanizmus Anti-Whale. Tento systém bol navrhnutý tak, aby uchránil držiteľov pred veľrybami, ktoré sa snažia manipulovať s cenou vo svoj prospech, alebo pred dumpingom tokenu predajom."
     },
     "exchanges": {
       "title": "Burzy"
     },
     "trustwallet": {
       "step1Title": "Vytvorenie peňaženky Trust Wallet",
-      "step1Text": "Vytvorte si peňaženku Trust Wallet pomocou stolného počítača alebo mobilného zariadenia so systémom iOS/Android. To vám umožní nakupovať, predávať, odesielať a prímať tokeny Safe Pets.",
+      "step1Text": "Vytvorte si peňaženku Trust Wallet pomocou stolného počítača alebo mobilného zariadenia so systémom IOS/Android. To vám umožní nakupovať, predávať, odosielať a prijímať tokeny Safe Pets.",
       "step2Title": "Odoslanie BNB do peňaženky",
-      "step2Text": "Nejrýchlejší zpôsob, ako si BNB kúpiť, je priamo z Binance a poslať si ho do svojej Trust Wallet. BNB môžete kúpit priamo na MetaMask alebo si ho previesť do svojej peňaženky MetaMask z burz, ako je Coinbase, Binance atd.",
+      "step2Text": "Najrýchlejší spôsob, ako si BNB kúpiť, je priamo z Binance a poslať si ho do svojej Trust Wallet. BNB môžete kúpiť priamo na MetaMask alebo si ho previesť do svojej peňaženky MetaMask z búrz, ako je Coinbase, Binance atd.",
       "step3Title": "Pripojení peňaženky Trust Wallet ku službe Pancakeswap",
-      "step3Text": "Ke své peňaženke na PancakeSwapu se pripojíte kliknutím na \"Pripojiť k peňaženke\" a výberom Trust Wallet.",
+      "step3Text": "Ku svojej peňaženke na PancakeSwapu se pripojíte kliknutím na \"Pripojiť k peňaženke\" a výberom Trust Wallet.",
       "step4Title": "Vymeníte BNB za token SafePets",
-      "step4Text": "Výmenu môžete zahájiť, akonáhle budete mať BNB k dispozici! Stisknite tlačítko \"Vybrať token\" a zadajte adresu tokenu alebo ho vyhladajte v zozname tokenov."
+      "step4Text": "Výmenu môžete zahájiť, akonáhle budete mať BNB k dispozícii! Stisnite tlačidlo \"Vybrať token\" a zadajte adresu tokenu alebo ho vyhľadajte v zozname tokenov."
     },
     "metamask": {
       "step1Title": "Vytvorenie peňaženky MetaMask",
-      "step1Text": "Vytvorte si peňaženku MetaMask pomocou stolného počítača alebo mobilného zariadenia so systémom iOS/Android. To vám umožní nakupovať, predávať, odesielať a prímať tokeny Safe Pets.",
+      "step1Text": "Vytvorte si peňaženku MetaMask pomocou stolného počítača alebo mobilného zariadenia so systémom iOS/Android. To vám umožní nakupovať, predávať, odosielať a prijímať tokeny Safe Pets.",
       "step2Title": "Odoslanie BNB do peňaženky",
-      "step2Text1": "Dalším krokom je pridanie Binance smart chain do vašej peňaženky. Vo východzom nastavení se peněženky Metamask pripojujú k hlavnej sieti Ethereum. Prejdite do hornej části peněženky, kde se nachádza miniatura, a najdite tlačítko nastavenia. Kliknite na \"networks\" (siete) a \"add network\" (pridať sieť).\nĎalej je treba zadať správne hodnoty pre Binance Smart Chain, ako je vidieť nižšie:",
+      "step2Text1": "Ďalším krokom je pridanie Binance smart chain do vašej peňaženky. Vo východzom nastavení se peňaženka Metamask pripojujú k hlavnej sieti Ethereum. Prejdite do hornej časti peňaženky, kde se nachádza miniatúra, a nájdite tlačidlo nastavenia. Kliknite na \"networks\" (siete) a \"add network\" (pridať sieť).\n Ďalej je treba zadať správne hodnoty pre Binance Smart Chain, ako je vidieť nižšie:",
       "step2Text2": "Network name: Binance Smart ChainNew RPC URL: https://bsc-dataseed.binance.orgChain ID: 56Symbol: BNBBlockexplorer: https://bscscan.com",
-      "step2Text3": "BNB si môžete kúpit prímo na MetaMask alebo si previesť do svojej peňaženky MetaMask z búrz, ako je Coinbase, Binance atd.",
+      "step2Text3": "BNB si môžete kúpiť prímo na MetaMask alebo si previesť do svojej peňaženky MetaMask z búrz, ako je Coinbase, Binance atd.",
       "step3Title": "Pripojenie peňaženky Metamask ku službe Pancakeswap",
       "step3Text": "Ku svojej peňaženke na PancakeSwapu sa pripojíte kliknutím na \"Pripojiť k peňaženke\" a výberom MetaMask.",
       "step4Title": "Vymeňte BNB za token SafePets",
-      "step4Text": "Výmenu môžete zahájiť, akonáhle budete mať BNB k dispozici! Stisknite tlačítko \"Vybrat token\" a zadejte adresu tokenu alebo ho vyhledejte v zozname tokenov."
+      "step4Text": "Výmenu môžete zahájiť, akonáhle budete mať BNB k dispozícii! Stisnite tlačidlo \"Vybrať token\" a zadajte adresu tokenu alebo ho vyhľadajte v zozname tokenov."
     },
     "success": "Hotovo"
   },
   "footer": {
-    "text": "Copyright © 2021 Safe Pets. Všetky práva vyhradené - Zásady ochrany osobných údajov - Zmluvné podmienky Safe Pets nieje investícia. Safe Pets bol vytvorený ako meme parodia, nič neslubuje a nieje zodpovedná za prípadné straty alebo chyby."
+    "text": "Copyright © 2021 Safe Pets. Všetky práva vyhradené - Zásady ochrany osobných údajov - Zmluvné podmienky Safe Pets nie je investícia. Safe Pets bol vytvorený ako meme paródia, nič nesľubuje a nie je zodpovedná za prípadné straty alebo chyby."
   },
   "contactUs": {
-    "text" : "Máte nejaké otázky?<br>Pošlite nám správu.",
+    "text": "Máte nejaké otázky?<br>Pošlite nám správu.",
     "placeholder": {
       "name": "Vaše meno",
       "email": "Váš Email",
       "message": "Vaša Správa"
     },
-    "send" : "Odoslať"
+    "send": "Odoslať"
   },
   "validation": {
     "username": "Meno je vyžadované",
-    "email": "Email musí byť valídny",
+    "email": "Email musí byť validný",
     "message": "Správa je vyžadovaná"
   },
-  "seo" : {
+  "seo": {
     "homepage": {
-      "title" : "",
-      "description" : ""
+      "title": "",
+      "description": "",
+      "keywords": ""
     },
     "metamask": {
-      "title" : "",
-      "description" : ""
+      "title": "",
+      "description": "",
+      "keywords": ""
     },
     "trustwallet": {
-      "title" : "",
-      "description" : ""
+      "title": "",
+      "description": "",
+      "keywords": ""
     }
   }
 }

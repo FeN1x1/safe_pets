@@ -35,5 +35,12 @@ import transition from '~/utils/lgNoTransition.js'
 
 export default {
   transition,
+  head({ $seo }) {
+    return $seo({
+      title: this.$t('seo.trustwallet.title'),
+      description: this.$t('seo.trustwallet.description'),
+      keywords: this.$t('seo.trustwallet.keywords')
+    })
+  }
 }
 </script>

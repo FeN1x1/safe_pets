@@ -12,7 +12,7 @@
     "brandNewToken": "Zbrusu Nový Token",
     "title": {
       "part1": "Světový komunitní token vytvořen za účelem pomoci",
-      "part2": "nevinná domácí zvířátka"
+      "part2": "nevinním domácím zvířátkám"
     },
     "text": "Světový komunitní token, vytvořený na pomoc zvířatům. Jsme hrdí na to, že jsme jako první tvůrci kryptoměny vytvořili unikátní token s neobvyklými cíli. Safe Pets token je vytvořen s jediným cílem – pomáhat ohroženým zvířatům a vytvořit útulek pro domácí mazlíčky po celém světě. Safe Pets token poskytuje statické odměny pro investory. Každou transakcí automaticky narůstá počet mincí v peněžence držitele tokenu. Každou transakcí se také automaticky přidává 2% z transakce do charitativní peněženky. Vybrané prostředky budou poskytnuty vybraným útulkům.",
     "comingSoon": "Již brzy...",
@@ -47,6 +47,7 @@
   "roadmap": {
     "title": "Plán rozvoje",
     "text": "Zde je náš plán vývoje rozdělený do 9 fází. Staňte se součástí úspěšné cesty!",
+    "phase" : "Fáze",
     "phases": [
       {
         "phases": [
@@ -255,36 +256,36 @@
     "title": "Časté dotazy",
     "questions": [
       {
-        "question": "Co je Safe pets Token?",
-        "answer": "Safe pets token is a decentralised cryptocurrency based on the idea of saving pets and other species from extinction."
+        "question": "What is Safe pets Token?",
+        "answer": "Safe pets token is a decentralised cryptocurrency based on the idea of saving pets and other species from extinction. Each transaction also raises an amount that will be sent to organizations for saving endangered animals."
       },
       {
-        "question": "Co máte na mysli pod pojmem \"decentralizovaný\"?",
-        "answer": "Safe pets is not run by any individual company or person. Technically speaking, it operates according to rules agreed by consensus, rather than decided upon by some founding or owning entity."
+        "question": "What do you mean by \"decentralised\"?",
+        "answer": "Safe pets is designed so that no one, not the creator or other individuals, groups or governments, can influence, counterfeit or seize the cryptocurrency account. There is no central point. Technically speaking, it operates according to rules agreed by consensus, rather than decided upon by some founding or owning entity."
       },
       {
-        "question": "Will Safe pets token price go up?",
-        "answer": "We believe the project is unique and there is big chance to be succesfull."
+        "question": "Does Safe pets token have a future?",
+        "answer": "As we have a great team of professionals with that makes everything for it than definitely yes. 35 thousand kinds of animals are critically endangered on earth. Money for the protection and restoration of the fauna is lacking and the support of organizations is stagnant. Without animals the planet cannot function."
       },
       {
-        "question": "Má token Safe pets budoucnost?",
-        "answer": "As we have a great team of professionals with that makes everything for it than definitely yes. Stay tuned!"
+        "question": "What do you mean by \"cryptocurrency\"?",
+        "answer": "A cryptocurrency is a digital currency that is secured by cryptography, in contrast to conventional (fiat) currencies where they are secured by a government or governments. It's money for the people, and the more people own and use it, the more useful it becomes"
       },
       {
-        "question": "Co máte na mysli pod pojmem \"kryptoměna\"?",
-        "answer": "A cryptocurrency is a digital currency that is secured by cryptography, in contrast to conventional (fiat) currencies where they are secured by a government or governments."
-      },
-      {
-        "question": "Dobře, ale co to znamená?",
+        "question": "Okay, but what does that mean?",
         "answer": "It means you don't have to trust any central organisation or person the way you would a bank, but also that you have to be your own bank. The developers can't seize your funds, but they also can't return them if you send them to the wrong address."
       },
       {
-        "question": "SKdo tedy provozuje token Safe pets?",
+        "question": "So who does run Safe pets token?",
         "answer": "No-one, or everyone does equally, depending how you look at it. The developers can release new software, but the community have to choose to use that software. That community includes not just the end-users, but miners, exchanges, payment processors, etc. Typically the community does adopt new software we release because we have an established track record, but there's no special access we have."
       },
       {
-        "question": "Jak mohu použít/přijmout token Safe pets?",
-        "answer": "We plan to make a list of acceptors of the token to help indivitual organisations."
+        "question": "How do I use/accept Safe pets token?",
+        "answer": "We plan to make a list of acceptors of the token to help indivitual organisations that need funds to rescue endangered or abandoned animals."
+      },
+      {
+        "question": "Is my investment in Safe pets safe?",
+        "answer": "Absolutely. Team members are doxxed and KYC. Contract that is audited in roadmap phase 7 will pass second audit. Safe pets is legally based on a civil association."
       }
     ]
   },
@@ -320,7 +321,7 @@
         "profession": "Marketing Developer",
         "text": "Náš marketingový specialista má zkušenosti v oblasti obchodu, marketingu a bankovnictví. Tomáš v současné době pracuje jako obchodní manažer v IT společnosti, kde se zaměřuje na marketing a budování značky. Všechny zkušenosti a znalosti se snaží využít k efektivnímu marketingu a propagaci prostřednictvím sociálních sítí a online marketingu.",
         "personClass": "text-green-secondary",
-        "image": "default",
+        "image": "Martin",
         "personLinkedIn": ""
       },
       {
@@ -328,7 +329,7 @@
         "profession": "Fullstack Developer",
         "text": "Štefan je fullstack vývojář, který v současné době pracuje pro digitální zdravotnickou společnost v Bratislavě. Stará se o infrastrukturu webových stránek a případně (v budoucnu) o mobilní aplikace pro Android a iOS.",
         "personClass": "text-green-primary",
-        "image": "Stefan",
+        "image": "Martin",
         "personLinkedIn": ""
       },
       {
@@ -336,7 +337,7 @@
         "profession": "Graphic Designer",
         "text": "Alex nám pomohla s návrhem webových stránek a vytvořila veškerou grafiku, která se používá na webových stránkách a marketingových materiálech (logo, bannery na sociálních sítích atd.).",
         "personClass": "text-purple-primary",
-        "image": "default",
+        "image": "Alex",
         "personLinkedIn": ""
       },
       {
@@ -402,15 +403,18 @@
   "seo" : {
     "homepage": {
       "title" : "",
-      "description" : ""
+      "description" : "",
+      "keywords": ""
     },
     "metamask": {
       "title" : "",
-      "description" : ""
+      "description" : "",
+      "keywords": ""
     },
     "trustwallet": {
       "title" : "",
-      "description" : ""
+      "description" : "",
+      "keywords": ""
     }
   }
 }

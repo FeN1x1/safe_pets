@@ -8,7 +8,7 @@
       {{ title }}
     </h2>
     <h3 v-else
-      class="relative underline-decoration"
+      class="relative underline-decoration inline"
     >
       {{ title }}
     </h3>
@@ -68,8 +68,13 @@ h2:after {
 }
 
 .underline-decoration {
-  text-decoration: underline;
-  text-underline-offset: 10px;
-  text-decoration-color: #00b3b7;
+  --tw-gradient-to: #00b3b7;
+  --tw-gradient-stops: var(--tw-gradient-from),
+  var(--tw-gradient-to, rgba(0, 179, 183, 0));
+  --tw-gradient-from: #0ce2af;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  background-size: 100% 6px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
 }
 </style>
