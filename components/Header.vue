@@ -94,7 +94,7 @@
               >
                 {{ $t('header.comingSoon') }}
               </button>
-              <button type="button" class="button-wider">
+              <button type="button" class="button-wider cursor-not-allowed">
                 {{ $t('header.copy') }}
               </button>
             </div>

@@ -11,7 +11,7 @@
     },
     "brandNewToken": "Brand New Token",
     "title": {
-      "part1": "World's Community coin created for helping",
+      "part1": "World's Community token created for helping",
       "part2": "innocent pets & endangered animals"
     },
     "text": "World's Community coin created for helping to animals. We're proud to be the first crypto currency creators created unique token with unusual goals. Safe Pets token created with one purpose to help the endangered animals and to make a shelter for pets around the World. Safe Pets token provides static reflection that rewards holders, so more token being automatically added to your wallet each transaction, every purchase automatically added to charity wallet 2% of transaction what will be provided to chosen shetlers.",
@@ -392,6 +392,10 @@
       "name": "Your Name",
       "email": "Your Email",
       "message": "Your Message"
+    },
+    "form": {
+      "success": "Form was submitted successfully! We will contact you as soon as possible",
+      "error": "There was a problem with your submission, try again later"
     },
     "send" : "Send"
   },

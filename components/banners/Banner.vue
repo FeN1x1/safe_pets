@@ -1,7 +1,10 @@
 <template>
-  <a target='_blank' :href='link' class='text-center my-auto sm:px-4'>
+<!--  <a target='_blank' event='' :href='link' class='text-center my-auto sm:px-4'>-->
+<!--    <nuxt-img :src='`partners/${image}.png`' :alt='image' />-->
+<!--  </a>-->
+  <div v-tooltip.top-center="msg" class='text-center cursor-not-allowed hover-blur transition duration-300 transform my-auto sm:px-4'>
     <nuxt-img :src='`partners/${image}.png`' :alt='image' />
-  </a>
+  </div>
 </template>
 
 <script>

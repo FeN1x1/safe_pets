@@ -393,6 +393,10 @@
       "email": "Váš Email",
       "message": "Vaša Správa"
     },
+    "form": {
+      "success": "Formulár bol úspešne odoslaný! Budeme vás kontaktovať čo najskôr",
+      "error": "Vyskytol sa problém s odoslaním formulára, skúste to prosím neskôr"
+    },
     "send": "Odoslať"
   },
   "validation": {

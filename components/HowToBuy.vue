@@ -3,8 +3,10 @@
     <AppTitle :title='$t("howToBuy.title")' />
     <div class='grid gap-8 row-gap-5 md:grid-cols-3 sm:max-w-screen-lg mx-auto'>
       <div
-        class='relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl'>
+        class='hover-blur relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl'>
         <nuxt-link
+          event=''
+          class='cursor-not-allowed'
           :to="localePath('/trustwallet')">
           <div
             class='absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-gradient-to-r from-green-secondary to-green-primary group-hover:scale-x-100'></div>
@@ -24,8 +26,10 @@
         </nuxt-link>
       </div>
       <div
-        class='relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl'>
+        class='hover-blur relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl'>
         <nuxt-link
+          event=''
+          class='cursor-not-allowed'
           :to="localePath('/metamask')">
           <div
             class='absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-gradient-to-r from-green-secondary to-green-primary group-hover:scale-x-100'></div>
@@ -45,8 +49,9 @@
         </nuxt-link>
       </div>
       <div
-        class='relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl'>
-        <a target='_blank' href='https://pancakeswap.finance/swap'>
+        class='hover-blur relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl'>
+<!--        <a target='_blank' href='https://pancakeswap.finance/swap'>-->
+        <div class='cursor-not-allowed'>
           <div
             class='absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-gradient-to-r from-green-secondary to-green-primary group-hover:scale-x-100'></div>
           <div
@@ -62,7 +67,7 @@
               alt='pancake-swap'
             />
           </div>
-        </a>
+<!--        </a>--></div>
       </div>
     </div>
     <AppTitleSmaller :title='$t("howToBuy.exchanges.title")' class='-pb-4' />
@@ -88,6 +93,9 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style>
+.hover-blur:hover {
+  webkit-filter: blur(3px);
+  filter: blur(3px);
+}
 </style>

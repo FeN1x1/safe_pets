@@ -29,6 +29,7 @@ export default {
     { src: '~/plugins/vue-burger-menu.js', ssr: false },
     '~/plugins/vee-validate.js',
     '~/plugins/i18n.js',
+    '~/plugins/v-tooltip.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -53,6 +54,8 @@ export default {
 
   modules: [
     // Simple usage
+    "vue-toastification/nuxt",
+    '@nuxtjs/axios',
     'nuxt-breakpoints',
     '@nuxtjs/i18n',
     'nuxt-seo',
@@ -74,6 +77,11 @@ export default {
 
   googleAnalytics: {
     // Options
+  },
+
+  toast: {
+    timeout: 5000,
+    maxToasts: 2
   },
 
   i18n: {

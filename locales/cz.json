@@ -12,28 +12,28 @@
     "brandNewToken": "Zbrusu Nový Token",
     "title": {
       "part1": "Světový komunitní token vytvořen za účelem pomoci",
-      "part2": "nevinním domácím zvířátkám"
+      "part2": "opuštěným domácím mazlíčkům a ohroženým zvířatům"
     },
     "text": "Světový komunitní token, vytvořený na pomoc zvířatům. Jsme hrdí na to, že jsme jako první tvůrci kryptoměny vytvořili unikátní token s neobvyklými cíli. Safe Pets token je vytvořen s jediným cílem – pomáhat ohroženým zvířatům a vytvořit útulek pro domácí mazlíčky po celém světě. Safe Pets token poskytuje statické odměny pro investory. Každou transakcí automaticky narůstá počet mincí v peněžence držitele tokenu. Každou transakcí se také automaticky přidává 2% z transakce do charitativní peněženky. Vybrané prostředky budou poskytnuty vybraným útulkům.",
     "comingSoon": "Již brzy...",
     "copy": "Kopírovat"
   },
   "countdown": {
-    "title": "Kdy bude token Safe pets uveden na trh?",
+    "title": "Kdy bude token Safe Pets uveden na trh?",
     "in": "za",
     "and": "a",
     "days": "Dní",
     "hours": "Hodin",
     "minutes": "Minut",
     "seconds": "Vteřin",
-    "text": "*Čas je pouze přibližný a v případě potřeby se může změnit."
+    "text": "*Čas je pouze přibližný a může se změnit."
   },
   "tokenomics": {
     "title": "Tokenomie",
     "marketingTitle": "Intenzivní marketing",
     "marketingText": "2 % z každé transakce jsou určena na marketing. To nám umožňuje financovat naše nejambicióznější projekty, které slouží k dalšímu odměňování komunity.",
     "rewardsTitle": "Odměny investorům",
-    "rewardsText": "2 % z každé transakce jsou přerozdělena držitelům tokenů. To znamená, že můžete vydělat více tokenů Safe pets už jen tím, že je budete držet v peněžence.",
+    "rewardsText": "2 % z každé transakce jsou přerozdělena držitelům tokenů. To znamená, že můžete vydělat více tokenů Safe Pets už jen tím, že je budete držet v peněžence.",
     "charityTitle": "Charitatitvní peněženka",
     "charityText": "Máme určenou charitativní peněženku, která přijímá 2 % z každé transakce, která jsou použita na podporu našich charitativních partnerů.",
     "liquidityTitle": "Rostoucí likvidita",
@@ -74,7 +74,7 @@
       {
         "phases": [
           {
-            "phase": "~500 Investorov"
+            "phase": "~500 investorů"
           },
           {
             "phase": "~1 000 Členů telegramové skupiny"
@@ -111,7 +111,7 @@
             "phase": "NFT Galerie"
           },
           {
-            "phase": "Druhý charitatívni dar"
+            "phase": "Druhý charitativní dar"
           }
         ]
       },
@@ -130,10 +130,10 @@
             "phase": "Nová partnerství"
           },
           {
-            "phase": " NFT program obchodování"
+            "phase": "Platforma pro obchodování s NFT"
           },
           {
-            "phase": "Zákaznícka podpora"
+            "phase": "Zákaznická podpora"
           },
           {
             "phase": "Třetí charitativní dar"
@@ -256,36 +256,36 @@
     "title": "Časté dotazy",
     "questions": [
       {
-        "question": "What is Safe pets Token?",
-        "answer": "Safe pets token is a decentralised cryptocurrency based on the idea of saving pets and other species from extinction. Each transaction also raises an amount that will be sent to organizations for saving endangered animals."
+        "question": "Co je Safe Pets Token?",
+        "answer": "Safe pets token je decentralizovaná kryptoměna, založená na myšlence záchrany domácích mazlíčků a dalších druhů před vyhynutím. Každou transakcí se zároveň získává částka, která bude zaslána organizacím na záchranu ohrožených zvířat."
       },
       {
-        "question": "What do you mean by \"decentralised\"?",
-        "answer": "Safe pets is designed so that no one, not the creator or other individuals, groups or governments, can influence, counterfeit or seize the cryptocurrency account. There is no central point. Technically speaking, it operates according to rules agreed by consensus, rather than decided upon by some founding or owning entity."
+        "question": "Co je myšleno pod pojmem \",decentralizovaná\"?",
+        "answer": "Safe Pets je navržen tak, aby nikdo, tvůrce, ani jiní jednotlivci, skupiny nebo vlády, nemohl kryptoměnu ovlivnit, zfalšovat nebo zabavit. Neexistuje žádný centrální bod. Technicky vzato funguje podle pravidel dohodnutých konsensem, nikoliv podle rozhodnutí nějakého zakladatele nebo vlastníka."
       },
       {
-        "question": "Does Safe pets token have a future?",
-        "answer": "As we have a great team of professionals with that makes everything for it than definitely yes. 35 thousand kinds of animals are critically endangered on earth. Money for the protection and restoration of the fauna is lacking and the support of organizations is stagnant. Without animals the planet cannot function."
+        "question": "Má token Safe Pets budoucnost?",
+        "answer": "Vzhledem k tomu, že máme skvělý tým profesionálů, kteří dělají vše pro to, takže určitě ano. Na Zemi je kriticky ohroženo 35 tisíc druhů zvířat. Peníze na ochranu a obnovu fauny chybí a podpora organizací stagnuje. Bez zvířat nemůže planeta fungovat."
       },
       {
-        "question": "What do you mean by \"cryptocurrency\"?",
-        "answer": "A cryptocurrency is a digital currency that is secured by cryptography, in contrast to conventional (fiat) currencies where they are secured by a government or governments. It's money for the people, and the more people own and use it, the more useful it becomes"
+        "question": "Co je myšleno pod pojmem \"kryptoměna\"?",
+        "answer": "Kryptoměna je digitální měna, která je zajištěna kryptografií, na rozdíl od běžných (fiat) měn, které jsou zajištěny vládou nebo vládami. Jsou to peníze pro lidi, a čím více lidí je vlastní a používá, tím jsou užitečnější."
       },
       {
-        "question": "Okay, but what does that mean?",
-        "answer": "It means you don't have to trust any central organisation or person the way you would a bank, but also that you have to be your own bank. The developers can't seize your funds, but they also can't return them if you send them to the wrong address."
+        "question": "Dobře, ale co to znamená?",
+        "answer": "Znamená to, že nemusíte důvěřovat žádné centrální organizaci nebo osobě tak, jako byste důvěřovali bance, ale také to, že musíte být sami sobě bankou. Vývojáři vám nemohou zabavit peníze, ale také je nemohou vrátit, pokud je pošlete na špatnou adresu."
       },
       {
-        "question": "So who does run Safe pets token?",
-        "answer": "No-one, or everyone does equally, depending how you look at it. The developers can release new software, but the community have to choose to use that software. That community includes not just the end-users, but miners, exchanges, payment processors, etc. Typically the community does adopt new software we release because we have an established track record, but there's no special access we have."
+        "question": "Kdo tedy provozuje token Safe Pets?",
+        "answer": "Nikdo, nebo všichni stejně, záleží na tom, jak se na to díváte. Vývojáři mohou vydávat nový software, ale komunita se musí rozhodnout, zda jej bude používat. Tato komunita zahrnuje nejen koncové uživatele, ale i těžaře, burzy, zpracovatele plateb atd. Komunita obvykle přijímá nový software, který vydáváme, protože máme zavedené zkušenosti, ale nemáme k němu žádný zvláštní přístup."
       },
       {
-        "question": "How do I use/accept Safe pets token?",
-        "answer": "We plan to make a list of acceptors of the token to help indivitual organisations that need funds to rescue endangered or abandoned animals."
+        "question": "Jak mohu použít/přijmout token Safe Pets?",
+        "answer": "Plánujeme vytvořit seznam příjemců tokenů, abychom pomohli individuálním organizacím, které potřebují finanční prostředky na záchranu ohrožených nebo opuštěných zvířat."
       },
       {
-        "question": "Is my investment in Safe pets safe?",
-        "answer": "Absolutely. Team members are doxxed and KYC. Contract that is audited in roadmap phase 7 will pass second audit. Safe pets is legally based on a civil association."
+        "question": " Je moje investice do Safe Pets bezpečná?",
+        "answer": " Rozhodně. Členové týmu mají ověřenou identitu třetí osobou. Chytrá smlouva je auditovaná a ve fázi 7 roadmapy projde druhým auditem. Safe Pets token je založen na právních základech občanského združení na Slovensku"
       }
     ]
   },
@@ -361,7 +361,7 @@
     },
     "trustwallet": {
       "step1Title": "Vytvoření peněženky Trust Wallet",
-      "step1Text": "Vytvořte si peněženku Trust Wallet pomocí stolního počítače nebo mobilního zařízení se systémem iOS/Android. To vám umožní nakupovat, prodávat, odesílat a přijímat tokeny Safe Pets.",
+      "step1Text": "Vytvořte si peněženku Trust Wallet pomocí stolního počítače nebo mobilního zařízení se systémem iOS/Android. Umožní Vám nakupovat, prodávat, odesílat a přijímat tokeny Safe Pets.",
       "step2Title": "Odeslání BNB do peněženky",
       "step2Text": "Nejrychlejší způsob, jak si BNB koupit, je přímo z Binance a poslat ji do své Trust Wallet. BNB můžete koupit přímo na MetaMask nebo ji převést do své peněženky MetaMask z burz, jako je Coinbase, Binance atd.",
       "step3Title": "Připojení peněženky Trust Wallet ke službě Pancakeswap",
@@ -371,7 +371,7 @@
     },
     "metamask": {
       "step1Title": "Vytvoření peněženky MetaMask",
-      "step1Text": "Vytvořte si peněženku MetaMask pomocí stolního počítače nebo mobilního zařízení iOS/Android. To vám umožní nakupovat, prodávat, odesílat a přijímat tokeny Safe Pets.",
+      "step1Text": "Vytvořte si peněženku MetaMask pomocí stolního počítače nebo mobilního zařízení iOS/Android. Umožní Vám nakupovat, prodávat, odesílat a přijímat tokeny Safe Pets.",
       "step2Title": "Odeslání BNB do peněženky",
       "step2Text1": "Dalším krokem je přidání Binance smart chain do vaší peněženky. Ve výchozím nastavení se peněženky Metamask připojují k hlavní síti Ethereum. Přejděte do horní části peněženky, kde se nachází miniatura, a najděte tlačítko nastavení. Klikněte na \"networks\" (sítě) a \"add network\" (přidat síť).\nDále je třeba zadat správné hodnoty pro Binance Smart Chain, jak je vidět níže:",
       "step2Text2": "Network name: Binance Smart Chain<br>New RPC URL: https://bsc-dataseed.binance.org<br>Chain ID: 56<br>Symbol: BNB<br>Blockexplorer: https://bscscan.com",
@@ -387,18 +387,22 @@
     "text": "Copyright © 2021 Safe Pets. Všechna práva vyhrazena - Zásady ochrany osobních údajů - Smluvní podmínky Safe Pets není investice. Safe Pets byl vytvořen jako meme parodie, nic neslibuje a není zodpovědný za případné ztráty nebo chyby."
   },
   "contactUs": {
-    "text" : "Have some questions?<br>Send us a message below",
+    "text" : "Máš otázku?<br>Níže nám zašli zprávu",
     "placeholder": {
-      "name": "Your Name",
-      "email": "Your Email",
-      "message": "Your Message"
+      "name": "Jméno",
+      "email": "E-mail",
+      "message": "Text zprávy"
     },
-    "send" : "Send"
+    "form": {
+      "success": "Formulář byl úspěšně odeslán! Budeme Vás co nejdříve kontaktovat",
+      "error": "Vyskytl se problém s odesláním formuláře, zkuste to prosím později"
+    },
+    "send" : "Odeslat"
   },
   "validation": {
-    "username": "Name is required",
-    "email": "Email must be valid",
-    "message": "Message is required"
+    "username": "Jméno je vyžadováno",
+    "email": "E-mail musí být platný",
+    "message": "Zpráva je vyžadována"
   },
   "seo" : {
     "homepage": {
