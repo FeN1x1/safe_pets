@@ -11,10 +11,10 @@
     },
     "brandNewToken": "Brand New Token",
     "title": {
-      "part1": "World's Community token created for helping",
+      "part1": "World's Community coin created to help",
       "part2": "innocent pets & endangered animals"
     },
-    "text": "World's Community coin created for helping to animals. We're proud to be the first crypto currency creators created unique token with unusual goals. Safe Pets token created with one purpose to help the endangered animals and to make a shelter for pets around the World. Safe Pets token provides static reflection that rewards holders, so more token being automatically added to your wallet each transaction, every purchase automatically added to charity wallet 2% of transaction what will be provided to chosen shetlers.",
+    "text": "World's Community coin created to help animals. We're proud to be the first crypto currency creators to think outside the box in creating a unique token with unconventional goals. SafePets token was created with one purpose which is to help endangered animals and to make shelters for forgotten pets around the World. SafePets token provides static reflection that rewards holders, which means more tokens being automatically added to your wallet for each transaction made, even if it’s not yours. Guaranteed 2% from every purchase is automatically added to SafePets charity wallet which is separated and donated to different shelters and world organizations in the fight for Animal health and Safety. Can’t beat investing and helping change the world at the same time!",
     "comingSoon": "Coming soon...",
     "copy": "Copy"
   },
@@ -30,24 +30,24 @@
   },
   "tokenomics": {
     "title": "Tokenomics",
-    "marketingTitle": "Huge Marketing",
+    "marketingTitle": "Monstrous Marketing",
     "marketingText": "2% of every transaction is allocated to Marketing. This allows us to fuel our most ambitious projects in service of further rewarding our community.",
-    "rewardsTitle": "Rewards Holding",
-    "rewardsText": "2% of each transaction is redistributed to token holders. Thatm eans ou can earn more Safe pets token by just holding them in your wallet.",
+    "rewardsTitle": "Partner Rewards",
+    "rewardsText": "2% of each transaction is redistributed to token investors. That means you can earn more Safe pets tokens by just holding them in your wallet.",
     "charityTitle": "Charity Wallet",
-    "charityText": "We have a designated charity wallet that receivers 2% of each transaction that are used to support our charity partners.",
+    "charityText": "We have a designated charity wallet that allocates 2% of each transaction made and is donated to support our charity partners.",
     "liquidityTitle": "Growing Liquidity",
-    "liquidityText": "4% of each transaction added to locked Pancakeswap liquidity pool."
+    "liquidityText": "4% of each transaction made is locked away in Pancakeswap’s liquidity pool."
   },
   "charity": {
     "title": "Charity",
-    "donationDescribtion": "Donation to shelter for pets",
-    "donationText": "We serve as support of shelters which help of providing protection, care to animals in need; a full-service animal adoption center. Animal shelters and rescues are amazing! Usually with limited resources and very little publicity, they help untold numbers of animals which did not have luck for happy life. Give back by choosing one or more of the following ways to show your appreciation for the groups that do so much for animals, people and your  community."
+    "donationDescribtion": "Donating to shelters and animal health organizations worldwide.",
+    "donationText": "SafePets serves to help shelters with providing protection for animals, caring for animals in need and building a state-of-the-art animal adoption center. Animal shelters and rescues are amazing and need our support since they usually have limited resources, very little publicity and or funding. They help an untold number of animals which are just looking for a happy life. This is your chance to give back! Just be a part of our journey and find your way to our road map where you can learn how you can be a part of something world changing."
   },
   "roadmap": {
     "title": "Roadmap",
-    "text": "There is our amazing roadmap contained 9 phrases. Be part of the successful journey!",
-    "phase" : "Phase",
+    "text": "This is our detailed roadmap which outline’s the 9 phases that will lead SafePets to success. Join the journey!",
+    "phase": "Phase",
     "phases": [
       {
         "phases": [
@@ -64,26 +64,26 @@
             "phase": "Token Launch"
           },
           {
-            "phase": "Launching a token on social media networks"
+            "phase": "Launch of marketing campaign on social media networks"
           },
           {
-            "phase": "Launch charity & marketing wallet"
+            "phase": "Launch of charity & marketing wallets"
           }
         ]
       },
       {
         "phases": [
           {
-            "phase": "~500 holders"
+            "phase": "Reach 500 holders"
           },
           {
-            "phase": "~1 000 telegram members"
+            "phase": "Reach 1 000 telegram members"
           },
           {
             "phase": "Marketing push to spread awareness"
           },
           {
-            "phase": "New Partnerships with international organizations WWF, IUCN, UNEP"
+            "phase": "New Partnerships with international organizations e.g., WWF, IUCN, UNEP"
           },
           {
             "phase": "New Partnerships with universities"
@@ -96,10 +96,10 @@
       {
         "phases": [
           {
-            "phase": "~1 000 holders"
+            "phase": "Reach 1 000 holders"
           },
           {
-            "phase": "~2 000 telegram members"
+            "phase": "Reach 2 000 telegram members"
           },
           {
             "phase": "Video marketing"
@@ -118,10 +118,10 @@
       {
         "phases": [
           {
-            "phase": "~2 500 holders"
+            "phase": "Reach 2 500 holders"
           },
           {
-            "phase": "~5 000 telegram members"
+            "phase": "Reach 5 000 telegram members"
           },
           {
             "phase": "Large influencer marketing push"
@@ -130,10 +130,7 @@
             "phase": "New Partnerships"
           },
           {
-            "phase": " NFT Trading programme"
-          },
-          {
-            "phase": "Customer service management"
+            "phase": " NFT Trading program"
           },
           {
             "phase": "Third donation to charity"
@@ -143,10 +140,10 @@
       {
         "phases": [
           {
-            "phase": "~5 000 holders"
+            "phase": "Reach 5 000 holders"
           },
           {
-            "phase": "~10 000 telegram members"
+            "phase": "Reach 10 000 telegram members"
           },
           {
             "phase": "Listing on bigger CEXs"
@@ -158,26 +155,29 @@
             "phase": "Fourth charity donation"
           },
           {
-            "phase": "Opening our first office in Bratislava"
+            "phase": "Opening of Headquarters in Bratislava"
+          },
+          {
+            "phase": "Launch of international Support team"
           }
         ]
       },
       {
         "phases": [
           {
-            "phase": "~10 000 holders"
+            "phase": "Reach 10 000 holders"
           },
           {
-            "phase": "~25 000 telegram members"
+            "phase": "Reach 25 000 telegram members"
           },
           {
-            "phase": "Increase of Marketing"
+            "phase": "Expansion of Marketing Team"
           },
           {
-            "phase": "Safe Pets Swap"
+            "phase": "SafePets Swap lock away"
           },
           {
-            "phase": "TV and Radio interview"
+            "phase": "TV and Radio interview’s"
           },
           {
             "phase": "Fifth charity donation"
@@ -187,13 +187,13 @@
       {
         "phases": [
           {
-            "phase": "~20 000+ holders"
+            "phase": "Reach 20 000+ holders"
           },
           {
-            "phase": "~50 000 telegram members"
+            "phase": "Reach 50 000 telegram members"
           },
           {
-            "phase": "NFT game"
+            "phase": "Launch of NFT game"
           },
           {
             "phase": "Listing on more exchanges"
@@ -209,13 +209,13 @@
       {
         "phases": [
           {
-            "phase": "~50 000+ holders"
+            "phase": "Reach 50 000+ holders"
           },
           {
-            "phase": "~80 000 telegram members"
+            "phase": "Reach 80 000 telegram members"
           },
           {
-            "phase": "New partnerships"
+            "phase": "Gain world renowned partnerships"
           },
           {
             "phase": "Massive internet campaign"
@@ -231,10 +231,10 @@
       {
         "phases": [
           {
-            "phase": "~100 000+ holders"
+            "phase": "Reach 100 000+ holders"
           },
           {
-            "phase": "~150 000 telegram members"
+            "phase": "Reach 150 000 telegram members"
           },
           {
             "phase": "Massive TV campaign"
@@ -256,36 +256,36 @@
     "title": "faq",
     "questions": [
       {
-        "question": "What is Safe pets Token?",
-        "answer": "Safe pets token is a decentralised cryptocurrency based on the idea of saving pets and other species from extinction. Each transaction also raises an amount that will be sent to organizations for saving endangered animals."
+        "question": "What is SafePets Token?",
+        "answer": "SafePets token is a decentralized cryptocurrency based on the idea of saving pets and other species from extinction one transaction at a time. 2% of each transaction is donated to organizations in the fight to save endangered animals."
       },
       {
-        "question": "What do you mean by \"decentralised\"?",
-        "answer": "Safe pets is designed so that no one, not the creator or other individuals, groups or governments, can influence, counterfeit or seize the cryptocurrency account. There is no central point. Technically speaking, it operates according to rules agreed by consensus, rather than decided upon by some founding or owning entity."
+        "question": "What do you mean by \"decentralized\"?",
+        "answer": "SafePets is designed so that no one, not the creator or other individuals, groups, or governments, can influence, counterfeit, or seize the cryptocurrency account. There is no central point. Technically speaking, it operates according to rules agreed by consensus, rather than decided upon by some foundation or entity."
       },
       {
-        "question": "Does Safe pets token have a future?",
-          "answer": "As we have a great team of professionals with that makes everything for it than definitely yes. 35 thousand kinds of animals are critically endangered on earth. Money for the protection and restoration of the fauna is lacking and the support of organizations is stagnant. Without animals the planet cannot function."
+        "question": "Does SafePets token have a future?",
+        "answer": "We have a team of professionals that are the best at what they do in the industry. With each passing day the endangerment of animals worsens, so we will be the sun to their moon, and we think everyone will want to be a part of that. Our future looks very BRIGHT!"
       },
       {
         "question": "What do you mean by \"cryptocurrency\"?",
-        "answer": "A cryptocurrency is a digital currency that is secured by cryptography, in contrast to conventional (fiat) currencies where they are secured by a government or governments. It's money for the people, and the more people own and use it, the more useful it becomes"
+        "answer": "Cryptocurrency is a digital currency that is secured by cryptography, in contrast to conventional (fiat) currencies where they are secured by a government or governments. It's money for the people, and the more people own and use it, the more useful and valuable it becomes."
       },
       {
         "question": "Okay, but what does that mean?",
-        "answer": "It means you don't have to trust any central organisation or person the way you would a bank, but also that you have to be your own bank. The developers can't seize your funds, but they also can't return them if you send them to the wrong address."
+        "answer": "Think supply and demand. Only so much supply no matter the demand, the more demand the more valuable it is. Which means you don't have to trust any central organization or person like you would a bank. You are the bank, you’re in control."
       },
       {
-        "question": "So who does run Safe pets token?",
-        "answer": "No-one, or everyone does equally, depending how you look at it. The developers can release new software, but the community have to choose to use that software. That community includes not just the end-users, but miners, exchanges, payment processors, etc. Typically the community does adopt new software we release because we have an established track record, but there's no special access we have."
+        "question": "Who run’s SafePets token?",
+        "answer": "No-one, or everyone does equally, depending how you look at it. The developers can release new software, but at the end of the day the community must choose to use that software. Remember the community includes not only the end-users, but miners, exchanges, payment processors, etc. We’re all in it for the same reason’s and if every ones in it to win it then it’s a recipe for success."
       },
       {
-        "question": "How do I use/accept Safe pets token?",
-        "answer": "We plan to make a list of acceptors of the token to help indivitual organisations that need funds to rescue endangered or abandoned animals."
+        "question": "How do I use/accept SafePets token?",
+        "answer": "The first exchange that you will be able to purchase and use the token on will be on pancakeswap.finance."
       },
       {
-        "question": "Is my investment in Safe pets safe?",
-        "answer": "Absolutely. Team members are doxxed and KYC. Contract that is audited in roadmap phase 7 will pass second audit. Safe pets is legally based on a civil association."
+        "question": "Is my investment in SafePets safe?",
+        "answer": "Absolutely. All our teams follow strict KYC policies. We will also be doing audits to make sure that nothing slips through the cracks, which can be found in our road map, phases 1 and 7."
       }
     ]
   },
@@ -295,15 +295,15 @@
       {
         "title": "Michal",
         "profession": "Project Leader",
-        "text": "Michal develops high quality business strategies and plans ensuring their alignment with short-term and long-term objectives. Experienced in Audit, Analysis & Forecasts. Also was a part of European voluntary organization. Manage important partnerships and Safe Pets token's team.",
+        "text": "Uses high quality business strategies and plans and ensuring their alignment and organization of short-term and long-term objectives. Highly experienced in Auditing, Analysis & Forecasts, Thanks to having the opportunity to work for the Ministry of Economy of the Slovak Republic. Has a reputation for working smoothly under pressure, and for encouraging a warm and positive working environment.  Michal took part in the European voluntary organization, Future Generation Europe. He’s managed important partnerships and founded the SafePets team. He is currently working as an analyst in the economic law department of one of the largest IT companies in the world. ",
         "personClass": "text-green-primary",
         "image": "Michal",
         "personLinkedIn": "https://www.linkedin.com/in/michal-sur%C5%BEin-1240851b3/"
       },
       {
         "title": "Daniel",
-        "profession": "Networking Developer",
-        "text": "As a succesfully graduated student of the banking institute of Prague that he ended with the Law administration in business sphere programme. Daniel manages our campaigns, partnerships & law problems that occure. 15 years of experience in business makes him a key player for networking. He's favourite quote is: Sky is the limit!\n",
+        "profession": "Business Development Manager",
+        "text": "As a graduate of the banking institute of Prague, he finished the program of Law administration in the business sphere. Daniel manages our campaigns, partnerships & law matters that arise. 15 years of experience in the business making him a key member for networking. He's favorite quote is: Sky is the limit!",
         "personClass": "text-purple-primary",
         "image": "Daniel",
         "personLinkedIn": "https://www.linkedin.com/in/sucho-hajnik-30a8b282"
@@ -311,7 +311,7 @@
       {
         "title": "Martin",
         "profession": "Lead Developer",
-        "text": "Our computer scientist and full-stack developer experienced in Blockchain, Trading and Technical analysis. He is also working as programmer for a company that develops electric chargers for electric cars.",
+        "text": "The head of computer science and full-stack development. Has a wealth of experienced in Blockchain, Trading and Technical analysis. Is an up-and-coming developer in the industry and is a breath of fresh air to work with, bringing new ideas to the table. Martin works as a programmer for a company that develops electric chargers for electric cars.",
         "personClass": "text-green-secondary",
         "image": "Martin",
         "personLinkedIn": "https://www.linkedin.com/in/martin-gelo-2b5249224/"
@@ -319,23 +319,23 @@
       {
         "title": "TomaS",
         "profession": "Marketing Developer",
-        "text": "Our marketing specialist experienced in Trading, Marketing and Bank sector. Tomas is currently working as sales manager in IT company, where he focuses on marketing and brand building. He tries to implement all experiences and knowledge to doing effective marketing and promotion through social networks and online marketing.",
+        "text": "Our marketing specialist experienced in Trading, Marketing and Finance. Tomas is currently working as Sales Manager for an IT company, where he focuses on marketing and brand building. He implements all experiences and knowledge that he has gained throughout his career into effective marketing and promotion strategies on social networks and online markets.",
         "personClass": "text-green-secondary",
         "image": "Martin",
         "personLinkedIn": ""
       },
       {
         "title": "Stefan",
-        "profession": "Fullstack Developer",
-        "text": "Stefan is a fullstack developer currently working for a digital health company in Bratislava. He takes care of website infrastructure and possibly (in the future) mobile apps for Android and iOS.",
+        "profession": "Full Stack Developer",
+        "text": "Stefan is a full stack developer currently working for a digital health company in Bratislava. He specializes in JavaScript, front, and back-end APP development for android, IOS and windows. Specializes in creating content using drones to give the experience of a lifetime. Plays an important part in the development of anything that goes live for SafePets. ",
         "personClass": "text-green-primary",
         "image": "Martin",
         "personLinkedIn": ""
       },
       {
-        "title": "Alexandra",
+        "title": "Alex",
         "profession": "Graphic Designer",
-        "text": "She helped us with website design and made all our graphics that is used on website and marketing material (logo, social banners, etc.)",
+        "text": "Alexandra is an extraordinarily talented freelance graphic designer since 2015. Alexandra specialties are All aspects of graphic design, brand identity and has a very strong understanding of advertising design. She has done all the Graphic design and editing of all our web variants. She also plays an integral role in our phenomenal NFT gallery aspect of SafePets",
         "personClass": "text-purple-primary",
         "image": "Alex",
         "personLinkedIn": ""
@@ -343,10 +343,18 @@
       {
         "title": "Peter",
         "profession": "Marketing Developer",
-        "text": "Peter developed own trading system which provides fx signals. Manages our marketing campaigns, builds important partnerships and engages our community.",
+        "text": "Peter is a self-made business executive, with a broad portfolio of investment companies which invest in forex, shares, ETFS and other assets like cryptocurrencies. At a young age Peter managed to develop his own trading system which provides FX signals so successful today. Key in managing our marketing campaigns, builds important partnerships, and engages with our community and partners. His large rolodex of clients is an essential aspect of the future success of SafePets.",
         "personClass": "text-purple-secondary",
         "image": "Peter",
         "personLinkedIn": "https://www.linkedin.com/in/peter-jandura-1b658b122"
+      },
+      {
+        "title": "Jozef",
+        "profession": "Brand Ambassador",
+        "text": "Jozef brings nearly a decade of experience, with an excellent understanding of client/customer relationship, and how to effectively communicate with Native and non-Native English-speaking stakeholders in the online community. He currently works for a tech company as a Deputy VIP Manager based in Prague and have offices worldwide. Which is why he is just the person to be representing SafePets.",
+        "personClass": "text-purple-secondary",
+        "image": "Peter",
+        "personLinkedIn": ""
       }
     ]
   },
@@ -354,27 +362,27 @@
     "title": "How To Buy",
     "antiWhaleShield": {
       "title": "Anti-Whale Shield",
-      "text": "Safe Pets is one of the cryptocurrencies which use the Anti-Whale Mechanism. The system was designed to save holders from whales trying to manipulate the price in their favour or from dumping the token by selling out."
+      "text": "SafePets is one of few cryptocurrencies which uses the Anti-Whale Mechanism. This system was designed to save holders from whales trying to manipulate the price in their favor or from dumping the token."
     },
     "exchanges": {
       "title": "Exchanges"
     },
     "trustwallet": {
       "step1Title": "Create Trust Wallet wallet",
-      "step1Text": "Create a Trust Wallet Wallet using either a desktop computer or an iOS/Android mobile device. That will allow you to buy, sell, send, and receive Safe Pets token.",
+      "step1Text": "Create a Trust Wallet, wallet using either a desktop computer or an iOS/Android mobile device. That will allow you to buy, sell, send, and receive the SafePets token.",
       "step2Title": "Send BNB to your wallet",
       "step2Text": "The fastest way to buy BNB is directly from Binance and send it to your trust wallet. You can buy BNB directly on MetaMask or transfer it to your MetaMask Wallet from exchanges like Coinbase, Binance, etc.",
       "step3Title": "Connect your Trust wallet to Pancakeswap",
       "step3Text": "Access your wallet to PancakeSwap by clicking ‘Connect to a wallet’ and selecting MetaMask.",
-      "step4Title": "Swap BNB for SafePets token",
+      "step4Title": "Swap BNB for your SafePets token",
       "step4Text": "You can start swapping as soon as you have BNB available! Press ‘Select a token’ and enter the token address or search for it on the tokens list."
     },
     "metamask": {
       "step1Title": "Create MetaMask wallet",
       "step1Text": "Create a MetaMask Wallet using either a desktop computer or an iOS/Android mobile device. That will allow you to buy, sell, send, and receive Safe Pets token.",
       "step2Title": "Send BNB to your wallet",
-      "step2Text1": "The next step is to add the Binance smart chain to your wallet. By default, Metamask wallets link to the Ethereum Mainnet. Navigate to the top of your wallet where your thumbnail is located to find the settings button. Click “networks” and “add network”.\nNext, you’ll need to input the correct values for the Binance Smart Chain, seen below:",
-      "step2Text2": "Network name: Binance Smart ChainNew RPC URL: https://bsc-dataseed.binance.orgChain ID: 56Symbol: BNBBlockexplorer: https://bscscan.com",
+      "step2Text1": "The next step is to add the Binance smart chain to your wallet. By default, Metamask wallets link to the Ethereum Mainnet. Navigate to the top of your wallet where your thumbnail is located to find the settings button. Click “networks” and “add network”. Next, you’ll need to input the correct values for the Binance Smart Chain, seen below:",
+      "step2Text2": "Network name: Binance Smart Chain<br>New RPC URL: https://bsc-dataseed.binance.org<br>Chain ID: 56<br>Symbol: BNB<br>Blockexplorer: https://bscscan.com",
       "step2Text3": "You can buy BNB directly on MetaMask or transfer it to your MetaMask Wallet from exchanges like Coinbase, Binance, etc.",
       "step3Title": "Connect your Metamask wallet to Pancakeswap",
       "step3Text": "Access your wallet to PancakeSwap by clicking ‘Connect to a wallet’ and selecting MetaMask.",
@@ -387,7 +395,8 @@
     "text": "Copyright © 2021 Safe Pets. All Rights Reserved - Privacy Policy - Terms and Conditions Safe Pets is not an investment. Safe Pets was created as a meme parody, makes no promises and is not responsible for any losses or errors."
   },
   "contactUs": {
-    "text" : "Have some questions?<br>Send us a message below",
+    "text": "Have some questions?<br>Send us a message below",
+    "soon": "Coming soon",
     "placeholder": {
       "name": "Your Name",
       "email": "Your Email",
@@ -397,28 +406,32 @@
       "success": "Form was submitted successfully! We will contact you as soon as possible",
       "error": "There was a problem with your submission, try again later"
     },
-    "send" : "Send"
+    "send": "Send"
   },
   "validation": {
     "username": "Name is required",
     "email": "Email must be valid",
     "message": "Message is required"
   },
-  "seo" : {
+  "seo": {
     "homepage": {
-      "title" : "",
-      "description" : "",
+      "title": "",
+      "description": "",
       "keywords": ""
     },
     "metamask": {
-      "title" : "",
-      "description" : "",
+      "title": "",
+      "description": "",
       "keywords": ""
     },
     "trustwallet": {
-      "title" : "",
-      "description" : "",
+      "title": "",
+      "description": "",
       "keywords": ""
     }
+  },
+  "cookies": {
+    "text": "Táto webová stránka používa cookies. Ak budete pokračovať v používaní tejto stránky zároveň tým súhlasíte s používaním cookies",
+    "button" : "Súhlasím"
   }
 }

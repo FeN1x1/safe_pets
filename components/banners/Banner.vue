@@ -2,7 +2,7 @@
 <!--  <a target='_blank' event='' :href='link' class='text-center my-auto sm:px-4'>-->
 <!--    <nuxt-img :src='`partners/${image}.png`' :alt='image' />-->
 <!--  </a>-->
-  <div v-tooltip.top-center="msg" class='text-center cursor-not-allowed hover-blur transition duration-300 transform my-auto sm:px-4'>
+  <div @click='toast' class='text-center cursor-pointer hover-blur transition duration-300 transform my-auto sm:px-4'>
     <nuxt-img :src='`partners/${image}.png`' :alt='image' />
   </div>
 </template>
@@ -17,6 +17,10 @@ export default {
     },
     link: {
       type: String,
+      required: true
+    },
+    toast: {
+      type: Function,
       required: true
     }
   }

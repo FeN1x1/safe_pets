@@ -6,7 +6,7 @@
       lg:pb-20 lg:pt-36
       py-8
       lg:py-0
-      sm:max-w-xl
+      sm:max-w-full
       md:max-w-full
       lg:max-w-screen-xl
     "
@@ -22,9 +22,9 @@
           class="block lg:hidden mx-auto px-4 pb-8"
         />
       </div>
-      <section class="space-x-10 m-auto lg:ml-auto flex z-10">
-        <div class="m-auto p-4 sm:p-0">
-          <div :class="{ 'text-width': isLsm }" class="mb-3">
+      <section class="space-x-10 my-auto w-full lg:ml-auto flex z-10">
+        <div class="m-auto w-full sm:w-5/6 md:w-4/6 lg:w-4/5 p-4 sm:p-0">
+          <div class="mb-3">
             <p
               v-html="$t('contactUs.text')"
               class="text-3xl text-brown-primary text-left"
@@ -32,7 +32,7 @@
           </div>
           <ValidationObserver v-slot="{ handleSubmit }" ref="observer">
             <form @submit.prevent="handleSubmit(onSubmit)">
-              <div class="flex flex-col">
+              <div class="flex flex-col w-full">
                 <ValidationProvider
                   v-slot="{ errors }"
                   name="username"
@@ -168,9 +168,7 @@
 
 <script>
 import { ValidationObserver, ValidationProvider } from 'vee-validate'
-const config = {
-  headers: { 'content-type': 'application/x-www-form-urlencoded' },
-}
+
 export default {
   name: 'Contact',
   components: {
@@ -214,7 +212,7 @@ export default {
     },
     submitData() {
       this.$axios
-        .$post(this.productionApi, this.appendFormData(), config)
+        .$post(this.productionApi, this.appendFormData())
         .then(() => {
           this.clearForm()
           this.$refs.observer.reset()

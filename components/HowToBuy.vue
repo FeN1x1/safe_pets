@@ -1,78 +1,323 @@
 <template>
-  <article id='howToBuy' class='px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
-    <AppTitle :title='$t("howToBuy.title")' />
-    <div class='grid gap-8 row-gap-5 md:grid-cols-3 sm:max-w-screen-lg mx-auto'>
+  <article
+    id="howToBuy"
+    class="
+      px-4
+      py-8
+      mx-auto
+      sm:max-w-xl
+      md:max-w-full
+      lg:max-w-screen-xl
+      md:px-24
+      lg:px-8
+    "
+  >
+    <AppTitle :title="$t('howToBuy.title')" />
+    <div class="grid gap-8 row-gap-5 md:grid-cols-3 sm:max-w-screen-lg mx-auto">
       <div
-        class='hover-blur relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl'>
-        <nuxt-link
-          event=''
-          class='cursor-not-allowed'
-          :to="localePath('/trustwallet')">
+        class="
+          cursor-pointer
+          hover-blur
+          relative
+          p-px
+          overflow-hidden
+          transition
+          duration-300
+          transform
+          border
+          rounded
+          shadow-sm
+          hover:scale-105
+          group
+          hover:shadow-xl
+        "
+      >
+        <!--        <nuxt-link event="" :to="localePath('/trustwallet')">-->
+        <div @click="toggleToast">
           <div
-            class='absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-gradient-to-r from-green-secondary to-green-primary group-hover:scale-x-100'></div>
+            class="
+              absolute
+              bottom-0
+              left-0
+              w-full
+              h-1
+              duration-300
+              origin-left
+              transform
+              scale-x-0
+              bg-gradient-to-r
+              from-green-secondary
+              to-green-primary
+              group-hover:scale-x-100
+            "
+          ></div>
           <div
-            class='absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-gradient-to-r from-green-secondary to-green-primary group-hover:scale-y-100'></div>
+            class="
+              absolute
+              bottom-0
+              left-0
+              w-1
+              h-full
+              duration-300
+              origin-bottom
+              transform
+              scale-y-0
+              bg-gradient-to-r
+              from-green-secondary
+              to-green-primary
+              group-hover:scale-y-100
+            "
+          ></div>
           <div
-            class='absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-gradient-to-l from-green-secondary to-green-primary group-hover:scale-x-100'></div>
+            class="
+              absolute
+              top-0
+              left-0
+              w-full
+              h-1
+              duration-300
+              origin-right
+              transform
+              scale-x-0
+              bg-gradient-to-l
+              from-green-secondary
+              to-green-primary
+              group-hover:scale-x-100
+            "
+          ></div>
           <div
-            class='absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-gradient-to-l from-green-secondary to-green-primary group-hover:scale-y-100'></div>
-          <div class='text-center my-auto py-auto p-4 lg:p-8 sm:mt-1'>
+            class="
+              absolute
+              bottom-0
+              right-0
+              w-1
+              h-full
+              duration-300
+              origin-top
+              transform
+              scale-y-0
+              bg-gradient-to-l
+              from-green-secondary
+              to-green-primary
+              group-hover:scale-y-100
+            "
+          ></div>
+          <div class="text-center my-auto py-auto p-4 lg:p-8 sm:mt-1">
             <nuxt-img
-              class='object-fill w-full'
-              src='trustwallet.png'
-              alt='trustwallet'
+              class="object-fill w-full"
+              src="trustwallet.png"
+              alt="trustwallet"
             />
           </div>
-        </nuxt-link>
+          <!--        </nuxt-link>-->
+        </div>
       </div>
       <div
-        class='hover-blur relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl'>
-        <nuxt-link
-          event=''
-          class='cursor-not-allowed'
-          :to="localePath('/metamask')">
+        class="
+          hover-blur
+          cursor-pointer
+          relative
+          p-px
+          overflow-hidden
+          transition
+          duration-300
+          transform
+          border
+          rounded
+          shadow-sm
+          hover:scale-105
+          group
+          hover:shadow-xl
+        "
+      >
+        <!--        <nuxt-link event="" :to="localePath('/metamask')">-->
+        <div @click="toggleToast">
           <div
-            class='absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-gradient-to-r from-green-secondary to-green-primary group-hover:scale-x-100'></div>
+            class="
+              absolute
+              bottom-0
+              left-0
+              w-full
+              h-1
+              duration-300
+              origin-left
+              transform
+              scale-x-0
+              bg-gradient-to-r
+              from-green-secondary
+              to-green-primary
+              group-hover:scale-x-100
+            "
+          ></div>
           <div
-            class='absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-gradient-to-r from-green-secondary to-green-primary group-hover:scale-y-100'></div>
+            class="
+              absolute
+              bottom-0
+              left-0
+              w-1
+              h-full
+              duration-300
+              origin-bottom
+              transform
+              scale-y-0
+              bg-gradient-to-r
+              from-green-secondary
+              to-green-primary
+              group-hover:scale-y-100
+            "
+          ></div>
           <div
-            class='absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-gradient-to-l from-green-secondary to-green-primary group-hover:scale-x-100'></div>
+            class="
+              absolute
+              top-0
+              left-0
+              w-full
+              h-1
+              duration-300
+              origin-right
+              transform
+              scale-x-0
+              bg-gradient-to-l
+              from-green-secondary
+              to-green-primary
+              group-hover:scale-x-100
+            "
+          ></div>
           <div
-            class='absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-gradient-to-l from-green-secondary to-green-primary group-hover:scale-y-100'></div>
-          <div class='text-center my-auto py-auto p-4 lg:p-8'>
+            class="
+              absolute
+              bottom-0
+              right-0
+              w-1
+              h-full
+              duration-300
+              origin-top
+              transform
+              scale-y-0
+              bg-gradient-to-l
+              from-green-secondary
+              to-green-primary
+              group-hover:scale-y-100
+            "
+          ></div>
+          <div class="text-center my-auto py-auto p-4 lg:p-8">
             <nuxt-img
-              class='object-contain my-auto'
-              src='metamask.png'
-              alt='metamask'
+              class="object-contain my-auto"
+              src="metamask.png"
+              alt="metamask"
             />
           </div>
-        </nuxt-link>
+        </div>
+        <!--        </nuxt-link>-->
       </div>
       <div
-        class='hover-blur relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl'>
-<!--        <a target='_blank' href='https://pancakeswap.finance/swap'>-->
-        <div class='cursor-not-allowed'>
+        class="
+          cursor-pointer
+          hover-blur
+          relative
+          p-px
+          overflow-hidden
+          transition
+          duration-300
+          transform
+          border
+          rounded
+          shadow-sm
+          hover:scale-105
+          group
+          hover:shadow-xl
+        "
+      >
+        <!--        <a target='_blank' href='https://pancakeswap.finance/swap'>-->
+        <div @click="toggleToast">
           <div
-            class='absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-gradient-to-r from-green-secondary to-green-primary group-hover:scale-x-100'></div>
+            class="
+              absolute
+              bottom-0
+              left-0
+              w-full
+              h-1
+              duration-300
+              origin-left
+              transform
+              scale-x-0
+              bg-gradient-to-r
+              from-green-secondary
+              to-green-primary
+              group-hover:scale-x-100
+            "
+          ></div>
           <div
-            class='absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-gradient-to-r from-green-secondary to-green-primary group-hover:scale-y-100'></div>
+            class="
+              absolute
+              bottom-0
+              left-0
+              w-1
+              h-full
+              duration-300
+              origin-bottom
+              transform
+              scale-y-0
+              bg-gradient-to-r
+              from-green-secondary
+              to-green-primary
+              group-hover:scale-y-100
+            "
+          ></div>
           <div
-            class='absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-gradient-to-l from-green-secondary to-green-primary group-hover:scale-x-100'></div>
+            class="
+              absolute
+              top-0
+              left-0
+              w-full
+              h-1
+              duration-300
+              origin-right
+              transform
+              scale-x-0
+              bg-gradient-to-l
+              from-green-secondary
+              to-green-primary
+              group-hover:scale-x-100
+            "
+          ></div>
           <div
-            class='absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-gradient-to-l from-green-secondary to-green-primary group-hover:scale-y-100'></div>
-          <div class='text-center my-auto py-auto p-4 lg:p-8 sm:mt-1'>
+            class="
+              absolute
+              bottom-0
+              right-0
+              w-1
+              h-full
+              duration-300
+              origin-top
+              transform
+              scale-y-0
+              bg-gradient-to-l
+              from-green-secondary
+              to-green-primary
+              group-hover:scale-y-100
+            "
+          ></div>
+          <div class="text-center my-auto py-auto p-4 lg:p-8 sm:mt-1">
             <nuxt-img
-              class='object-contain my-auto'
-              src='pancake-swap.png'
-              alt='pancake-swap'
+              class="object-contain my-auto"
+              src="pancake-swap.png"
+              alt="pancake-swap"
             />
           </div>
-<!--        </a>--></div>
+          <!--        </a>-->
+        </div>
       </div>
     </div>
-    <AppTitleSmaller :title='$t("howToBuy.exchanges.title")' class='-pb-4' />
-    <div class='grid grid-cols-2 row-gap-8 md:grid-cols-4'>
-      <BannersBanner v-for='banner in banners' :key='banner.image' :link='banner.link' :image='banner.image' />
+    <AppTitleSmaller :title="$t('howToBuy.exchanges.title')" class="-pb-4" />
+    <div class="grid grid-cols-2 row-gap-8 md:grid-cols-4">
+      <BannersBanner
+        v-for="banner in banners"
+        :key="banner.image"
+        :link="banner.link"
+        :image="banner.image"
+        :toast="toggleToast"
+      />
     </div>
   </article>
 </template>
@@ -86,16 +331,28 @@ export default {
         { image: 'bscscan', link: 'https://pancakeswap.finance/swap' },
         { image: 'dextools', link: 'https://www.dextools.io/' },
         { image: 'binance-smart-chain', link: 'https://www.binance.com/' },
-        { image: 'poocoin', link: 'https://poocoin.app/' }
-      ]
+        { image: 'poocoin', link: 'https://poocoin.app/' },
+      ],
+      isToastActive: false,
     }
-  }
+  },
+  methods: {
+    toggleToast() {
+      if (!this.isToastActive) {
+        this.isToastActive = true
+        this.$toast.warning(this.$t('contactUs.soon'), {})
+        setTimeout(() => {
+          this.isToastActive = false
+        }, 5000)
+      }
+    },
+  },
 }
 </script>
 
 <style>
 .hover-blur:hover {
-  webkit-filter: blur(3px);
-  filter: blur(3px);
+  webkit-filter: blur(2px);
+  filter: blur(2px);
 }
 </style>

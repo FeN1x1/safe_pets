@@ -1,6 +1,6 @@
 <template>
   <div class='child p-4'>
-    <nuxt-img class='sm:mx-auto mr-auto w-1/2'
+    <nuxt-img class='sm:mx-auto mr-auto w-40 md:w-32 lg:w-44'
         :src="`our-team-updated/${image}.png`"
          alt='Person' />
     <div class='flex flex-col justify-center mt-4'>
@@ -50,9 +50,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.child {
-  flex: 0 0 calc(25%);
-}
-</style>

@@ -27,9 +27,9 @@ export default {
   plugins: [
     '~/plugins/vue-scrollTo.js',
     { src: '~/plugins/vue-burger-menu.js', ssr: false },
+    { src: '~/plugins/vue-cookie-law.js', ssr: false },
     '~/plugins/vee-validate.js',
-    '~/plugins/i18n.js',
-    '~/plugins/v-tooltip.js'
+    '~/plugins/i18n.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -76,12 +76,15 @@ export default {
   },
 
   googleAnalytics: {
-    // Options
+    id: "UA-217138328-1",
+    debug: { sendHitTask: true }
   },
 
   toast: {
     timeout: 5000,
-    maxToasts: 2
+    maxToasts: 2,
+    pauseOnFocusLoss: false,
+    pauseOnHover: false
   },
 
   i18n: {

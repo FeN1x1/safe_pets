@@ -17,10 +17,8 @@
         px-4
         py-8
         mx-auto
-        sm:max-w-xl
-        md:max-w-full
-        lg:max-w-screen-xl
-        md:px-24
+        max-w-full
+        md:max-w-screen-xl
         lg:px-8
       "
     >

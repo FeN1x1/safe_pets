@@ -7,7 +7,7 @@
       </svg>
     </div>
     <div class='mx-auto px-4 py-8 sm:max-w-xl md:max-w-full md:px-24 lg:pb-32 lg:pt-16'>
-      <div class='max-w-screen-lg sm:mx-auto'>
+      <div class='max-w-screen-xl sm:mx-auto'>
         <AppTitleSecondary class='max-w-screen-md' :title='$t("faq.title")' />
         <div class='mb-12 space-y-4'>
           <FaqSection v-for='faq in $t("faq.questions")' :key='faq.question' :title='faq.question' :text='faq.answer'/>

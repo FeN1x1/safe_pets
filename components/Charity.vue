@@ -34,14 +34,14 @@
         </div>
       </div>
       <div v-else>
-        <div class='py-8 px-4 sm:m-auto sm:text-center'>
+        <div class='max-w-screen-md py-8 px-4 sm:m-auto sm:text-center'>
           <AppTitleSecondary :title='$t("charity.title")' class='mb-4' />
           <p
-            class='lg:mb-10 py-4 text-xl tracking-wider -mt-6 light-font title text-purple-primary'
+            class='lg:mb-10 py-4 text-xl sm:text-2xl tracking-wider -mt-6 light-font title text-purple-primary'
           >
             {{ $t("charity.donationDescribtion") }}
           </p>
-          <p class='sm:mb-12 mb-4 text-lg tracking-wider text-white light-font'>
+          <p class='sm:mb-12 mb-4 text-lg sm:text-2xl tracking-wider text-white light-font'>
             {{ $t("charity.donationText") }}
           </p>
           <nuxt-img

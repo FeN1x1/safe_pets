@@ -388,6 +388,7 @@
   },
   "contactUs": {
     "text": "Máte nejaké otázky?<br>Pošlite nám správu.",
+    "soon" : "Už čoskoro",
     "placeholder": {
       "name": "Vaše meno",
       "email": "Váš Email",
@@ -420,5 +421,9 @@
       "description": "",
       "keywords": ""
     }
+  },
+  "cookies": {
+    "text": "Táto webová stránka používa cookies. Ak budete pokračovať v používaní tejto stránky zároveň tým súhlasíte s používaním cookies",
+    "button" : "Súhlasím"
   }
 }
