@@ -29,7 +29,8 @@ export default {
     { src: '~/plugins/vue-burger-menu.js', ssr: false },
     { src: '~/plugins/vue-cookie-law.js', ssr: false },
     '~/plugins/vee-validate.js',
-    '~/plugins/i18n.js'
+    '~/plugins/i18n.js',
+    { src: '~/plugins/vue-awesome-swiper', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

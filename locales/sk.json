@@ -7,7 +7,8 @@
       "faq": "Časté otázky",
       "ourTeam": "Náš tím",
       "contact": "Kontakt",
-      "buyNow": "Kúpiť"
+      "buyNow": "Kúpiť",
+      "howToBuy": "How To Buy"
     },
     "brandNewToken": "Nový Token",
     "title": {
@@ -312,7 +313,7 @@
         "title": "Martin",
         "profession": "Lead Developer",
         "text": "Náš informatik a full-stack vývojár so skúsenosťami v oblasti blockchainu, obchodovania a technickej analýzy. Pracuje tiež ako programátor pre spoločnosť, ktorá vyvíja nabíjačky pre elektromobily.",
-        "personClass": "text-green-secondary",
+        "personClass": "text-green-tertiary",
         "image": "Martin",
         "personLinkedIn": "https://www.linkedin.com/in/martin-gelo-2b5249224/"
       },
@@ -320,8 +321,8 @@
         "title": "Tomáš",
         "profession": "Marketing Developer",
         "text": "Náš marketingový špecialista má skúsenosti v oblasti obchodu, marketingu a bankovníctva. Tomáš v súčasnej dobe pracuje ako obchodný manažér v IT spoločnosti, kde sa zameriava na marketing a budovanie značky. Všetky skúsenosti a znalosti sa snaží využiť k efektívnemu marketingu a propagácií prostredníctvom sociálnych sietí a online marketingu.",
-        "personClass": "text-green-secondary",
-        "image": "Martin",
+        "personClass": "text-purple-tertiary",
+        "image": "Tomas",
         "personLinkedIn": ""
       },
       {
@@ -329,14 +330,14 @@
         "profession": "Fullstack Developer",
         "text": "Štefan je fullstack vývojár, ktorý v súčasnej dobe pracuje pre digitálnu zdravotnícku spoločnosť v Bratislave. Stará sa o infraštruktúru webových stránok a prípadne (v budúcnosti) o mobilnú aplikáciu pre Android a IOS.",
         "personClass": "text-green-primary",
-        "image": "Martin",
+        "image": "default",
         "personLinkedIn": ""
       },
       {
         "title": "Alexandra",
         "profession": "Graphic Designer",
         "text": "Alex nám pomohla s návrhom webových stránok a vytvorila všetku grafiku, ktorá sa používa na webových stránkach a marketingových materiáloch (logo, bannery na sociálne siete atd.).",
-        "personClass": "text-purple-primary",
+        "personClass": "text-green-primary",
         "image": "Alex",
         "personLinkedIn": ""
       },
@@ -344,9 +345,17 @@
         "title": "Peter",
         "profession": "Marketing Developer",
         "text": "Peter vyvinul vlastný obchodný systém, ktorý poskytuje fx signály. Riadi naše marketingové kampane, buduje dôležité partnerstvá a zapája našu komunitu.",
-        "personClass": "text-purple-secondary",
+        "personClass": "text-green-secondary",
         "image": "Peter",
         "personLinkedIn": "https://www.linkedin.com/in/peter-jandura-1b658b122"
+      },
+      {
+        "title": "Jozef",
+        "profession": "Brand Ambassador",
+        "text": "Jozef brings nearly a decade of experience, with an excellent understanding of client/customer relationship, and how to effectively communicate with Native and non-Native English-speaking stakeholders in the online community. He currently works for a tech company as a Deputy VIP Manager based in Prague and have offices worldwide. Which is why he is just the person to be representing SafePets.",
+        "personClass": "text-green-tertiary",
+        "image": "Jozef",
+        "personLinkedIn": ""
       }
     ]
   },

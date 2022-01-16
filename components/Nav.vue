@@ -8,8 +8,6 @@
         sm:max-w-xl
         md:max-w-full
         lg:max-w-screen-2xl
-        md:px-16
-        lg:px-16
       "
     >
       <div class="relative fixed lg:flex items-center justify-between">
@@ -26,8 +24,9 @@
             <NavButton :name="$t('header.navigation.roadmap')" to="roadmap" />
             <NavButton :name="$t('header.navigation.faq')" to="faq" />
             <NavButton :name="$t('header.navigation.ourTeam')" to="ourTeam" />
+            <NavButton :name="$t('header.navigation.howToBuy')" to="howToBuy" />
             <NavButton :name="$t('header.navigation.contact')" to="contactUs" />
-            <div class="button" v-scroll-to="'#howToBuy'">
+            <div class="button hover-blur" @click="toggleToast">
               {{ this.$t('header.navigation.buyNow') }}
             </div>
             <AppLanguageDropdown />
@@ -64,17 +63,21 @@
                   :desktop="false"
                 />
                 <NavButton
+                  :name="$t('header.navigation.howToBuy')"
+                  to="howToBuy"
+                  :desktop="false"
+                />
+                <NavButton
                   :name="$t('header.navigation.contact')"
                   to="contactUs"
                   :desktop="false"
                 />
-                <NavButton
-                  :name="$t('header.navigation.buyNow')"
-                  to="howToBuy"
-                  :desktop="false"
-                />
-              </nav> </Slide
-          ></client-only>
+                <div class="nav-item" @click="toggleToast">
+                  {{ $t('header.navigation.buyNow') }}
+                </div>
+              </nav>
+            </Slide></client-only
+          >
         </div>
       </div>
     </div>
@@ -87,6 +90,17 @@ export default {
   computed: {
     isXl() {
       return this.$breakpoints.xl
+    }
+  },
+  methods: {
+    toggleToast() {
+      if (!this.isToastActive) {
+        this.isToastActive = true
+        this.$toast.warning(this.$t('contactUs.soon'), {})
+        setTimeout(() => {
+          this.isToastActive = false
+        }, 5000)
+      }
     },
   },
 }
@@ -100,6 +114,6 @@ export default {
 .bm-burger-button {
   top: 1.2rem !important;
   right: 0.5rem !important;
-  transform: scale(0.80);
+  transform: scale(0.8);
 }
 </style>

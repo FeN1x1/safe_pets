@@ -24,7 +24,7 @@
     >
       <AppTitleSecondary
         :title="$t('howToBuy.antiWhaleShield.title')"
-        class="mt-6 max-w-screen-lg"
+        class="mt-6 max-w-screen-lg line-height"
       />
       <nuxt-img src="antiwhaleshield.png" class="text-center sm:mx-auto h-64" alt='antiwhaleshield' />
       <div
@@ -50,3 +50,9 @@ export default {
   name: 'AntiWhaleShield',
 }
 </script>
+
+<style>
+.line-height {
+  line-height: 3rem;
+}
+</style>

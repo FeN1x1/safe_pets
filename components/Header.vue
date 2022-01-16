@@ -1,5 +1,5 @@
 <template>
-  <article class="relative bg-brown-bg">
+  <section class="relative bg-brown-bg">
     <div class="absolute inset-x-0 bottom-0">
       <svg
         viewBox="0 0 224 12"
@@ -77,7 +77,7 @@
               {{ $t('header.text') }}
             </p>
           </div>
-          <div class="flex flex-col mt-0 lg:mt-12 md:flex-row">
+          <div class="flex flex-col mt-0 lg:mt-6 md:flex-row">
             <div class="flex space-x-4">
               <button
                 type="button"
@@ -195,5 +195,5 @@
         "
       />
     </div>
-  </article>
+  </section>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <article id='charity' class='relative bg-brown-bg'>
+  <section id='charity' class='relative bg-brown-bg'>
     <div class='absolute inset-x-0 bottom-0'>
       <svg
         viewBox='0 0 224 12'
@@ -52,7 +52,7 @@
         </div>
       </div>
     </section>
-  </article>
+  </section>
 </template>
 
 <script>

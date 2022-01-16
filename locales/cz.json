@@ -7,7 +7,8 @@
       "faq": "Časté dotazy",
       "ourTeam": "Náš tým",
       "contact": "Kontakt",
-      "buyNow": "Koupit"
+      "buyNow": "Koupit",
+      "howToBuy": "How To Buy"
     },
     "brandNewToken": "Zbrusu Nový Token",
     "title": {
@@ -41,13 +42,13 @@
   },
   "charity": {
     "title": "Charita",
-    "donationDescribtion": "Dar útulku pro domácí zvířata",
-    "donationText": "Sloužíme jako podpora útulkům, kteří poskytují ochranu a péči zvířatům v nouzi; centrum pro adopci zvířat s kompletními službami. Útulky a záchranné stanice pro zvířata jsou úžasné! Obvykle s omezenými prostředky a velmi malou publicitou pomáhají nespočetnému množství zvířat, která neměla štěstí na šťastný život. Vraťte jim to tím, že si vyberete jeden nebo více z následujících způsobů, jak projevit uznání skupinám, které dělají tolik pro zvířata, lidi a vaši komunitu."
+    "donationDescribtion": "Darování útulkům a organizacím zabývajícím se zdravím zvířat po celém světě",
+    "donationText": " SafePets slouží jako pomoc útulkům při zajišťování ochrany zvířat, péči o zvířata v nouzi a budování nejmodernějších center pro adopci zvířat. Útulky a záchranné stanice pro zvířata jsou úžasné a potřebují naši podporu, protože obvykle mají omezené zdroje, velmi malou publicitu a nebo finanční prostředky. Pomáhají nespočetnému množství zvířat, která jen hledají šťastný život. Tohle je vaše šance, jak jim to vrátit! Stačí se stát součástí naší cesty a najít si cestu k našemu plánu, kde se dozvíte, jak se můžete stát součástí něčeho, co změní svět."
   },
   "roadmap": {
     "title": "Plán rozvoje",
     "text": "Zde je náš plán vývoje rozdělený do 9 fází. Staňte se součástí úspěšné cesty!",
-    "phase" : "Fáze",
+    "phase": "Fáze",
     "phases": [
       {
         "phases": [
@@ -295,7 +296,7 @@
       {
         "title": "Michal",
         "profession": "Project Leader",
-        "text": "Michal vytváří vysoce kvalitní obchodní strategie a plány, které zajišťují jejich soulad s krátkodobými a dlouhodobými cíli. Má zkušenosti s auditem, analýzami a prognózami. Byl také součástí evropské dobrovolné organizace. Řídí důležitá partnerství a tým Safe Pets token.",
+        "text": " Používá kvalitní obchodní strategie a plány a zajišťuje jejich sladění a organizaci krátkodobých a dlouhodobých cílů. Má vysoké zkušenosti s audity, analýzami a prognózami. Michal se účastnil činnosti evropské dobrovolné organizace Future Generation Europe. Řídil významná partnerství a založil tým SafePets. V současné době pracuje jako analytik v ekonomicko-právním oddělení jedné z největších IT společností na světě.",
         "personClass": "text-green-primary",
         "image": "Michal",
         "personLinkedIn": "https://www.linkedin.com/in/michal-sur%C5%BEin-1240851b3/"
@@ -311,8 +312,8 @@
       {
         "title": "Martin",
         "profession": "Lead Developer",
-        "text": "Náš informatik a full-stack vývojář se zkušenostmi v oblasti blockchainu, obchodování a technické analýzy. Pracuje také jako programátor pro společnost, která vyvíjí nabíječky pro elektromobily.",
-        "personClass": "text-green-secondary",
+        "text": "Vedoucí oddělení informatiky a full-stack vývoje. Má bohaté zkušenosti v oblasti blockchainu, obchodování a technické analýzy. Je nadějným vývojářem v oboru a při práci je závanem čerstvého vzduchu, který přináší nové nápady. Martin pracuje jako programátor pro společnost, která vyvíjí nabíječky pro elektromobily.",
+        "personClass": "text-green-tertiary",
         "image": "Martin",
         "personLinkedIn": "https://www.linkedin.com/in/martin-gelo-2b5249224/"
       },
@@ -320,33 +321,41 @@
         "title": "Tomáš",
         "profession": "Marketing Developer",
         "text": "Náš marketingový specialista má zkušenosti v oblasti obchodu, marketingu a bankovnictví. Tomáš v současné době pracuje jako obchodní manažer v IT společnosti, kde se zaměřuje na marketing a budování značky. Všechny zkušenosti a znalosti se snaží využít k efektivnímu marketingu a propagaci prostřednictvím sociálních sítí a online marketingu.",
-        "personClass": "text-green-secondary",
-        "image": "Martin",
+        "personClass": "text-purple-tertiary",
+        "image": "Tomas",
         "personLinkedIn": ""
       },
       {
         "title": "Štefan",
         "profession": "Fullstack Developer",
-        "text": "Štefan je fullstack vývojář, který v současné době pracuje pro digitální zdravotnickou společnost v Bratislavě. Stará se o infrastrukturu webových stránek a případně (v budoucnu) o mobilní aplikace pro Android a iOS.",
+        "text": "Štefan je full stack vývojář, který v současné době pracuje pro společnost zabývající se digitálním zdravotnictvím v Bratislavě. Specializuje se na JavaScript, front a back-end vývoj APP pro Android, IOS a Windows. Specializuje se na tvorbu obsahu pomocí dronů, které poskytují zážitky na celý život. Hraje důležitou roli při vývoji všeho, co se pro SafePets pustí do ostrého provozu.",
         "personClass": "text-green-primary",
-        "image": "Martin",
+        "image": "default",
         "personLinkedIn": ""
       },
       {
         "title": "Alexandra",
         "profession": "Graphic Designer",
-        "text": "Alex nám pomohla s návrhem webových stránek a vytvořila veškerou grafiku, která se používá na webových stránkách a marketingových materiálech (logo, bannery na sociálních sítích atd.).",
-        "personClass": "text-purple-primary",
+        "text": "Alexandra je mimořádně talentovaná grafická designérka na volné noze od roku 2015. Alexandra se specializuje na všechny aspekty grafického designu, identitu značky a velmi dobře rozumí reklamnímu designu. Provedla veškeré grafické návrhy a úpravy všech našich webových variant. Hraje také nedílnou roli v našem fenomenálním aspektu NFT galerie SafePets.",
+        "personClass": "text-green-primary",
         "image": "Alex",
         "personLinkedIn": ""
       },
       {
         "title": "Peter",
         "profession": "Marketing Developer",
-        "text": "Peter vyvinul vlastní obchodní systém, který poskytuje fx signály. Řídí naše marketingové kampaně, buduje důležitá partnerství a zapojuje naši komunitu.",
-        "personClass": "text-purple-secondary",
+        "text": " Peter je podnikatel s širokým portfoliem investičních společností, které investují do forexu, akcií, ETFS a dalších aktiv, jako jsou kryptoměny. V mladém věku se Peterovi podařilo vyvinout vlastní obchodní systém, který poskytuje úspěšné FX signály. Klíčový je při řízení našich marketingových kampaní, buduje důležitá partnerství a spolupracuje s naší komunitou a partnery. Jeho rozsáhlý rolodex klientů je zásadním aspektem budoucího úspěchu SafePets.",
+        "personClass": "text-green-secondary",
         "image": "Peter",
         "personLinkedIn": "https://www.linkedin.com/in/peter-jandura-1b658b122"
+      },
+      {
+        "title": "Jozef",
+        "profession": " Ambasador značky",
+        "text": " Jozef má téměř desetileté zkušenosti, skvěle rozumí vztahům mezi klienty a zákazníky a umí efektivně komunikovat s rodilými i nerodilými anglicky mluvícími účastníky online komunity. V současné době pracuje pro technologickou společnost jako zástupce VIP manažera se sídlem v Praze a pobočkami po celém světě. Proto je právě on tím pravým člověkem, který by měl SafePets zastupovat.",
+        "personClass": "text-green-tertiary",
+        "image": "Jozef",
+        "personLinkedIn": ""
       }
     ]
   },
@@ -387,8 +396,8 @@
     "text": "Copyright © 2021 Safe Pets. Všechna práva vyhrazena - Zásady ochrany osobních údajů - Smluvní podmínky Safe Pets není investice. Safe Pets byl vytvořen jako meme parodie, nic neslibuje a není zodpovědný za případné ztráty nebo chyby."
   },
   "contactUs": {
-    "text" : "Máš otázku?<br>Níže nám zašli zprávu",
-    "soon" : "Již brzy",
+    "text": "Máte otázku?<br>Níže nám zašlete zprávu",
+    "soon": "Již brzy",
     "placeholder": {
       "name": "Jméno",
       "email": "E-mail",
@@ -398,32 +407,32 @@
       "success": "Formulář byl úspěšně odeslán! Budeme Vás co nejdříve kontaktovat",
       "error": "Vyskytl se problém s odesláním formuláře, zkuste to prosím později"
     },
-    "send" : "Odeslat"
+    "send": "Odeslat"
   },
   "validation": {
     "username": "Jméno je vyžadováno",
     "email": "E-mail musí být platný",
     "message": "Zpráva je vyžadována"
   },
-  "seo" : {
+  "seo": {
     "homepage": {
-      "title" : "",
-      "description" : "",
+      "title": "",
+      "description": "",
       "keywords": ""
     },
     "metamask": {
-      "title" : "",
-      "description" : "",
+      "title": "",
+      "description": "",
       "keywords": ""
     },
     "trustwallet": {
-      "title" : "",
-      "description" : "",
+      "title": "",
+      "description": "",
       "keywords": ""
     }
   },
   "cookies": {
-    "text": "Táto webová stránka používa cookies. Ak budete pokračovať v používaní tejto stránky zároveň tým súhlasíte s používaním cookies",
-    "button" : "Súhlasím"
+    "text": "Táto webová stránka používá cookies. Používáním této stránky vyjadřujete souhlas s používáním cookies.",
+    "button": "Souhlasím"
   }
 }

@@ -84,6 +84,11 @@ export default {
   created: function () {
     this.wordString = JSON.parse(this.trans)
   },
+  computed: {
+    isZeroTime() {
+      return this.days !== 0 && this.hours !== 0 && this.minutes !== 0 && this.seconds !== 0
+    }
+  },
   mounted() {
     this.start = new Date(this.starttime).getTime()
     this.end = new Date(this.endtime).getTime()
@@ -95,10 +100,7 @@ export default {
   },
   methods: {
     timerCount: function (start, end) {
-      // Get todays date and time
       var now = new Date().getTime()
-
-      // Find the distance between now an the count down date
       var distance = start - now
       var passTime = end - now
 
@@ -107,7 +109,6 @@ export default {
         this.statusType = 'expired'
         this.statusText = this.wordString.status.expired
         clearInterval(this.interval)
-        return
       } else if (distance < 0 && passTime > 0) {
         this.calcTime(passTime)
         this.message = this.wordString.running
@@ -121,7 +122,6 @@ export default {
       }
     },
     calcTime: function (dist) {
-      // Time calculations for days, hours, minutes and seconds
       this.days = Math.floor(dist / (1000 * 60 * 60 * 24))
       this.hours = Math.floor((dist % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
       this.minutes = Math.floor((dist % (1000 * 60 * 60)) / (1000 * 60))

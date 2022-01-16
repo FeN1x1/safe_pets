@@ -1,5 +1,5 @@
 <template>
-  <article
+  <section
     id="howToBuy"
     class="
       px-4
@@ -319,7 +319,7 @@
         :toast="toggleToast"
       />
     </div>
-  </article>
+  </section>
 </template>
 
 <script>

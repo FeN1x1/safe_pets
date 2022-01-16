@@ -1,5 +1,5 @@
 <template>
-  <article
+  <section
     id="contactUs"
     class="
       mx-auto
@@ -163,7 +163,7 @@
         </div>
       </section>
     </section>
-  </article>
+  </section>
 </template>
 
 <script>

@@ -17,7 +17,9 @@
     "nuxt": "^2.15.7",
     "nuxt-breakpoints": "^1.1.9",
     "nuxt-seo": "^1.6.0",
+    "swiper": "5.4.5",
     "vee-validate": "^3.4.14",
+    "vue-awesome-swiper": "^4.1.1",
     "vue-burger-menu": "^2.0.5",
     "vue-cookie-law": "^1.13.3",
     "vue-scrollto": "^2.20.0",
@@ -29,7 +31,6 @@
     "@nuxtjs/html-validator": "^0.6.0",
     "@nuxtjs/tailwindcss": "^4.2.0",
     "eslint-config-prettier": "^8.3.0",
-    "nuxt-vite": "^0.3.5",
     "postcss": "^8.3.5",
     "prettier": "^2.3.2"
   }
