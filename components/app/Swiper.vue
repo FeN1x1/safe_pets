@@ -1,7 +1,7 @@
 <template>
   <div class="example">
     <div v-swiper="swiperOption">
-      <div class="swiper-wrapper mb-24">
+      <div class="swiper-wrapper mb-16 sm:mb-24">
         <RoadmapPhase
           class="swiper-slide"
           v-for="(phase, index) in $t('roadmap.phases')"
@@ -10,9 +10,11 @@
           :phase="index + 1"
         />
       </div>
-      <div class="swiper-pagination ml-16" slot="pagination"></div>
-      <div class="swiper-button-prev" slot="button-prev"></div>
-      <div class="swiper-button-next" slot="button-next"></div>
+      <div class="swiper-pagination" slot="pagination"></div>
+      <template v-if="isLg">
+        <div class="swiper-button-prev" slot="button-prev"></div>
+        <div class="swiper-button-next" slot="button-next"></div>
+      </template>
     </div>
   </div>
 </template>
@@ -28,33 +30,38 @@ export default {
   data() {
     return {
       swiperOption: {
-        slidesPerView: 3,
-        initialSlide : 1,
         centeredSlides: true,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
-          type: "bullets",
+          type: 'bullets',
           renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + (index + 1) + '</span>';
-          }
+            return '<span class="' + className + '">' + (index + 1) + '</span>'
+          },
         },
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
+        breakpoints: {
+          1024: {
+            slidesPerView: 3,
+            initialSlide: 1,
+          },
+          640: {
+            slidesPerView: 1,
+            initialSlide: 0,
+          },
+        },
       },
-      swiperSlides: [1, 2, 3, 4, 5],
     }
   },
 }
 </script>
 
 <style>
-.example {
-  height: auto;
-}
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
   color: #0ce2af !important;
 }
 .swiper-pagination-bullet {

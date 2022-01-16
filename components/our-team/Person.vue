@@ -32,7 +32,7 @@
           sm:text-center
           tracking-wide
           light-font
-          text-gray-800 sm:text-xl text-sm
+          text-gray-800 sm:text-xl text-base
         "
       >
         {{ text }}
