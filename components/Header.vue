@@ -159,7 +159,7 @@
       </div>
       <AppCountdown
         class="sm:mt-0 mt-10"
-        endtime="Jan 15, 2022 18:00:00"
+        endtime="Jan 25, 2022 18:00:00"
         starttime="Nov 5, 2018 15:37:25"
         trans='{
                "day":"Day",

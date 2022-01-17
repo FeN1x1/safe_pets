@@ -7,15 +7,14 @@
       "faq": "FAQ",
       "ourTeam": "Our Team",
       "contact": "Contact",
-      "buyNow": "Buy Now",
-      "howToBuy": "How To Buy"
+      "buyNow": "Buy Now"
     },
     "brandNewToken": "Brand New Token",
     "title": {
       "part1": "World's Community token created to help",
       "part2": "innocent pets & endangered animals"
     },
-    "text": "World's Community token created to help animals. World's Community token created to help animals. We're proud to be the first crypto currency creators to think outside the box in creating a unique token with unconventional goals. SafePets token was created with one purpose which is to help endangered animals and to make shelters for forgotten pets around the World. Our goal is to be the first accepted crypto currency in shelters and between organizations in the fight to help endangered animals worldwide. SafePets token provides static reflection that rewards holders, which means more tokens being automatically added to your wallet for each transaction made, even if it’s not yours. Guaranteed 2% from every purchase is automatically added to SafePets charity wallet which is separated and donated to different shelters and world organizations in the fight for Animal health and Safety. Can’t beat investing and helping change the world at the same time!",
+    "text": "World's Community token created to help animals. World's Community token created to help animals. We're proud to be the first crypto currency creators to think outside the box in creating a unique token with unconventional goals. SafePets token was created with one purpose which is to help endangered animals and to make shelters for forgotten pets around the World. Our goal is to be the first accepted crypto currency in shelters and between organizations in the fight to help endangered animals worldwide. SafePets token provides static reflection that rewards holders, which means more tokens being automatically added to your wallet for each transaction made, even if it’s not yours. Guaranteed amazing 0.5% from every transaction is automatically added to SafePets charity wallet which is separated and donated to different shelters and world organizations in the fight for Animal health and Safety. Can’t beat investing and helping change the world at the same time!",
     "comingSoon": "Coming soon...",
     "copy": "Copy"
   },
@@ -32,11 +31,11 @@
   "tokenomics": {
     "title": "Tokenomics",
     "marketingTitle": "Monstrous Marketing",
-    "marketingText": "4% of every transaction is allocated to Marketing. This allows us to fuel our most ambitious projects in service of further rewarding our community.",
+    "marketingText": "3.5% of every transaction is allocated to Marketing. This allows us to fuel our most ambitious projects in service of further rewarding our community.",
     "rewardsTitle": "Partner Rewards",
     "rewardsText": "2% of each transaction is redistributed to token investors. That means you can earn more SafePets tokens by just holding them in your wallet.",
     "charityTitle": "Charity Wallet",
-    "charityText": "We have a designated charity wallet that allocates .2% of each transaction made and is donated to support our charity partners.",
+    "charityText": "We have a designated charity wallet that allocates 0.5% of each transaction made and is donated to support our charity partners.The transfer address in BNB is the following: 0x16Fb5D7e4e68D788De1A16C5172AB1577d934915",
     "liquidityTitle": "Growing Liquidity",
     "liquidityText": "4% of each transaction made is locked away in Pancakeswap’s liquidity pool."
   },
@@ -281,7 +280,7 @@
         "answer": "No-one, or everyone does equally, depending how you look at it. The developers can release new software, but at the end of the day the community must choose to use that software. Remember the community includes not only the end-users, but miners, exchanges, payment processors, etc. We’re all in it for the same reason’s and if every ones in it to win it then it’s a recipe for success."
       },
       {
-        "question": "Where can i buy SafePets token?",
+        "question": "Where can I buy SafePets token?",
         "answer": "The first exchange that you will be able to purchase and use the token on will be on pancakeswap.finance."
       },
       {
@@ -323,7 +322,7 @@
         "text": "Our marketing specialist experienced in Trading, Marketing and Finance. Tomas is currently working as Sales Manager for an IT company, where he focuses on marketing and brand building. He implements all experiences and knowledge that he has gained throughout his career into effective marketing and promotion strategies on social networks and online markets.",
         "personClass": "text-purple-tertiary",
         "image": "Tomas",
-        "personLinkedIn": ""
+        "personLinkedIn": "https://www.linkedin.com/in/tom%C3%A1%C5%A1-han%C3%A1k-5a8998154/"
       },
       {
         "title": "Stefan",
@@ -336,7 +335,7 @@
       {
         "title": "Alex",
         "profession": "Graphic Designer",
-        "text": "Alexandra is an extraordinarily talented freelance graphic designer since 2015. Alexandra specialties are All aspects of graphic design, brand identity and has a very strong understanding of advertising design. She has done all the Graphic design and editing of all our web variants. She also plays an integral role in our phenomenal NFT gallery aspect of SafePets",
+        "text": "Alexandra is an extraordinarily talented freelance graphic designer since 2015. Alexandra specialties are All aspects of graphic design, brand identity and has a very strong understanding of advertising design. She has done all the Graphic design and editing of all our web variants. She also plays an integral role in our phenomenal NFT gallery aspect of SafePets.",
         "personClass": "text-green-primary",
         "image": "Alex",
         "personLinkedIn": ""
@@ -355,7 +354,7 @@
         "text": "Jozef brings nearly a decade of experience, with an excellent understanding of client/customer relationship, and how to effectively communicate with Native and non-Native English-speaking stakeholders in the online community. He currently works for a tech company as a Deputy VIP Manager based in Prague and have offices worldwide. Which is why he is just the person to be representing SafePets.",
         "personClass": "text-green-tertiary",
         "image": "Jozef",
-        "personLinkedIn": ""
+        "personLinkedIn": "https://www.linkedin.com/in/jozef-kapel-aa8366150/"
       }
     ]
   },
@@ -393,7 +392,7 @@
     "success": "Success"
   },
   "footer": {
-    "text": "Copyright © 2021 SafePets. All Rights Reserved - Privacy Policy - Terms and Conditions - SafePets is not an investment. SafePets makes no promises and is not responsible for any losses or errors."
+    "text": "Copyright © 2021 SafePets. All Rights Reserved - Privacy Policy - Terms and Conditions SafePets is not an investment. SafePets makes no promises and is not responsible for any losses or errors."
   },
   "contactUs": {
     "text": "Have some questions?<br>Send us a message below",
@@ -416,9 +415,9 @@
   },
   "seo": {
     "homepage": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "SafePets Token - Community token created to help animals",
+      "description": "World's Community token created to help animals. We're proud to be the first crypto currency creators to think outside the box in creating a unique token with unconventional goals.",
+      "keywords": "crypto, cryptocurrency, safepets, wwf, safe, pets, coin, token, charity token"
     },
     "metamask": {
       "title": "",
@@ -432,7 +431,7 @@
     }
   },
   "cookies": {
-    "text": "Táto webová stránka používa cookies. Ak budete pokračovať v používaní tejto stránky zároveň tým súhlasíte s používaním cookies",
-    "button": "Súhlasím"
+    "text": "This website uses cookies. If you continue to use this site at the same time you agree to the use of cookies.",
+    "button": "I agree."
   }
 }

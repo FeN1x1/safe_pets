@@ -1,7 +1,7 @@
 <template>
   <div class="example">
     <div v-swiper="swiperOption">
-      <div class="swiper-wrapper mb-16 sm:mb-24">
+      <div class="swiper-wrapper mb-16 pt-1 sm:pt-0 sm:mb-24">
         <RoadmapPhase
           class="swiper-slide"
           v-for="(phase, index) in $t('roadmap.phases')"
@@ -11,10 +11,10 @@
         />
       </div>
       <div class="swiper-pagination" slot="pagination"></div>
-      <template v-if="isLg">
+      <div class='lg:flex hidden'>
         <div class="swiper-button-prev" slot="button-prev"></div>
         <div class="swiper-button-next" slot="button-next"></div>
-      </template>
+      </div>
     </div>
   </div>
 </template>
@@ -46,16 +46,21 @@ export default {
         breakpoints: {
           1024: {
             slidesPerView: 3,
-            initialSlide: 1,
+            initialSlide: 1
           },
           640: {
             slidesPerView: 1,
-            initialSlide: 0,
-          },
+            initialSlide: 0
+          }
         },
       },
     }
   },
+  computed: {
+    isLg() {
+      return this.$breakpoints.lLg
+    }
+  }
 }
 </script>
 

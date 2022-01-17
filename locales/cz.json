@@ -8,7 +8,7 @@
       "ourTeam": "Náš tým",
       "contact": "Kontakt",
       "buyNow": "Koupit",
-      "howToBuy": "How To Buy"
+      "howToBuy": "Jak nakoupit"
     },
     "brandNewToken": "Zbrusu Nový Token",
     "title": {
@@ -416,9 +416,9 @@
   },
   "seo": {
     "homepage": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "SafePets Token - Komunitní token, vytvořený na pomoc zvířatům",
+      "description": "Světový komunitní token, vytvořený na pomoc zvířatům. Jsme hrdí na to, že jsme jako první tvůrci kryptoměny vytvořili unikátní token s neobvyklými cíli.",
+      "keywords": "crypto, cryptocurrency, safepets, wwf, safe, pets, coin, token, charity token"
     },
     "metamask": {
       "title": "",

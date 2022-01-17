@@ -17,6 +17,7 @@
         <div v-if="isXl">
           <nav class="flex items-center space-x-8 lg:flex">
             <NavButton
+              v-if='screen > 1350'
               :name="$t('header.navigation.tokenomics')"
               to="tokenomics"
             />
@@ -72,7 +73,7 @@
                   to="contactUs"
                   :desktop="false"
                 />
-                <div class="nav-item" @click="toggleToast">
+                <div class="px-4 py-3 text-3xl text-green-secondary cursor-pointer" @click="toggleToast">
                   {{ $t('header.navigation.buyNow') }}
                 </div>
               </nav>
@@ -90,6 +91,9 @@ export default {
   computed: {
     isXl() {
       return this.$breakpoints.xl
+    },
+    screen() {
+      return this.$screen.width
     }
   },
   methods: {
