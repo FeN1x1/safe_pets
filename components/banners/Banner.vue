@@ -1,9 +1,26 @@
 <template>
-<!--  <a target='_blank' event='' :href='link' class='text-center my-auto sm:px-4'>-->
-<!--    <nuxt-img :src='`partners/${image}.png`' :alt='image' />-->
-<!--  </a>-->
-  <div @click='toast' class='text-center cursor-pointer hover-blur transition duration-300 transform my-auto sm:px-4'>
-    <nuxt-img :src='`partners/${image}.png`' :alt='image' />
+  <!--  <a target='_blank' event='' :href='link' class='text-center my-auto sm:px-4'>-->
+  <!--    <nuxt-img   sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+ :src='`partners/${image}.png`' :alt='image' />-->
+  <!--  </a>-->
+  <div
+    @click="toast"
+    class="
+      text-center
+      cursor-pointer
+      hover-blur
+      transition
+      duration-300
+      transform
+      my-auto
+      sm:px-4
+    "
+  >
+    <nuxt-img
+      sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+      :src="`partners/${image}.png`"
+      :alt="image"
+    />
   </div>
 </template>
 
@@ -13,16 +30,16 @@ export default {
   props: {
     image: {
       type: String,
-      required: true
+      required: true,
     },
     link: {
       type: String,
-      required: true
+      required: true,
     },
     toast: {
       type: Function,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>

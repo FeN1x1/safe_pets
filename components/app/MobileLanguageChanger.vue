@@ -1,34 +1,48 @@
 <template>
   <div class="flex p-4">
-    <nuxt-link :class='isLinkDisabled("en")' :to="switchLocalePath('en')">
+    <nuxt-link :class="isLinkDisabled('en')" :to="switchLocalePath('en')">
       <nuxt-img
+        sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
         :class="getActiveLanguage('en')"
         src="flags/united-kingdom.png"
         alt="flag"
         class="w-10 h-10 mr-4 rounded-full"
       />
     </nuxt-link>
-    <nuxt-link :class='isLinkDisabled("sk")' :to="switchLocalePath('sk')">
+
+    <!--    <nuxt-link :class='isLinkDisabled("sk")' :to="switchLocalePath('sk')">-->
+    <div @click="toast" class="hover-blur cursor-pointer">
       <nuxt-img
+        sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
         src="flags/slovakia.png"
         alt="flag"
         class="w-10 h-10 mr-4 rounded-full"
         :class="getActiveLanguage('sk')"
       />
-    </nuxt-link>
-    <nuxt-link :class='isLinkDisabled("cz")' :to="switchLocalePath('cz')">
+    </div>
+    <!--    </nuxt-link>-->
+    <!--    <nuxt-link :class='isLinkDisabled("cz")' :to="switchLocalePath('cz')">-->
+    <div @click="toast" class="hover-blur cursor-pointer">
       <nuxt-img
+        sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
         src="flags/czech-republic.png"
         alt="flag"
         class="w-10 h-10 rounded-full"
         :class="getActiveLanguage('cz')"
       />
-    </nuxt-link>
+    </div>
+    <!--    </nuxt-link>-->
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+    toast: {
+      type: Function,
+      required: true,
+    },
+  },
   name: 'MobileLanguageChanger',
   methods: {
     getActiveLanguage(language) {

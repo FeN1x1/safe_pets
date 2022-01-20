@@ -1,9 +1,10 @@
 <template>
   <div class="child p-4">
     <nuxt-img
+      sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
       class="sm:mx-auto mr-auto w-40 md:w-44 lg:w-52"
-      :class='{"-ml-5" : !isLargerSm}'
-      :src="`our-team-updated/${image}.png`"
+      :class="{ '-ml-5': !isLargerSm }"
+      :src="`our-team/${image}.png`"
       alt="Person"
     />
     <div class="flex flex-col justify-center mt-4">
@@ -32,7 +33,9 @@
           sm:text-center
           tracking-wide
           light-font
-          text-gray-800 sm:text-xl text-base
+          text-gray-800
+          sm:text-xl
+          text-base
         "
       >
         {{ text }}

@@ -18,8 +18,7 @@
         pt-4
         mx-auto
         pb-8
-        sm:pb-14
-        sm:pt-12 sm:max-w-xl
+        sm:pb-14 sm:pt-12 sm:max-w-xl
         md:max-w-full
         lg:max-w-screen-2xl
         md:px-16
@@ -31,42 +30,20 @@
         <section class="lg:pr-5 lg:mb-0">
           <div class="mb-4 lg:max-w-xl">
             <div>
-              <div
-                class="
-                  inline-block
-                  px-8
-                  pt-3
-                  pb-2
-                  mb-6
-                  text-xl
-                  font-extrabold
-                  tracking-wide
-                  text-white
-                  uppercase
-                  rounded-full
-                  sm:px-16 sm:text-3xl
-                  bg-gradient-to-r
-                  from-green-secondary
-                  to-green-primary
-                "
-              >
-                {{ $t('header.brandNewToken') }}
-              </div>
-
               <h1
                 class="
                   max-w-lg
                   mb-3
-                  text-xl
+                  text-2xl
                   font-bold
                   tracking-tight
                   text-white
                   title
-                  sm:text-3xl sm:leading-none
+                  sm:text-4xl sm:leading-none
                 "
               >
                 {{ $t('header.title.part1') }}
-                <span class="inline-block text-green text-green-secondary">{{
+                <span class="text-green-secondary">{{
                   $t('header.title.part2')
                 }}</span>
               </h1>
@@ -78,88 +55,83 @@
             </p>
           </div>
           <div class="flex flex-col mt-0 lg:mt-6 md:flex-row">
-            <div class="flex space-x-4">
-              <button
-                type="button"
+            <div class="">
+              <h2
                 class="
-                  pt-3
-                  pb-2
-                  text-sm text-center
-                  uppercase
-                  bg-white
-                  rounded-full
-                  sm:px-32
-                  w-full
+                  max-w-lg
+                  mb-4
+                  text-xl
+                  font-bold
+                  tracking-tight
+                  text-white
+                  title
+                  sm:text-3xl sm:leading-none
                 "
               >
-                {{ $t('header.comingSoon') }}
-              </button>
-              <button type="button" class="button-wider cursor-not-allowed">
-                {{ $t('header.copy') }}
-              </button>
+                {{ $t('tokenomics.transferAddressTitle') }}
+              </h2>
+              <a
+                v-if='isLsm'
+                target="_blank"
+                href="https://bscscan.com/address/0x16Fb5D7e4e68D788De1A16C5172AB1577d934915"
+                class="
+                  inline-block
+                  px-4
+                  pt-3
+                  pb-2
+                  mb-6
+                  text-base
+                  font-extrabold
+                  tracking-wide
+                  text-white
+                  uppercase
+                  rounded-xl
+                  bg-gradient-to-r
+                  from-green-secondary
+                  to-green-primary
+                "
+              >
+                {{ $t('tokenomics.transferAddress') }}
+              </a>
+              <a
+                v-else
+                target="_blank"
+                href="https://bscscan.com/address/0x16Fb5D7e4e68D788De1A16C5172AB1577d934915"
+                class="
+                  inline-block
+                  px-4
+                  pt-3
+                  pb-2
+                  mb-6
+                  text-base
+                  font-extrabold
+                  tracking-wide
+                  text-white
+                  uppercase
+                  rounded-xl
+                  bg-gradient-to-r
+                  from-green-secondary
+                  to-green-primary
+                "
+              >
+                {{ $t('tokenomics.transferAddressMobile') }}
+              </a>
             </div>
           </div>
         </section>
         <div class="lg:w-2/5">
           <nuxt-img
+            sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
             class="object-cover w-full py-12 lg:py-0"
             src="dog-cat.png"
             alt="safe pets"
           />
         </div>
-        <div
-          class="
-            flex flex-row
-            pb-0
-            pl-0
-            my-auto
-            lg:pl-8 lg:flex-col lg:space-y-10 lg:pb-8
-          "
-        >
-          <div class="px-4 my-auto lg:px-0">
-            <a target="_blank" href="https://twitter.com/safepets_token">
-              <nuxt-img
-                class="object-cover w-10"
-                src="social/twitter.png"
-                alt="twitter"
-              />
-            </a>
-          </div>
-          <div class="px-4 my-auto lg:px-0">
-            <a target="_blank" href="https://discord.gg/Q9yqvDbM">
-              <nuxt-img
-                class="object-cover w-10"
-                src="social/discord.png"
-                alt="discord"
-              />
-            </a>
-          </div>
-          <div class="px-4 my-auto lg:px-0">
-            <a target="_blank" href="https://t.me/Safepets_Official">
-              <nuxt-img
-                class="object-cover w-10"
-                src="social/telegram.png"
-                alt="telegram"
-              />
-            </a>
-          </div>
-          <div class="px-4 my-auto lg:px-0">
-            <a
-              target="_blank"
-              href="https://www.reddit.com/user/Safe_Pets_Official"
-            >
-              <nuxt-img
-                class="object-cover w-10"
-                src="social/reddit.png"
-                alt="telegram"
-              />
-            </a>
-          </div>
-        </div>
+        <AppHeaderSocials/>
       </div>
       <AppCountdown
         class="sm:mt-0 mt-10"
-        endtime="Jan 25, 2022 18:00:00"
+        endtime="Jan 29, 2022 20:00:00"
         starttime="Nov 5, 2018 15:37:25"
         trans='{
                "day":"Day",
@@ -176,6 +148,7 @@
                  }}'
       />
       <nuxt-img
+        sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
         v-scroll-to="'#tokenomics'"
         src="button_up.png"
         alt="up"
@@ -197,3 +170,14 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  name: 'Header',
+  computed: {
+    isLsm() {
+      return this.$breakpoints.lSm
+    }
+  }
+}
+</script>

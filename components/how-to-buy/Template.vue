@@ -14,6 +14,7 @@
   >
     <AppTitle title="How To Buy" />
     <nuxt-img
+      sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
       class="object-contain -mt-8 w-full h-32"
       :src="imageUrl"
       :alt="imageAlt"
@@ -170,9 +171,9 @@
       </div>
     </div>
     <transition name="fade" mode="out-in">
-      <nuxt-link
-        :to="localePath('/')">
+      <nuxt-link :to="localePath('/')">
         <nuxt-img
+          sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
           src="button_up.png"
           class="
             h-12

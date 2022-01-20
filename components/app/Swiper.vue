@@ -11,7 +11,7 @@
         />
       </div>
       <div class="swiper-pagination" slot="pagination"></div>
-      <div class='lg:flex hidden'>
+      <div class="lg:flex hidden">
         <div class="swiper-button-prev" slot="button-prev"></div>
         <div class="swiper-button-next" slot="button-next"></div>
       </div>
@@ -46,12 +46,12 @@ export default {
         breakpoints: {
           1024: {
             slidesPerView: 3,
-            initialSlide: 1
+            initialSlide: 1,
           },
           640: {
             slidesPerView: 1,
-            initialSlide: 0
-          }
+            initialSlide: 0,
+          },
         },
       },
     }
@@ -59,8 +59,8 @@ export default {
   computed: {
     isLg() {
       return this.$breakpoints.lLg
-    }
-  }
+    },
+  },
 }
 </script>
 

@@ -1,23 +1,27 @@
 <template>
   <header id="navbar" class="bg-brown-bg">
     <div
-      class="
-        px-4
-        py-5
-        mx-auto
-        sm:max-w-xl
-        md:max-w-full
-        lg:max-w-screen-2xl
-      "
+      class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl"
     >
       <div class="relative fixed lg:flex items-center justify-between">
         <nuxt-link :to="localePath('/')">
-          <nuxt-img src="logo.png" alt="logo" class="sm:h-20 h-16" />
+          <nuxt-img
+            sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+            src="logo.png"
+            alt="logo"
+            class="sm:h-20 h-16"
+            :imgAttrs="{
+              id: 'my-id',
+              class: 'my-class',
+              style: 'display:block',
+              'data-my-data': 'my-value',
+            }"
+          />
         </nuxt-link>
         <div v-if="isXl">
           <nav class="flex items-center space-x-8 lg:flex">
             <NavButton
-              v-if='screen > 1350'
+              v-if="screen > 1350"
               :name="$t('header.navigation.tokenomics')"
               to="tokenomics"
             />
@@ -30,14 +34,14 @@
             <div class="button hover-blur" @click="toggleToast">
               {{ this.$t('header.navigation.buyNow') }}
             </div>
-            <AppLanguageDropdown />
+            <AppLanguageDropdown :toast="toggleToast" />
           </nav>
         </div>
         <div class="flex" v-else>
           <client-only>
             <Slide class="bottom-4" :closeOnNavigation="true" noOverlay right>
               <nav class="flex flex-col">
-                <AppMobileLanguageChanger />
+                <AppMobileLanguageChanger :toast="toggleToast" />
                 <NavButton
                   :name="$t('header.navigation.tokenomics')"
                   to="tokenomics"
@@ -73,7 +77,10 @@
                   to="contactUs"
                   :desktop="false"
                 />
-                <div class="px-4 py-3 text-3xl text-green-secondary cursor-pointer" @click="toggleToast">
+                <div
+                  class="px-4 py-3 text-3xl text-green-secondary cursor-pointer"
+                  @click="toggleToast"
+                >
                   {{ $t('header.navigation.buyNow') }}
                 </div>
               </nav>
@@ -94,7 +101,7 @@ export default {
     },
     screen() {
       return this.$screen.width
-    }
+    },
   },
   methods: {
     toggleToast() {

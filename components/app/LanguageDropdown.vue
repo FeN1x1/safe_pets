@@ -1,14 +1,28 @@
 <template>
   <div class="relative ml-6" @mouseover="showMenu" @mouseleave="hideMenu">
     <button
-      class="text-base uppercase flex items-center text-gray-100 transition-colors duration-200 hover:text-green-secondary"
+      class="
+        text-base
+        uppercase
+        flex
+        items-center
+        text-gray-100
+        transition-colors
+        duration-200
+        hover:text-green-secondary
+      "
       @focus="showMenu"
       @keydown.shift.tab="hideMenu"
       @keydown.esc.exact="hideMenu"
       @keydown.up.exact.prevent="startArrowKeys"
       @keydown.down.exact.prevent="startArrowKeys"
     >
-      <nuxt-img :src="`flags/${flagLocale()}`" alt='flag' class="w-6 h-6" />
+      <nuxt-img
+        sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+        :src="`flags/${flagLocale()}`"
+        alt="flag"
+        class="w-6 h-6"
+      />
       <span class="ml-2">{{ locale }}</span>
       <svg
         fill="currentColor"
@@ -26,34 +40,80 @@
     <transition name="mega-menu-fade">
       <div
         v-show="isVisible"
-        class="mega-menu absolute normal-case font-normal bg-white shadow-md rounded-lg lg:w-20 overflow-hidden border mt-4 w-full z-30 lg:z-10"
+        class="
+          mega-menu
+          absolute
+          normal-case
+          font-normal
+          bg-white
+          shadow-md
+          rounded-lg
+          lg:w-20
+          overflow-hidden
+          border
+          mt-4
+          w-full
+          z-30
+          lg:z-10
+        "
       >
         <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-6">
           <div>
             <nuxt-link
               :to="switchLocalePath('en')"
-              class="-m-4 p-3 flex items-start rounded-lg hover:bg-green-secondary"
+              class="
+                -m-4
+                p-3
+                flex
+                items-start
+                rounded-lg
+                hover:bg-green-secondary
+              "
             >
               <span class="ml-2 capitalize">EN</span>
             </nuxt-link>
           </div>
 
           <div>
-            <nuxt-link
-              :to="switchLocalePath('sk')"
-              class="-m-4 p-3 flex items-start rounded-lg hover:bg-green-secondary"
+            <!--            <nuxt-link-->
+            <!--              :to="switchLocalePath('sk')"-->
+            <div
+              @click="toast"
+              class="
+                hover-blur
+                cursor-pointer
+                -m-4
+                p-3
+                flex
+                items-start
+                rounded-lg
+                hover:bg-green-secondary
+              "
             >
               <span class="ml-2 capitalize">SK</span>
-            </nuxt-link>
+              <!--            </nuxt-link>-->
+            </div>
           </div>
 
           <div>
-            <nuxt-link
-              :to="switchLocalePath('cz')"
-              class="-m-4 p-3 flex items-start rounded-lg hover:bg-green-secondary"
+            <!--            <nuxt-link-->
+            <!--              :to="switchLocalePath('cz')"-->
+            <div
+              @click="toast"
+              class="
+                hover-blur
+                cursor-pointer
+                -m-4
+                p-3
+                flex
+                items-start
+                rounded-lg
+                hover:bg-green-secondary
+              "
             >
               <span class="ml-2 capitalize">CZ</span>
-            </nuxt-link>
+              <!--            </nuxt-link>-->
+            </div>
           </div>
         </div>
       </div>
@@ -63,46 +123,52 @@
 
 <script>
 export default {
+  props: {
+    toast: {
+      type: Function,
+      required: true,
+    },
+  },
   mounted() {
-    this.menuItems = document.querySelectorAll(".mega-menu a");
+    this.menuItems = document.querySelectorAll('.mega-menu a')
   },
   data() {
     return {
       isVisible: false,
       menuItems: null,
-      focusedIndex: 0
-    };
+      focusedIndex: 0,
+    }
   },
   methods: {
     showMenu() {
-      this.isVisible = true;
+      this.isVisible = true
     },
     hideMenu() {
-      this.isVisible = false;
-      this.focusedIndex = 0;
+      this.isVisible = false
+      this.focusedIndex = 0
     },
     startArrowKeys() {
-      this.menuItems[0].focus();
+      this.menuItems[0].focus()
     },
     focusPrevious(isArrowKey) {
-      this.focusedIndex = this.focusedIndex - 1;
+      this.focusedIndex = this.focusedIndex - 1
 
       if (isArrowKey) {
-        this.focusItem();
+        this.focusItem()
       }
     },
     focusNext(isArrowKey) {
-      this.focusedIndex = this.focusedIndex + 1;
+      this.focusedIndex = this.focusedIndex + 1
 
       if (isArrowKey) {
-        this.focusItem();
+        this.focusItem()
       }
     },
     focusItem() {
-      this.menuItems[this.focusedIndex].focus();
+      this.menuItems[this.focusedIndex].focus()
     },
     flagLocale() {
-      switch(this.$i18n.locale) {
+      switch (this.$i18n.locale) {
         case 'en':
           return 'united-kingdom.png'
         case 'sk':
@@ -110,14 +176,14 @@ export default {
         case 'cz':
           return 'czech-republic.png'
       }
-    }
+    },
   },
   computed: {
     locale() {
       return this.$i18n.locale
-    }
-  }
-};
+    },
+  },
+}
 </script>
 
 <style scoped>

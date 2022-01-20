@@ -3,6 +3,7 @@
     <client-only>
       <transition name="fade" mode="out-in">
         <nuxt-img
+          sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
           v-if="position[1] > 1000"
           src="button_up.png"
           alt="button_up"

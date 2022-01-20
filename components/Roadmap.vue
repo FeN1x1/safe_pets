@@ -1,7 +1,16 @@
 <template>
   <section
     id="roadmap"
-    class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+    class="
+      px-4
+      py-8
+      mx-auto
+      sm:max-w-xl
+      md:max-w-full
+      lg:max-w-screen-xl
+      md:px-24
+      lg:px-8
+    "
   >
     <div class="max-w-xl md:mx-auto sm:text-center sm:mb-6 lg:max-w-6xl">
       <AppTitle :title="$t('roadmap.title')" title-color="text-gray-900" />
@@ -45,12 +54,11 @@
     <!--        />-->
     <!--      </section>-->
     <!--    </div>-->
-  <AppSwiper />
+    <AppSwiper />
   </section>
 </template>
 
 <script>
-
 export default {
   name: 'Roadmap',
   computed: {
@@ -60,4 +68,3 @@ export default {
   },
 }
 </script>
-

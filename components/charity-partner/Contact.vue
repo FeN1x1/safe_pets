@@ -22,14 +22,14 @@
         <nuxt-img
           sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
           src="notebook-mobile.png"
-          class="block lg:hidden mx-auto px-4 pb-8"
+          class="block lg:hidden mx-auto pb-8"
         />
       </div>
       <section class="space-x-10 my-auto w-full lg:ml-auto flex z-10">
         <div class="m-auto w-full sm:w-5/6 md:w-4/6 lg:w-4/5 p-4 sm:p-0">
           <div class="mb-3">
             <p
-              v-html="$t('contactUs.text')"
+              v-html="$t('charity.partner.form.text')"
               class="text-3xl text-brown-primary text-left"
             ></p>
           </div>
@@ -38,14 +38,112 @@
               <div class="flex flex-col w-full">
                 <ValidationProvider
                   v-slot="{ errors }"
-                  name="username"
-                  rules="username"
+                  name="establishmentName"
+                  rules="establishmentName"
                 >
                   <input
-                    :placeholder="$t('contactUs.placeholder.name')"
+                    :placeholder="$t('charity.partner.form.establishment')"
                     type="text"
-                    label="username"
-                    v-model="username"
+                    v-model="establishmentName"
+                    class="
+                      flex-grow
+                      w-full
+                      h-12
+                      px-4
+                      mb-2
+                      transition
+                      duration-200
+                      bg-white
+                      border border-green-secondary
+                      rounded-lg
+                      shadow-lg
+                      appearance-none
+                      md:mr-2
+                      focus:border-black focus:outline-none focus:shadow-outline
+                    "
+                  />
+                  <transition name="fade" mode="out-in">
+                    <span v-if="errors[0]" class="p-2 mb-1 text-purple-primary">
+                      {{ errors[0] }}
+                    </span>
+                  </transition>
+                </ValidationProvider>
+
+                <ValidationProvider
+                  v-slot="{ errors }"
+                  name="address"
+                  rules="address"
+                >
+                  <input
+                    :placeholder="$t('charity.partner.form.address')"
+                    type="text"
+                    v-model="address"
+                    class="
+                      flex-grow
+                      w-full
+                      h-12
+                      px-4
+                      mb-2
+                      transition
+                      duration-200
+                      bg-white
+                      border border-green-secondary
+                      rounded-lg
+                      shadow-lg
+                      appearance-none
+                      md:mr-2
+                      focus:border-black focus:outline-none focus:shadow-outline
+                    "
+                  />
+                  <transition name="fade" mode="out-in">
+                    <span v-if="errors[0]" class="p-2 mb-1 text-purple-primary">
+                      {{ errors[0] }}
+                    </span>
+                  </transition>
+                </ValidationProvider>
+
+                <ValidationProvider
+                  v-slot="{ errors }"
+                  name="companyName"
+                  rules="companyName"
+                >
+                  <input
+                    :placeholder="$t('charity.partner.form.companyName')"
+                    type="text"
+                    v-model="companyName"
+                    class="
+                      flex-grow
+                      w-full
+                      h-12
+                      px-4
+                      mb-2
+                      transition
+                      duration-200
+                      bg-white
+                      border border-green-secondary
+                      rounded-lg
+                      shadow-lg
+                      appearance-none
+                      md:mr-2
+                      focus:border-black focus:outline-none focus:shadow-outline
+                    "
+                  />
+                  <transition name="fade" mode="out-in">
+                    <span v-if="errors[0]" class="p-2 mb-1 text-purple-primary">
+                      {{ errors[0] }}
+                    </span>
+                  </transition>
+                </ValidationProvider>
+
+                <ValidationProvider
+                  v-slot="{ errors }"
+                  name="companyId"
+                  rules="companyId"
+                >
+                  <input
+                    :placeholder="$t('charity.partner.form.companyId')"
+                    type="text"
+                    v-model="companyId"
                     class="
                       flex-grow
                       w-full
@@ -76,8 +174,7 @@
                   rules="email"
                 >
                   <input
-                    :placeholder="$t('contactUs.placeholder.email')"
-                    label="email"
+                    :placeholder="$t('charity.partner.form.email')"
                     type="email"
                     v-model="email"
                     class="
@@ -93,53 +190,49 @@
                       rounded-lg
                       shadow-lg
                       appearance-none
-                      focus:border-green-primary
-                      focus:outline-none
-                      focus:shadow-outline
+                      md:mr-2
+                      focus:border-black focus:outline-none focus:shadow-outline
                     "
                   />
                   <transition name="fade" mode="out-in">
-                    <span v-if="errors[0]" class="p-2 text-purple-primary">
+                    <span v-if="errors[0]" class="p-2 mb-1 text-purple-primary">
                       {{ errors[0] }}
                     </span>
                   </transition>
                 </ValidationProvider>
-                <div class="mt-1">
-                  <ValidationProvider
-                    v-slot="{ errors }"
-                    name="message"
-                    rules="message"
-                  >
-                    <textarea
-                      label="message"
-                      name="message"
-                      rows="4"
-                      v-model="message"
-                      class="
-                        flex-grow
-                        w-full
-                        p-4
-                        transition
-                        duration-200
-                        bg-white
-                        border border-green-secondary
-                        rounded-lg
-                        shadow-lg
-                        appearance-none
-                        md:mb-0
-                        focus:border-green-primary
-                        focus:outline-none
-                        focus:shadow-outline
-                      "
-                      :placeholder="$t('contactUs.placeholder.message')"
-                    />
-                    <transition name="fade" mode="out-in">
-                      <span v-if="errors[0]" class="p-2 text-purple-primary">
-                        {{ errors[0] }}
-                      </span>
-                    </transition>
-                  </ValidationProvider>
-                </div>
+
+                <ValidationProvider
+                  v-slot="{ errors }"
+                  name="phone"
+                  rules="phone"
+                >
+                  <input
+                    :placeholder="$t('charity.partner.form.phoneNumber')"
+                    type="text"
+                    v-model="phone"
+                    class="
+                      flex-grow
+                      w-full
+                      h-12
+                      px-4
+                      mb-2
+                      transition
+                      duration-200
+                      bg-white
+                      border border-green-secondary
+                      rounded-lg
+                      shadow-lg
+                      appearance-none
+                      md:mr-2
+                      focus:border-black focus:outline-none focus:shadow-outline
+                    "
+                  />
+                  <transition name="fade" mode="out-in">
+                    <span v-if="errors[0]" class="p-2 mb-1 text-purple-primary">
+                      {{ errors[0] }}
+                    </span>
+                  </transition>
+                </ValidationProvider>
               </div>
               <div v-if="isButtonEnabled" class="py-2">
                 <button
@@ -180,11 +273,14 @@ export default {
   },
   data() {
     return {
-      username: '',
+      establishmentName: '',
+      address: '',
+      companyName: '',
+      companyId: '',
       email: '',
-      message: '',
-      localhostApi: 'http://localhost:8001/api/contact-form',
-      productionApi: 'https://api.safepetstoken.com/api/contact-form',
+      phone: '',
+      localhostApi: 'http://localhost:8001/api/charity-partner-form',
+      productionApi: 'https://api.safepetstoken.com/api/charity-partner-form',
       isButtonEnabled: true,
     }
   },
@@ -203,15 +299,21 @@ export default {
     },
     appendFormData() {
       let formData = new FormData()
-      formData.append('name', this.username)
+      formData.append('establishment_name', this.establishmentName)
+      formData.append('address', this.address)
+      formData.append('company_name', this.companyName)
+      formData.append('company_id', this.companyId)
       formData.append('email', this.email)
-      formData.append('message', this.message)
+      formData.append('phone', this.phone)
       return formData
     },
     clearForm() {
-      this.username = ''
+      this.establishmentName = ''
+      this.address = ''
+      this.companyName = ''
+      this.companyId = ''
       this.email = ''
-      this.message = ''
+      this.phone = ''
     },
     submitData() {
       this.$axios

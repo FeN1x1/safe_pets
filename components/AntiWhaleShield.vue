@@ -12,21 +12,17 @@
         ></path>
       </svg>
     </div>
-    <div
-      class="
-        px-4
-        py-8
-        mx-auto
-        max-w-full
-        md:max-w-screen-xl
-        lg:px-8
-      "
-    >
+    <div class="px-4 py-8 mx-auto max-w-full md:max-w-screen-xl lg:px-8">
       <AppTitleSecondary
         :title="$t('howToBuy.antiWhaleShield.title')"
         class="mt-6 max-w-screen-lg line-height"
       />
-      <nuxt-img src="antiwhaleshield.png" class="text-center sm:mx-auto h-64" alt='antiwhaleshield' />
+      <nuxt-img
+        sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+        src="antiwhaleshield.png"
+        class="text-center sm:mx-auto h-64"
+        alt="antiwhaleshield"
+      />
       <div
         class="
           sm:text-2xl

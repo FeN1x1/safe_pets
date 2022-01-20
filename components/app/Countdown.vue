@@ -9,19 +9,40 @@
       </div>
       <div class="w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg">
         <div class="font-bold leading-none mt-1">{{ days }}</div>
-        <div class="font-bold uppercase text-base text-green-secondary leading-none">
+        <div
+          class="
+            font-bold
+            uppercase
+            text-base text-green-secondary
+            leading-none
+          "
+        >
           {{ $t('countdown.days') }}
         </div>
       </div>
       <div class="w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg">
         <div class="font-bold leading-none mt-1">{{ hours }}</div>
-        <div class="font-bold uppercase text-base text-green-secondary leading-none">
+        <div
+          class="
+            font-bold
+            uppercase
+            text-base text-green-secondary
+            leading-none
+          "
+        >
           {{ $t('countdown.hours') }}
         </div>
       </div>
       <div class="w-24 mx-1 p-2 bg-white text-brown-primary rounded-lg">
         <div class="font-bold leading-none mt-1">{{ minutes }}</div>
-        <div class="font-bold uppercase text-base text-green-secondary leading-none">
+        <div
+          class="
+            font-bold
+            uppercase
+            text-base text-green-secondary
+            leading-none
+          "
+        >
           {{ $t('countdown.minutes') }}
         </div>
       </div>
@@ -41,7 +62,14 @@
         "
       >
         <div class="font-bold leading-none mt-1">{{ seconds }}</div>
-        <div class="font-bold uppercase text-base text-green-secondary leading-none">
+        <div
+          class="
+            font-bold
+            uppercase
+            text-base text-green-secondary
+            leading-none
+          "
+        >
           {{ $t('countdown.seconds') }}
         </div>
       </div>
@@ -86,8 +114,13 @@ export default {
   },
   computed: {
     isZeroTime() {
-      return this.days !== 0 && this.hours !== 0 && this.minutes !== 0 && this.seconds !== 0
-    }
+      return (
+        this.days !== 0 &&
+        this.hours !== 0 &&
+        this.minutes !== 0 &&
+        this.seconds !== 0
+      )
+    },
   },
   mounted() {
     this.start = new Date(this.starttime).getTime()

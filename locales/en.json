@@ -7,14 +7,15 @@
       "faq": "FAQ",
       "ourTeam": "Our Team",
       "contact": "Contact",
-      "buyNow": "Buy Now"
+      "buyNow": "Buy Now",
+      "howToBuy": "How To Buy"
     },
     "brandNewToken": "Brand New Token",
     "title": {
       "part1": "World's Community token created to help",
       "part2": "innocent pets & endangered animals"
     },
-    "text": "World's Community token created to help animals. World's Community token created to help animals. We're proud to be the first crypto currency creators to think outside the box in creating a unique token with unconventional goals. SafePets token was created with one purpose which is to help endangered animals and to make shelters for forgotten pets around the World. Our goal is to be the first accepted crypto currency in shelters and between organizations in the fight to help endangered animals worldwide. SafePets token provides static reflection that rewards holders, which means more tokens being automatically added to your wallet for each transaction made, even if it’s not yours. Guaranteed amazing 0.5% from every transaction is automatically added to SafePets charity wallet which is separated and donated to different shelters and world organizations in the fight for Animal health and Safety. Can’t beat investing and helping change the world at the same time!",
+    "text": "SafePets token was created with one purpose which is to help endangered animals and to make shelters for forgotten pets around the World. Our goal is to be the first accepted crypto currency in shelters and between organizations in the fight to help endangered animals worldwide. SafePets token provides static reflection that rewards holders, which means more tokens being automatically added to your wallet for each transaction made, even if it’s not yours. Guaranteed amazing 1% from every transaction is automatically added to SafePets charity wallet which is separated and donated to different shelters and world organizations in the fight for Animal health and Safety.",
     "comingSoon": "Coming soon...",
     "copy": "Copy"
   },
@@ -31,18 +32,45 @@
   "tokenomics": {
     "title": "Tokenomics",
     "marketingTitle": "Monstrous Marketing",
-    "marketingText": "3.5% of every transaction is allocated to Marketing. This allows us to fuel our most ambitious projects in service of further rewarding our community.",
+    "marketingText": "4% of every transaction is allocated to Marketing. This allows us to fuel our most ambitious projects in service of further rewarding our community.",
     "rewardsTitle": "Partner Rewards",
     "rewardsText": "2% of each transaction is redistributed to token investors. That means you can earn more SafePets tokens by just holding them in your wallet.",
     "charityTitle": "Charity Wallet",
-    "charityText": "We have a designated charity wallet that allocates 0.5% of each transaction made and is donated to support our charity partners.The transfer address in BNB is the following: 0x16Fb5D7e4e68D788De1A16C5172AB1577d934915",
+    "charityText": "We have a designated charity wallet that allocates 1% of each transaction made and is donated to support our charity partners.",
     "liquidityTitle": "Growing Liquidity",
-    "liquidityText": "4% of each transaction made is locked away in Pancakeswap’s liquidity pool."
+    "liquidityText": "3% of each transaction made is locked away in Pancakeswap’s liquidity pool.",
+    "transferAddress" : "0x16Fb5D7e4e68D788De1A16C5172AB1577d934915",
+    "transferAddressMobile" : "0x16Fb5D7e4e68D788De1A16C5...",
+    "transferAddressTitle": "Transparent Charity wallet"
   },
   "charity": {
     "title": "Charity",
-    "donationDescribtion": "Donating to shelters and animal health organizations worldwide.",
-    "donationText": "SafePets serves to help shelters with providing protection for animals, caring for animals in need and building a state-of-the-art animal adoption center. Animal shelters and rescues are amazing and need our support since they usually have limited resources, very little publicity and or funding. They help an untold number of animals which are just looking for a happy life. This is your chance to give back! Just be a part of our journey and find your way to our road map where you can learn how you can be a part of something world changing."
+    "donationDescription": "Donating to shelters and animal health organizations worldwide.",
+    "donationText": "SafePets serves to help shelters with providing protection for animals, caring for animals in need and building a state-of-the-art animal adoption center. Animal shelters and rescues are amazing and need our support since they usually have limited resources, very little publicity and or funding. They help an untold number of animals which are just looking for a happy life. This is your chance to give back! Just be a part of our journey and find your way to our road map where you can learn how you can be a part of something world changing.",
+    "partner" : {
+      "title" : "Charity Partner’s",
+      "button": "Become SafePets charity partner",
+      "titlePart1": "Wondering how to become a charity partner with",
+      "titlePart2": "SafePets?",
+      "text": "It’s easy, if you meet the requirements outlined below then put in an application and a SafePets representative will be in touch as soon as they can to set up an appointment where we will come visit personally and have the chance to find out for ourselves what your needs are and where we can help. If we come to terms an agreement on funding will follow. If you can fulfill the requirements, then do not hesitate to fill out the application. What are you waiting for?!",
+      "requirements": {
+        "1": "Have the ability/means to create a bnb wallet. (Funding is paid out this way)",
+        "2": "Have your own website for cross marketing purposes. (More explained in once we meet)",
+        "3": "Must be a company. (Self Employed, S.R.O., CORP, LLC,)",
+        "4": "Must be in business for at least 3 years.",
+        "5": "Be open to the idea of accepting SafePets Token as a form of currency.",
+        "ps": "Don’t worry if you’re not tech savvy, we can help with everything!"
+      },
+      "form": {
+        "text": "Charity Partner Application",
+        "establishment" : "Your Establishment name",
+        "address": "Address (of your business location)",
+        "companyName": "Your Company name",
+        "companyId" : "Your Company ID number",
+        "email": "Your Email",
+        "phoneNumber": "Your Phone number"
+      }
+    }
   },
   "roadmap": {
     "title": "Roadmap",
@@ -222,9 +250,6 @@
           },
           {
             "phase": "Building own pet shelter"
-          },
-          {
-            "phase": ""
           }
         ]
       },
@@ -257,7 +282,7 @@
     "questions": [
       {
         "question": "What is SafePets Token?",
-        "answer": "SafePets token is a decentralized cryptocurrency based on the idea of saving pets and other species from extinction one transaction at a time. 2% of each transaction is donated to organizations in the fight to save endangered animals."
+        "answer": "SafePets token is a decentralized cryptocurrency based on the idea of saving pets and other species from extinction one transaction at a time. 10% of each transaction is donated to organizations in the fight to save endangered animals."
       },
       {
         "question": "What do you mean by \"decentralized\"?",
@@ -327,10 +352,10 @@
       {
         "title": "Stefan",
         "profession": "Full Stack Developer",
-        "text": "Stefan is a full stack developer currently working for a digital health company in Bratislava. He specializes in JavaScript, front, and back-end APP development for android, IOS and windows. Specializes in creating content using drones to give the experience of a lifetime. Plays an important part in the development of anything that goes live for SafePets. ",
+        "text": "Stefan is a full stack developer currently working for a digital health company in Bratislava. He specializes in web development with main focus on JavaScript (Vue.js), but is also capable of developing backend and native applications for desktop or mobile devices. Specializes in creating content using drones to give the experience of a lifetime. Plays an important part in the development of anything that goes live for SafePets.",
         "personClass": "text-green-primary",
         "image": "default",
-        "personLinkedIn": ""
+        "personLinkedIn": "https://www.linkedin.com/in/%C5%A1tefan-golian-0a93bb229/"
       },
       {
         "title": "Alex",
@@ -411,7 +436,13 @@
   "validation": {
     "username": "Name is required",
     "email": "Email must be valid",
-    "message": "Message is required"
+    "message": "Message is required",
+    "establishmentName": "Establishment is required",
+    "address": "Address must be valid",
+    "companyName": "Company name is required",
+    "companyId": "Company ID is required",
+    "phone": "Phone number must be valid"
+
   },
   "seo": {
     "homepage": {
@@ -427,6 +458,11 @@
     "trustwallet": {
       "title": "",
       "description": "",
+      "keywords": ""
+    },
+    "charityPartner": {
+      "title": "SafePets Token - Become SafePets charity partner",
+      "description": "Become SafePets charity partner",
       "keywords": ""
     }
   },

@@ -1,7 +1,27 @@
 import { extend } from "vee-validate";
-import { required, email } from "vee-validate/dist/rules";
+import { required, email, alpha_num } from "vee-validate/dist/rules";
 
 extend("username", {
+  ...required
+});
+
+extend("establishmentName", {
+  ...required
+});
+
+extend("address", {
+  ...required
+});
+
+extend("companyName", {
+  ...required
+});
+
+extend("companyId", {
+  ...required
+});
+
+extend("phone", {
   ...required
 });
 

@@ -1,53 +1,123 @@
 <template>
-  <section id='charity' class='relative bg-brown-bg'>
-    <div class='absolute inset-x-0 bottom-0'>
+  <section id="charity" class="relative bg-brown-bg">
+    <div class="absolute inset-x-0 bottom-0">
       <svg
-        viewBox='0 0 224 12'
-        fill='currentColor'
-        class='w-full -mb-1 text-white'
-        preserveAspectRatio='none'
+        viewBox="0 0 224 12"
+        fill="currentColor"
+        class="w-full -mb-1 text-white"
+        preserveAspectRatio="none"
       >
         <path
-          d='M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z'
+          d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z"
         ></path>
       </svg>
     </div>
-    <section class='mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl'>
-      <div v-if='isSmallThanLg' class='flex'>
+    <section class="p-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl">
+      <div v-if="isSmallThanLg" class="flex pb-16">
         <div>
           <nuxt-img
-            src='cat-with-wool.png'
-            class='relative transform scale-125 cat-position'
-            alt='cat'
+            src="cat-with-wool.png"
+            class="relative transform scale-125 cat-position"
+            alt="cat"
           />
         </div>
-        <div class='w-4/5 px-8 sm:m-auto sm:text-center'>
-          <AppTitleSecondary :title='$t("charity.title")' class='-pb-4' />
+        <div class="w-4/5 sm:m-auto sm:text-center">
+          <AppTitleSecondary :title="$t('charity.title')" />
           <p
-            class='mb-10 text-2xl tracking-wider -mt-8 light-font title text-purple-primary'
+            class="
+              mb-8
+              text-3xl
+              tracking-wider
+              font-thin
+              -mt-8
+              title
+              text-purple-primary
+            "
           >
-            {{ $t("charity.donationDescribtion") }}
+            {{ $t('charity.donationDescription') }}
           </p>
-          <p class='mb-12 text-2xl tracking-wider text-white light-font'>
-            {{ $t("charity.donationText") }}
+          <p class="mb-10 text-2xl tracking-wider text-white light-font">
+            {{ $t('charity.donationText') }}
           </p>
+          <nuxt-link
+            :to="localePath('/charity-partner')"
+            class="
+              from-purple-tertiary
+              to-purple-primary
+              inline-block
+              px-4
+              pt-3
+              pb-2
+              mb-6
+              text-lg
+              font-extrabold
+              tracking-wide
+              text-white
+              uppercase
+              rounded-xl
+              bg-gradient-to-r
+            "
+          >
+            {{ $t('charity.partner.button') }}
+          </nuxt-link>
         </div>
       </div>
       <div v-else>
-        <div class='max-w-screen-md py-8 px-4 sm:m-auto sm:text-center'>
-          <AppTitleSecondary :title='$t("charity.title")' class='mb-4' />
+        <div class="max-w-screen-md py-8 px-4 sm:m-auto sm:text-center">
+          <AppTitleSecondary :title="$t('charity.title')" class="mb-4" />
           <p
-            class='lg:mb-10 py-4 text-xl sm:text-2xl tracking-wider -mt-6 light-font title text-purple-primary'
+            class="
+              lg:mb-10
+              py-4
+              text-xl
+              sm:text-2xl
+              tracking-wider
+              -mt-6
+              light-font
+              title
+              text-purple-primary
+            "
           >
-            {{ $t("charity.donationDescribtion") }}
+            {{ $t('charity.donationDescription') }}
           </p>
-          <p class='sm:mb-12 mb-4 text-lg sm:text-2xl tracking-wider text-white light-font'>
-            {{ $t("charity.donationText") }}
+          <p
+            class="
+              sm:mb-12
+              mb-4
+              text-lg
+              sm:text-2xl
+              tracking-wider
+              text-white
+              light-font
+            "
+          >
+            {{ $t('charity.donationText') }}
           </p>
+          <nuxt-link
+            :to="localePath('/charity-partner')"
+            class="
+              from-purple-tertiary
+              to-purple-primary
+              inline-block
+              px-4
+              pt-3
+              pb-2
+              mb-6
+              text-sm
+              text-center
+              text-white
+              uppercase
+              rounded-xl
+              bg-gradient-to-r
+            "
+          >
+            {{ $t('charity.partner.button') }}
+          </nuxt-link>
           <nuxt-img
-            src='cat-with-wool.png'
-            class='w-ful'
-            alt='cat-with-wool'
+            sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+            src="cat-with-wool.png"
+            class="w-ful"
+            alt="cat-with-wool"
           />
         </div>
       </div>
@@ -61,14 +131,14 @@ export default {
   computed: {
     isSmallThanLg() {
       return this.$breakpoints.lLg
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style scoped>
 .cat-position {
-  bottom: 10rem;
-  left: 5rem;
+  bottom: 8rem;
+  left: 3rem;
 }
 </style>

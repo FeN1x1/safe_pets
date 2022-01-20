@@ -104,6 +104,7 @@
           ></div>
           <div class="text-center my-auto py-auto p-4 lg:p-8 sm:mt-1">
             <nuxt-img
+              sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
               class="object-fill w-full"
               src="trustwallet.png"
               alt="trustwallet"
@@ -202,6 +203,7 @@
           ></div>
           <div class="text-center my-auto py-auto p-4 lg:p-8">
             <nuxt-img
+              sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
               class="object-contain my-auto"
               src="metamask.png"
               alt="metamask"
@@ -300,6 +302,7 @@
           ></div>
           <div class="text-center my-auto py-auto p-4 lg:p-8 sm:mt-1">
             <nuxt-img
+              sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
               class="object-contain my-auto"
               src="pancake-swap.png"
               alt="pancake-swap"

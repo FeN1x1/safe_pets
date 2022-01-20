@@ -42,8 +42,32 @@
   },
   "charity": {
     "title": "Charita",
-    "donationDescribtion": "Dar útulku pre domáce zvieratá",
-    "donationText": "Slúžime ako podpora útulkom, ktoré poskytujú ochranu a starostlivosť zvieratám v núdzi; centrum pre adopciu zvierat s kompletnými službami. Útulky a záchranné stanice pre zvieratá sú úžasné! Obvykle s obmedzenými prostriedkami a veľmi malou publicitou pomáhajú nespočetnému množstvu zvierat, ktoré nemali šťastie na šťastný život. Vráťme im to tým, že si vyberiete jeden alebo viac z nasledujúcich spôsobov, ako prejaviť uznanie skupinám, ktoré robia toľko pre zvieratá, ľudí a vašu komunitu."
+    "donationDescription": "Dar útulku pre domáce zvieratá",
+    "donationText": "Slúžime ako podpora útulkom, ktoré poskytujú ochranu a starostlivosť zvieratám v núdzi; centrum pre adopciu zvierat s kompletnými službami. Útulky a záchranné stanice pre zvieratá sú úžasné! Obvykle s obmedzenými prostriedkami a veľmi malou publicitou pomáhajú nespočetnému množstvu zvierat, ktoré nemali šťastie na šťastný život. Vráťme im to tým, že si vyberiete jeden alebo viac z nasledujúcich spôsobov, ako prejaviť uznanie skupinám, ktoré robia toľko pre zvieratá, ľudí a vašu komunitu.",
+    "partner" : {
+      "title" : "Charity Partner’s",
+      "button": "Become SafePets charity partner",
+      "titlePart1": "Wondering how to become a charity partner with",
+      "titlePart2": "SafePets?",
+      "text": "It’s easy, if you meet the requirements outlined below then put in an application and a SafePets representative will be in touch as soon as they can to set up an appointment where we will come visit personally and have the chance to find out for ourselves what your needs are and where we can help. If we come to terms an agreement on funding will follow. If you can fulfill the requirements, then do not hesitate to fill out the application. What are you waiting for?!",
+      "requirements": {
+        "1": "Have the ability/means to create a bnb wallet. (Funding is paid out this way)",
+        "2": "Have your own website for cross marketing purposes. (More explained in once we meet)",
+        "3": "Must be a company. (Self Employed, S.R.O., CORP, LLC,)",
+        "4": "Must be in business for at least 3 years.",
+        "5": "Be open to the idea of accepting SafePets Token as a form of currency.",
+        "ps": "Don’t worry if you’re not tech savvy, we can help with everything!"
+      },
+      "form": {
+        "text": "Charity Partner Application",
+        "establishment" : "Your Establishment name",
+        "address": "Address (of your business location)",
+        "companyName": "Your Company name",
+        "companyId" : "Your Company ID number",
+        "email": "Your Email",
+        "phoneNumber": "Your Phone number"
+      }
+    }
   },
   "roadmap": {
     "title": "Plán rozvoja",
@@ -412,14 +436,18 @@
   "validation": {
     "username": "Meno je vyžadované",
     "email": "Email musí byť validný",
-    "message": "Správa je vyžadovaná"
+    "message": "Správa je vyžadovaná",
+    "establishmentName": "Establishment is required",
+    "address": "Address must be valid",
+    "companyName": "Company name is required",
+    "companyId": "Company ID is required",
+    "phone": "Phone number must be valid"
   },
   "seo": {
     "homepage": {
       "title": "SafePets Token - Komunitní token vytvorený za účelom pomáhať zvieratkám",
       "description": "Celosvetový komunitný token, vytvorený za účelom pomáhať zvieratám. Sme hrdý na to, že sme ako prvý tvorcovia kryptomeny vytvorili unikátny token s neobvyklými cieľmi.",
       "keywords": "crypto, cryptocurrency, safepets, wwf, safe, pets, coin, token, charity token"
-
     },
     "metamask": {
       "title": "",
@@ -429,6 +457,11 @@
     "trustwallet": {
       "title": "",
       "description": "",
+      "keywords": ""
+    },
+    "charityPartner": {
+      "title": "SafePets Token - Become SafePets charity partner",
+      "description": "Become SafePets charity partner",
       "keywords": ""
     }
   },

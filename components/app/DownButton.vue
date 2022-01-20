@@ -1,7 +1,25 @@
 <template>
   <div
     v-scroll-to="'#tokenomics'"
-    class="flex cursor-pointer items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-white rounded-full hover:-green-primary hover:text-green-primary hover:border-green-primary hover:shadow hover:scale-110"
+    class="
+      flex
+      cursor-pointer
+      items-center
+      justify-center
+      w-10
+      h-10
+      mx-auto
+      text-white
+      duration-300
+      transform
+      border border-white
+      rounded-full
+      hover:-green-primary
+      hover:text-green-primary
+      hover:border-green-primary
+      hover:shadow
+      hover:scale-110
+    "
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -20,4 +38,3 @@
 <script>
 export default {}
 </script>
-

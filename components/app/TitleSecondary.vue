@@ -1,16 +1,22 @@
 <template>
   <div
-    class="py-4 text-4xl font-extrabold uppercase sm:py-8 lg:mb-8 title text-white md:mx-auto sm:text-5xl sm:text-center"
+    class="
+      py-4
+      text-4xl
+      font-extrabold
+      uppercase
+      sm:pb-8
+      lg:mb-8
+      title
+      text-white
+      md:mx-auto
+      sm:text-5xl sm:text-center
+    "
   >
-    <h2
-      class="relative" v-if='isSmallThanLg'
-    >
+    <h2 class="relative" v-if="isSmallThanLg">
       {{ title }}
     </h2>
-    <h3
-      class="relative underline-decoration inline"
-      v-else
-    >
+    <h3 class="relative underline-decoration inline" v-else>
       {{ title }}
     </h3>
   </div>
@@ -28,19 +34,19 @@ export default {
   computed: {
     isSmallThanLg() {
       return this.$breakpoints.lLg
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style scoped>
-
 h2:before {
   content: '';
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
-  --tw-gradient-from: #FF1D6F;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 29, 111, 0));
-  --tw-gradient-to: #FFC5DF;
+  --tw-gradient-from: #ff1d6f;
+  --tw-gradient-stops: var(--tw-gradient-from),
+    var(--tw-gradient-to, rgba(255, 29, 111, 0));
+  --tw-gradient-to: #ffc5df;
   display: block;
   width: 160px;
   height: 3px;
@@ -51,9 +57,10 @@ h2:before {
 h2:after {
   content: '';
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-  --tw-gradient-from: #FF1D6F;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 29, 111, 0));
-  --tw-gradient-to: #FFC5DF;
+  --tw-gradient-from: #ff1d6f;
+  --tw-gradient-stops: var(--tw-gradient-from),
+    var(--tw-gradient-to, rgba(255, 29, 111, 0));
+  --tw-gradient-to: #ffc5df;
   display: block;
   width: 160px;
   height: 3px;
@@ -63,9 +70,10 @@ h2:after {
 }
 
 .underline-decoration {
-  --tw-gradient-to: #FF1D6F;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 29, 111, 0));
-  --tw-gradient-from: #FFC5DF;
+  --tw-gradient-to: #ff1d6f;
+  --tw-gradient-stops: var(--tw-gradient-from),
+    var(--tw-gradient-to, rgba(255, 29, 111, 0));
+  --tw-gradient-from: #ffc5df;
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
   background-size: 100% 6px;
   background-repeat: no-repeat;

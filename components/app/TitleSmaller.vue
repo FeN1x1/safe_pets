@@ -1,15 +1,21 @@
 <template>
   <div
-    class="text-3xl font-extrabold uppercase pb-4 pt-8 title text-brown-primary md:mx-auto sm:text-4xl sm:text-center"
+    class="
+      text-3xl
+      font-extrabold
+      uppercase
+      pb-4
+      pt-8
+      title
+      text-brown-primary
+      md:mx-auto
+      sm:text-4xl sm:text-center
+    "
   >
-    <h2 v-if='isSmallThanLg'
-        class="relative"
-    >
+    <h2 v-if="isSmallThanLg" class="relative">
       {{ title }}
     </h2>
-    <h3 v-else
-        class="relative underline-decoration inline"
-    >
+    <h3 v-else class="relative underline-decoration inline">
       {{ title }}
     </h3>
   </div>
@@ -27,11 +33,10 @@ export default {
   computed: {
     isSmallThanLg() {
       return this.$breakpoints.lLg
-    }
-  }
+    },
+  },
 }
 </script>
-
 
 <style scoped>
 div {
@@ -44,7 +49,7 @@ h2:before {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
   --tw-gradient-from: #00b3b7;
   --tw-gradient-stops: var(--tw-gradient-from),
-  var(--tw-gradient-to, rgba(0, 179, 183, 0));
+    var(--tw-gradient-to, rgba(0, 179, 183, 0));
   --tw-gradient-to: #0ce2af;
   height: 2px;
   left: 70px;
@@ -56,7 +61,7 @@ h2:after {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
   --tw-gradient-from: #00b3b7;
   --tw-gradient-stops: var(--tw-gradient-from),
-  var(--tw-gradient-to, rgba(0, 179, 183, 0));
+    var(--tw-gradient-to, rgba(0, 179, 183, 0));
   --tw-gradient-to: #0ce2af;
   display: block;
   width: 100px;
@@ -68,7 +73,7 @@ h2:after {
 .underline-decoration {
   --tw-gradient-to: #00b3b7;
   --tw-gradient-stops: var(--tw-gradient-from),
-  var(--tw-gradient-to, rgba(0, 179, 183, 0));
+    var(--tw-gradient-to, rgba(0, 179, 183, 0));
   --tw-gradient-from: #0ce2af;
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
   background-size: 100% 6px;
