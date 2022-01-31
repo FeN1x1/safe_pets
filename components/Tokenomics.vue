@@ -3,7 +3,7 @@
     id="tokenomics"
     class="
       px-4
-      py-8
+      py-4
       mx-auto
       mb-4
       sm:max-w-xl
@@ -13,7 +13,7 @@
       lg:mb-6 lg:px-8 lg:pb-16
     "
   >
-    <AppTitle :title="$t('tokenomics.title')" class="-mt-2" />
+    <AppTitle :title="$t('tokenomics.title')" />
     <section class="grid row-gap-12 lg:grid-cols-2 sm:pt-8 pt-4">
       <TokenomicsSection
         image-class="w-28"

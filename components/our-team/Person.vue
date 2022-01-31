@@ -1,5 +1,5 @@
 <template>
-  <div class="child p-4">
+  <div class="child sm:p-4 px-4">
     <nuxt-img
       sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
       class="sm:mx-auto mr-auto w-40 md:w-44 lg:w-52"

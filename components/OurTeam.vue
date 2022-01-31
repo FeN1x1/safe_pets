@@ -1,5 +1,5 @@
 <template>
-  <section id="ourTeam" class="sm:px-16 py-8 mx-auto lg:pb-16 lg:pt-8">
+  <section id="ourTeam" class="sm:px-16 pt-4 pb-8 mx-auto lg:pb-16">
     <AppTitle :title="$t('ourTeam.title')" class="px-4" />
     <section
       class="

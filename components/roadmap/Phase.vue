@@ -25,11 +25,12 @@
       >
         {{ $t('roadmap.phase') }} {{ this.phase }}
       </h3>
-      <ul class="list-disc ml-6">
+      <ul>
         <li
           v-for="phase in phases"
           :key="phase.phase"
-          class="text-xl sm:text-2xl light-font text-brown-secondary"
+          :class='phase.completed ? "checkmark text-green-secondary" : "bullet text-brown-secondary"'
+          class="text-xl sm:text-2xl light-font"
         >
           {{ phase.phase }}
         </li>
@@ -53,3 +54,27 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+ul {
+  position: relative;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1.9rem;
+}
+ul .bullet:before {
+  content: "•";
+  font-size: 35px;
+  position: absolute;
+  left: -5px;
+  padding-left: 10px;
+}
+
+ul .checkmark:before {
+  content: "✓";
+  font-size: 25px;
+  position: absolute;
+  left: -7px;
+  padding-left: 10px;
+}
+</style>

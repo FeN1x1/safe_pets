@@ -5,7 +5,6 @@
       text-4xl
       font-extrabold
       uppercase
-      sm:py-8
       lg:mb-8
       title
       text-brown-primary

@@ -18,12 +18,13 @@
       @keydown.down.exact.prevent="startArrowKeys"
     >
       <nuxt-img
+        preload
         sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
         :src="`flags/${flagLocale()}`"
         alt="flag"
         class="w-6 h-6"
       />
-      <span class="ml-2">{{ locale }}</span>
+      <span class="ml-2 pt-1">{{ locale }}</span>
       <svg
         fill="currentColor"
         xmlns="http://www.w3.org/2000/svg"
@@ -75,13 +76,9 @@
           </div>
 
           <div>
-            <!--            <nuxt-link-->
-            <!--              :to="switchLocalePath('sk')"-->
-            <div
-              @click="toast"
+            <nuxt-link
+              :to="switchLocalePath('sk')"
               class="
-                hover-blur
-                cursor-pointer
                 -m-4
                 p-3
                 flex
@@ -91,18 +88,13 @@
               "
             >
               <span class="ml-2 capitalize">SK</span>
-              <!--            </nuxt-link>-->
-            </div>
+            </nuxt-link>
           </div>
 
           <div>
-            <!--            <nuxt-link-->
-            <!--              :to="switchLocalePath('cz')"-->
-            <div
-              @click="toast"
+            <nuxt-link
+              :to="switchLocalePath('cz')"
               class="
-                hover-blur
-                cursor-pointer
                 -m-4
                 p-3
                 flex
@@ -112,8 +104,7 @@
               "
             >
               <span class="ml-2 capitalize">CZ</span>
-              <!--            </nuxt-link>-->
-            </div>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -123,12 +114,6 @@
 
 <script>
 export default {
-  props: {
-    toast: {
-      type: Function,
-      required: true,
-    },
-  },
   mounted() {
     this.menuItems = document.querySelectorAll('.mega-menu a')
   },
@@ -177,6 +162,10 @@ export default {
           return 'czech-republic.png'
       }
     },
+    switchLocale() {
+      this.$router.push(this.$route.path.split('#'))
+      return this.switchLocalePath('sk')
+    },
   },
   computed: {
     locale() {
@@ -185,21 +174,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-.mega-menu-fade-enter-active,
-.mega-menu-fade-leave-active {
-  transition: all 0.1s ease-in-out;
-}
-.mega-menu-fade-enter,
-.mega-menu-fade-leave-to {
-  opacity: 0;
-  transform: translateY(-12px);
-}
-.v--modal {
-  overflow-y: auto !important;
-}
-.invert {
-  filter: invert(100%);
-}
-</style>

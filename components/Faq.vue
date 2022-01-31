@@ -16,10 +16,11 @@
       class="
         mx-auto
         px-4
-        py-8
+        py-4
+        sm:py-8
         sm:max-w-xl
         md:max-w-full md:px-24
-        lg:pb-32 lg:pt-16
+        lg:pb-20
       "
     >
       <div class="max-w-screen-xl sm:mx-auto">

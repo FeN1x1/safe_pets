@@ -4,7 +4,7 @@
       px-4
       pb-4
       sm:pb-8
-      pt-8
+      pt-4
       mx-auto
       mb-4
       sm:max-w-xl
@@ -14,7 +14,7 @@
       lg:mb-6 lg:px-8 lg:pb-16
     "
   >
-    <AppTitle :title="$t('charity.partner.title')" class="-mt-2 mb-4 sm:mb-0" />
+    <AppTitle :title="$t('charity.partner.title')" class="mb-4 sm:mb-0" />
     <div class="grid gap-6 row-gap-10 lg:grid-cols-2">
       <div class="lg:py-6 lg:pr-16">
         <div class="flex">

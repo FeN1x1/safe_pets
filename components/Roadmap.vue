@@ -3,7 +3,9 @@
     id="roadmap"
     class="
       px-4
-      py-8
+      pt-4
+      pb-4
+      sm:pb-8
       mx-auto
       sm:max-w-xl
       md:max-w-full
@@ -18,42 +20,6 @@
         {{ $t('roadmap.text') }}
       </p>
     </div>
-    <!--    <div-->
-    <!--      v-if="!isSmallerThanLg"-->
-    <!--      class="grid sm:pt-12 sm:pb-20 mx-auto grid-cols-2"-->
-    <!--    >-->
-    <!--      <div class="sm:pl-8 sm:pr-32">-->
-    <!--        <section v-for="(phase, index) in $t('roadmap.phases')">-->
-    <!--          <RoadmapPhase-->
-    <!--            v-if="(index + 1) % 2 === 1"-->
-    <!--            :key="index + 1"-->
-    <!--            :phases="phase.phases"-->
-    <!--            :phase="index + 1"-->
-    <!--          />-->
-    <!--        </section>-->
-    <!--      </div>-->
-    <!--      <div class="sm:pl-8 sm:pr-16">-->
-    <!--        <section v-for="(phase, index) in $t('roadmap.phases')">-->
-    <!--          <RoadmapPhase-->
-    <!--            v-if="index % 2 === 1"-->
-    <!--            :key="index + 1"-->
-    <!--            :phases="phase.phases"-->
-    <!--            :phase="index + 1"-->
-    <!--            class="lg:ml-16"-->
-    <!--          />-->
-    <!--        </section>-->
-    <!--      </div>-->
-    <!--    </div>-->
-    <!--    <div v-else class="grid mx-auto space-y-6 grid-cols-1 space-y-0">-->
-    <!--      <section>-->
-    <!--        <RoadmapPhase-->
-    <!--          v-for="(phase, index) in $t('roadmap.phases')"-->
-    <!--          :key="index + 1"-->
-    <!--          :phases="phase.phases"-->
-    <!--          :phase="index + 1"-->
-    <!--        />-->
-    <!--      </section>-->
-    <!--    </div>-->
     <AppSwiper />
   </section>
 </template>
@@ -61,10 +27,5 @@
 <script>
 export default {
   name: 'Roadmap',
-  computed: {
-    isSmallerThanLg() {
-      return this.$breakpoints.sMd
-    },
-  },
 }
 </script>

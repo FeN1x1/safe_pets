@@ -3,7 +3,9 @@
     id="howToBuy"
     class="
       px-4
-      py-8
+      pt-4
+      pb-4
+      sm:pb-8
       mx-auto
       sm:max-w-xl
       md:max-w-full
@@ -17,7 +19,6 @@
       <div
         class="
           cursor-pointer
-          hover-blur
           relative
           p-px
           overflow-hidden
@@ -32,8 +33,7 @@
           hover:shadow-xl
         "
       >
-        <!--        <nuxt-link event="" :to="localePath('/trustwallet')">-->
-        <div @click="toggleToast">
+        <nuxt-link :to="localePath('/trustwallet')">
           <div
             class="
               absolute
@@ -110,12 +110,10 @@
               alt="trustwallet"
             />
           </div>
-          <!--        </nuxt-link>-->
-        </div>
+        </nuxt-link>
       </div>
       <div
         class="
-          hover-blur
           cursor-pointer
           relative
           p-px
@@ -131,8 +129,7 @@
           hover:shadow-xl
         "
       >
-        <!--        <nuxt-link event="" :to="localePath('/metamask')">-->
-        <div @click="toggleToast">
+        <nuxt-link :to="localePath('/metamask')">
           <div
             class="
               absolute
@@ -209,13 +206,11 @@
               alt="metamask"
             />
           </div>
-        </div>
-        <!--        </nuxt-link>-->
+        </nuxt-link>
       </div>
       <div
         class="
           cursor-pointer
-          hover-blur
           relative
           p-px
           overflow-hidden
@@ -230,8 +225,10 @@
           hover:shadow-xl
         "
       >
-        <!--        <a target='_blank' href='https://pancakeswap.finance/swap'>-->
-        <div @click="toggleToast">
+        <a
+          target="_blank"
+          href="https://pancakeswap.finance/swap?outputCurrency=0x7aa50494c6ce91f346660fd3a113d72b2e909572"
+        >
           <div
             class="
               absolute
@@ -308,8 +305,7 @@
               alt="pancake-swap"
             />
           </div>
-          <!--        </a>-->
-        </div>
+        </a>
       </div>
     </div>
     <AppTitleSmaller :title="$t('howToBuy.exchanges.title')" class="-pb-4" />

@@ -46,3 +46,19 @@ html {
 .light-font {
   font-family: 'AzoSans-Regular', sans-serif;
 }
+
+.mega-menu-fade-enter-active,
+.mega-menu-fade-leave-active {
+  transition: all 0.1s ease-in-out;
+}
+.mega-menu-fade-enter,
+.mega-menu-fade-leave-to {
+  opacity: 0;
+  transform: translateY(-12px);
+}
+.v--modal {
+  overflow-y: auto !important;
+}
+.invert {
+  filter: invert(100%);
+}

@@ -49,10 +49,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    transpile: ['vee-validate/dist/rules'],
-    extend(config, ctx) {
-      config.resolve.symlinks = false
-    },
+    transpile: ['vee-validate/dist/rules']
   },
 
   modules: [
@@ -98,8 +95,8 @@ export default {
   i18n: {
     locales: [
       { code: 'en', iso: 'en-US', file: 'en.json' },
-      // { code: 'cz', iso: 'cs-CZ', file: 'cz.json' },
-      // { code: 'sk', iso: 'sk-SK', file: 'sk.json' },
+      { code: 'cz', iso: 'cs-CZ', file: 'cz.json' },
+      { code: 'sk', iso: 'sk-SK', file: 'sk.json' },
     ],
     defaultLocale: 'en',
     lazy: true,

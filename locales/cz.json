@@ -8,19 +8,23 @@
       "ourTeam": "Náš tým",
       "contact": "Kontakt",
       "buyNow": "Koupit",
-      "howToBuy": "Jak nakoupit"
+      "howToBuy": "Jak nakoupit",
+      "information" : "Informace",
+      "nft-gallery" : "NFT Galérie",
+      "partners" : "Partneri"
     },
     "brandNewToken": "Zbrusu Nový Token",
     "title": {
       "part1": "Světový komunitní token vytvořen za účelem pomoci",
       "part2": "opuštěným domácím mazlíčkům a ohroženým zvířatům"
     },
-    "text": "Světový komunitní token, vytvořený na pomoc zvířatům. Jsme hrdí na to, že jsme jako první tvůrci kryptoměny vytvořili unikátní token s neobvyklými cíli. Safe Pets token je vytvořen s jediným cílem – pomáhat ohroženým zvířatům a vytvořit útulek pro domácí mazlíčky po celém světě. Safe Pets token poskytuje statické odměny pro investory. Každou transakcí automaticky narůstá počet mincí v peněžence držitele tokenu. Každou transakcí se také automaticky přidává 2% z transakce do charitativní peněženky. Vybrané prostředky budou poskytnuty vybraným útulkům.",
+    "text": "SafePets token je vytvořen s jediným cílem – pomáhat ohroženým zvířatům a vytvořit útulek pro domácí mazlíčky po celém světě. SafePets token poskytuje statické odměny pro holdery. Každou transakcí automaticky narůstá počet mincí v peněžence držitele tokenů. Každou transakcí se také automaticky přidává 1% z transakce do oddělené charitativní peněženky. Vybrané prostředky budou poskytnuty vybraným útulkům a nebo organizacím, které bojují za zdraví a bezpečnost zvířat.",
     "comingSoon": "Již brzy...",
-    "copy": "Kopírovat"
+    "copy": "Kopírovat",
+    "download": "Stáhnout audit v .pdf"
   },
   "countdown": {
-    "title": "Kdy bude token Safe Pets uveden na trh?",
+    "title": "Kdy bude token SafePets uveden na trh?",
     "in": "za",
     "and": "a",
     "days": "Dní",
@@ -31,47 +35,51 @@
   },
   "tokenomics": {
     "title": "Tokenomie",
-    "marketingTitle": "Intenzivní marketing",
-    "marketingText": "2 % z každé transakce jsou určena na marketing. To nám umožňuje financovat naše nejambicióznější projekty, které slouží k dalšímu odměňování komunity.",
-    "rewardsTitle": "Odměny investorům",
-    "rewardsText": "2 % z každé transakce jsou přerozdělena držitelům tokenů. To znamená, že můžete vydělat více tokenů Safe Pets už jen tím, že je budete držet v peněžence.",
-    "charityTitle": "Charitatitvní peněženka",
-    "charityText": "Máme určenou charitativní peněženku, která přijímá 2 % z každé transakce, která jsou použita na podporu našich charitativních partnerů.",
+    "marketingTitle": "Velkolepý marketing",
+    "marketingText": "4 % z každé transakce budou zaslány do marketingové peněženky. To nám umožňuje financovat naše nejambicióznější projekty, které slouží k dalšímu odměňování komunity.",
+    "rewardsTitle": "Odměny holderům",
+    "rewardsText": "2 % z každé transakce jsou přerozdělena držitelům tokenů. To znamená, že můžete vydělat více tokenů SafePets už jen tím, že je budete držet v peněžence.",
+    "charityTitle": "Charitativní peněženka",
+    "charityText": "Máme určenou charitativní peněženku, která přijímá 1% z každé transakce, která jsou použita na podporu našich charitativních partnerů.",
     "liquidityTitle": "Rostoucí likvidita",
-    "liquidityText": "4 % z každé transakce přidané do uzamčeného fondu likvidity Pancakeswap."
+    "liquidityText": "3% z každé transakce přidané do uzamčeného fondu likvidity Pancakeswap.",
+    "transferAddress": "0x16Fb5D7e4e68D788De1A16C5172AB1577d934915",
+    "transferAddressMobile": "0x16Fb5D7e4e68D788De1A16C5...",
+    "transferAddressTitle": "Transparentní charitativní peněženka"
   },
   "charity": {
     "title": "Charita",
-    "donationDescription": "Darování útulkům a organizacím zabývajícím se zdravím zvířat po celém světě",
-    "donationText": " SafePets slouží jako pomoc útulkům při zajišťování ochrany zvířat, péči o zvířata v nouzi a budování nejmodernějších center pro adopci zvířat. Útulky a záchranné stanice pro zvířata jsou úžasné a potřebují naši podporu, protože obvykle mají omezené zdroje, velmi malou publicitu a nebo finanční prostředky. Pomáhají nespočetnému množství zvířat, která jen hledají šťastný život. Tohle je vaše šance, jak jim to vrátit! Stačí se stát součástí naší cesty a najít si cestu k našemu plánu, kde se dozvíte, jak se můžete stát součástí něčeho, co změní svět.",
-    "partner" : {
-      "title" : "Charity Partner’s",
-      "button": "Become SafePets charity partner",
-      "titlePart1": "Wondering how to become a charity partner with",
+    "partnerTitle" : "Partneri",
+    "donationDescribtion": "Darování útulkům a organizacím zabývajícím se zdravím zvířat po celém světě",
+    "donationText": "SafePets slouží jako pomoc útulkům při zajišťování ochrany zvířat, péči o zvířata v nouzi a budování nejmodernějších center pro adopci zvířat. Útulky a záchranné stanice pro zvířata jsou úžasné a potřebují naši podporu, protože obvykle mají omezené zdroje, velmi malou publicitu a nebo finanční prostředky. Pomáhají nespočetnému množství zvířat, která jen hledají šťastný život. Tohle je Vaše šance, jak jim to vrátit! Stačí se stát součástí naší cesty a najít si cestu k našemu plánu, kde se dozvíte, jak se můžete stát součástí něčeho, co změní svět.",
+    "partner": {
+      "title": "Charitativní partner",
+      "button": "Staňte se partnerem charitativní organizace SafePets",
+      "titlePart1": "Zajímá vás, jak se stát partnerem charitativní organizace?",
       "titlePart2": "SafePets?",
-      "text": "It’s easy, if you meet the requirements outlined below then put in an application and a SafePets representative will be in touch as soon as they can to set up an appointment where we will come visit personally and have the chance to find out for ourselves what your needs are and where we can help. If we come to terms an agreement on funding will follow. If you can fulfill the requirements, then do not hesitate to fill out the application. What are you waiting for?!",
+      "text": "Je to snadné, pokud splňujete níže uvedené požadavky, podejte přihlášku a zástupce společnosti SafePets Vás bude co nejdříve kontaktovat a domluví si s vámi schůzku, na které vás osobně navštívíme a budeme mít možnost zjistit, jaké jsou vaše potřeby a v čem vám můžeme pomoci. Pokud se dohodneme, bude následovat dohoda o financování. Pokud můžete splnit požadavky, pak neváhejte a vyplňte žádost. Na co ještě čekáte?!",
       "requirements": {
-        "1": "Have the ability/means to create a bnb wallet. (Funding is paid out this way)",
-        "2": "Have your own website for cross marketing purposes. (More explained in once we meet)",
-        "3": "Must be a company. (Self Employed, S.R.O., CORP, LLC,)",
-        "4": "Must be in business for at least 3 years.",
-        "5": "Be open to the idea of accepting SafePets Token as a form of currency.",
-        "ps": "Don’t worry if you’re not tech savvy, we can help with everything!"
+        "1": "Mít možnost/prostředky k vytvoření peněženky, která bude přijímat BNB. (Financování se vyplácí tímto způsobem)",
+        "2": "Máte vlastní webové stránky pro účely křížového marketingu. (Více vysvětleno v části Jakmile se setkáme)",
+        "3": "Musí to být společnost. (samostatně výdělečně činná osoba, s.r.o., CORP, LLC,",
+        "4": "Musí být v provozu alespoň 3 roky.",
+        "5": "Buďte otevřeni myšlence přijímat SafePets Token jako formu měny.",
+        "ps": "Nebojte se, pokud nejste technicky zdatní, pomůžeme vám se vším!"
       },
       "form": {
-        "text": "Charity Partner Application",
-        "establishment" : "Your Establishment name",
-        "address": "Address (of your business location)",
-        "companyName": "Your Company name",
-        "companyId" : "Your Company ID number",
-        "email": "Your Email",
-        "phoneNumber": "Your Phone number"
+        "text": "Přihláška charitativního partnera",
+        "establishment": "Jméno provozovny",
+        "address": "Adresa (sídlo společnosti)",
+        "companyName": "Název společnosti",
+        "companyId": "ID společnosti",
+        "email": "Váš email",
+        "phoneNumber": "Vaše telefonní číslo"
       }
     }
   },
   "roadmap": {
     "title": "Plán rozvoje",
-    "text": "Zde je náš plán vývoje rozdělený do 9 fází. Staňte se součástí úspěšné cesty!",
+    "text": "Zde je náš plán vývoje rozdělený do 9-ti fází. Staňte se součástí úspěšné cesty!",
     "phase": "Fáze",
     "phases": [
       {
@@ -80,7 +88,8 @@
             "phase": "KYC + Audit"
           },
           {
-            "phase": "Spuštění webových stránek"
+            "phase": "Spuštění webových stránek",
+            "completed" : "true"
           },
           {
             "phase": "Předprodej"
@@ -89,23 +98,25 @@
             "phase": "Uvedení tokenu na trh"
           },
           {
-            "phase": "Uvedení tokenu na sociálních sítích"
+            "phase": "Uvedení tokenu na sociálních sítích",
+            "completed" : "true"
           },
           {
-            "phase": "Spuštění charitativní a marketingové peněženky"
+            "phase": "Spuštění charitativní a marketingové peněženky",
+            "completed" : "true"
           }
         ]
       },
       {
         "phases": [
           {
-            "phase": "~500 investorů"
+            "phase": "~500 držitelů tokenů"
           },
           {
             "phase": "~1 000 Členů telegramové skupiny"
           },
           {
-            "phase": "Marketingový tlak na šíření povědomí"
+            "phase": "Marketingový tlak na šíření povědomí o projektu"
           },
           {
             "phase": "Nová partnerství s mezinárodními organizacemi WWF, IUCN, UNEP"
@@ -121,7 +132,7 @@
       {
         "phases": [
           {
-            "phase": "~1 000 investorů"
+            "phase": "~1 000 držitelů tokenů"
           },
           {
             "phase": "~2 000 Členů telegramové skupiny"
@@ -133,7 +144,10 @@
             "phase": "Uvedení na Coinmarketcap a Coingecko"
           },
           {
-            "phase": "NFT Galerie"
+            "phase": "NFT SafePets Galerie"
+          },
+          {
+            "phase": "Mobilná hra"
           },
           {
             "phase": "Druhý charitativní dar"
@@ -143,7 +157,7 @@
       {
         "phases": [
           {
-            "phase": "~2 500 investorů"
+            "phase": "~2 500 držitelů tokenů"
           },
           {
             "phase": "~5 000 Členů telegramové skupiny"
@@ -158,9 +172,6 @@
             "phase": "Platforma pro obchodování s NFT"
           },
           {
-            "phase": "Zákaznická podpora"
-          },
-          {
             "phase": "Třetí charitativní dar"
           }
         ]
@@ -168,7 +179,7 @@
       {
         "phases": [
           {
-            "phase": "~5 000 investorů"
+            "phase": "~5 000 držitelů tokenů"
           },
           {
             "phase": "~10 000 Členů telegramové skupiny"
@@ -177,29 +188,32 @@
             "phase": "Uvedení na větší centralizované burze"
           },
           {
-            "phase": "Safe Pets aplikace pro Android/iOS"
+            "phase": "SafePets aplikace pro Android/iOS"
           },
           {
             "phase": "Čtvrtý charitativní dar"
           },
           {
             "phase": "Otevření prvních kanceláří v Bratislavě"
+          },
+          {
+            "phase": "Spuštění mezinárodního support teamu"
           }
         ]
       },
       {
         "phases": [
           {
-            "phase": "~10 000 investorů"
+            "phase": "~10 000 držitelů tokenů"
           },
           {
             "phase": "~25 000 Členů telegramové skupiny"
           },
           {
-            "phase": "Zvýšení marketingových aktivit"
+            "phase": "Rozšíření marketingového týmu"
           },
           {
-            "phase": "Safe Pets Swap"
+            "phase": "SafePets Swap"
           },
           {
             "phase": "TV a Rádio rozhovory"
@@ -212,7 +226,7 @@
       {
         "phases": [
           {
-            "phase": "~20 000+ investorů"
+            "phase": "~20 000+ držitelů tokenů"
           },
           {
             "phase": "~50 000 Členů telegramové skupiny"
@@ -227,26 +241,23 @@
             "phase": "Druhý Audit"
           },
           {
-            "phase": "Šestý chatitativní dar"
+            "phase": "Šestý charitativní dar"
           }
         ]
       },
       {
         "phases": [
           {
-            "phase": "~50 000+ investorů"
+            "phase": "~50 000+ držitelů tokenů"
           },
           {
             "phase": "~80 000 Členů telegramové skupiny"
           },
           {
-            "phase": "Nové partnerství"
+            "phase": "Nová světová partnerství"
           },
           {
             "phase": "Masivní internetová kampaň"
-          },
-          {
-            "phase": "Rozhovor ve Forex magazínu"
           },
           {
             "phase": "Budování vlastního útulku pro domácí zvířata"
@@ -256,7 +267,7 @@
       {
         "phases": [
           {
-            "phase": "~100 000+ investorů"
+            "phase": "~100 000+ držitelů tokenů"
           },
           {
             "phase": "~150 000 Členů telegramové skupiny"
@@ -281,36 +292,36 @@
     "title": "Časté dotazy",
     "questions": [
       {
-        "question": "Co je Safe Pets Token?",
-        "answer": "Safe pets token je decentralizovaná kryptoměna, založená na myšlence záchrany domácích mazlíčků a dalších druhů před vyhynutím. Každou transakcí se zároveň získává částka, která bude zaslána organizacím na záchranu ohrožených zvířat."
+        "question": "Co je SafePets Token?",
+        "answer": "SafePets token je decentralizovaná kryptoměna, založená na myšlence záchrany domácích mazlíčků a dalších druhů před vyhynutím. Každou transakcí se zároveň získává 1% prostředků,  které budou zaslána organizacím na záchranu ohrožených zvířat, případně zvířecím útulkům."
       },
       {
         "question": "Co je myšleno pod pojmem \",decentralizovaná\"?",
-        "answer": "Safe Pets je navržen tak, aby nikdo, tvůrce, ani jiní jednotlivci, skupiny nebo vlády, nemohl kryptoměnu ovlivnit, zfalšovat nebo zabavit. Neexistuje žádný centrální bod. Technicky vzato funguje podle pravidel dohodnutých konsensem, nikoliv podle rozhodnutí nějakého zakladatele nebo vlastníka."
+        "answer": "SafePets je navržen tak, aby tvůrce či jiní jednotlivci, skupiny nebo vlády, nemohl kryptoměnu ovlivnit, zfalšovat nebo zabavit. Neexistuje žádný centrální bod. Technicky vzato funguje podle pravidel dohodnutých konsensem, nikoliv podle rozhodnutí nějakého zakladatele nebo vlastníka."
       },
       {
-        "question": "Má token Safe Pets budoucnost?",
-        "answer": "Vzhledem k tomu, že máme skvělý tým profesionálů, kteří dělají vše pro to, takže určitě ano. Na Zemi je kriticky ohroženo 35 tisíc druhů zvířat. Peníze na ochranu a obnovu fauny chybí a podpora organizací stagnuje. Bez zvířat nemůže planeta fungovat."
+        "question": "Má token SafePets budoucnost?",
+        "answer": "Vzhledem k tomu, že na projektu pracuje skvělý tým profesionálů, kteří dělají všechno proto, aby se tento projekt zviditelnil co nejvíce, věříme že buducnost určitě má. Na druhou stranu každým dalším dnem se ohroženost zvířat zvyšuje a právě proto věříme, že SafePets token může situaci zvířat na naší planetě rapidně zlepšit."
       },
       {
         "question": "Co je myšleno pod pojmem \"kryptoměna\"?",
-        "answer": "Kryptoměna je digitální měna, která je zajištěna kryptografií, na rozdíl od běžných (fiat) měn, které jsou zajištěny vládou nebo vládami. Jsou to peníze pro lidi, a čím více lidí je vlastní a používá, tím jsou užitečnější."
+        "answer": "Kryptoměna je digitální měna, která je zajištěna kryptografií, na rozdíl od běžných (fiat) měn, které jsou zajištěny vládou nebo vládami. Jsou to peníze pro lidi a čím více lidí je vlastní a používá, tím jsou užitečnější."
       },
       {
         "question": "Dobře, ale co to znamená?",
         "answer": "Znamená to, že nemusíte důvěřovat žádné centrální organizaci nebo osobě tak, jako byste důvěřovali bance, ale také to, že musíte být sami sobě bankou. Vývojáři vám nemohou zabavit peníze, ale také je nemohou vrátit, pokud je pošlete na špatnou adresu."
       },
       {
-        "question": "Kdo tedy provozuje token Safe Pets?",
+        "question": "Kdo tedy provozuje token SafePets?",
         "answer": "Nikdo, nebo všichni stejně, záleží na tom, jak se na to díváte. Vývojáři mohou vydávat nový software, ale komunita se musí rozhodnout, zda jej bude používat. Tato komunita zahrnuje nejen koncové uživatele, ale i těžaře, burzy, zpracovatele plateb atd. Komunita obvykle přijímá nový software, který vydáváme, protože máme zavedené zkušenosti, ale nemáme k němu žádný zvláštní přístup."
       },
       {
-        "question": "Jak mohu použít/přijmout token Safe Pets?",
-        "answer": "Plánujeme vytvořit seznam příjemců tokenů, abychom pomohli individuálním organizacím, které potřebují finanční prostředky na záchranu ohrožených nebo opuštěných zvířat."
+        "question": "Kde mohu zakoupit token SafePets?",
+        "answer": "První burza, na které bude možné token zakoupit, je burza Pancakeswap."
       },
       {
-        "question": " Je moje investice do Safe Pets bezpečná?",
-        "answer": " Rozhodně. Členové týmu mají ověřenou identitu třetí osobou. Chytrá smlouva je auditovaná a ve fázi 7 roadmapy projde druhým auditem. Safe Pets token je založen na právních základech občanského združení na Slovensku"
+        "question": "Je moje investice do SafePets bezpečná?",
+        "answer": "Rozhodně. Členové týmu mají ověřenou identitu třetí osobou. V blízké budoucnosti se chystáme splnit několik auditů abychom se ujistili, že všechno půjde hladce a přesně podle představ tak, jak to je znázorněno v naší roadmapě. SafePets token je založen na právních základech občanského združení na Slovensku."
       }
     ]
   },
@@ -319,23 +330,23 @@
     "persons": [
       {
         "title": "Michal",
-        "profession": "Project Leader",
-        "text": " Používá kvalitní obchodní strategie a plány a zajišťuje jejich sladění a organizaci krátkodobých a dlouhodobých cílů. Má vysoké zkušenosti s audity, analýzami a prognózami. Michal se účastnil činnosti evropské dobrovolné organizace Future Generation Europe. Řídil významná partnerství a založil tým SafePets. V současné době pracuje jako analytik v ekonomicko-právním oddělení jedné z největších IT společností na světě.",
+        "profession": "Zakladatel projektu",
+        "text": "Používá kvalitní obchodní strategie a plány a zajišťuje jejich sladění a organizaci krátkodobých a dlouhodobých cílů. Má vysoké zkušenosti s audity, analýzami a prognózami. Michal se účastnil činnosti evropské dobrovolné organizace Future Generation Europe. Řídil významná partnerství a založil tým SafePets. V současné době pracuje jako analytik v ekonomicko-právním oddělení jedné z největších IT společností na světě.",
         "personClass": "text-green-primary",
         "image": "Michal",
         "personLinkedIn": "https://www.linkedin.com/in/michal-sur%C5%BEin-1240851b3/"
       },
       {
         "title": "Daniel",
-        "profession": "Networking Developer",
-        "text": "Jako úspěšný absolvent Bankovního institutu v Praze ukončil studium oboru Právo a správa v podnikatelské sféře. Daniel řídí naše kampaně, partnerství a právní problémy, které se vyskytnou. Díky 15 letům zkušeností v oblasti obchodu je klíčovým hráčem pro vytváření sítí. Jeho oblíbený citát je: Možnosti jsou nekonečné!\n",
+        "profession": "Manažer obchodního rozvoje",
+        "text": "Jako úspěšný absolvent Bankovního institutu v Praze ukončil studium oboru Právo a správa v podnikatelské sféře. Daniel řídí naše kampaně, partnerství a právní problémy, které se vyskytnou. Díky 15-ti letům zkušeností v oblasti obchodu je klíčovým hráčem pro vytváření sítí. Jeho oblíbený citát je: Možnosti jsou nekonečné!\n",
         "personClass": "text-purple-primary",
         "image": "Daniel",
         "personLinkedIn": "https://www.linkedin.com/in/sucho-hajnik-30a8b282"
       },
       {
         "title": "Martin",
-        "profession": "Lead Developer",
+        "profession": "Hlavní vývojář",
         "text": "Vedoucí oddělení informatiky a full-stack vývoje. Má bohaté zkušenosti v oblasti blockchainu, obchodování a technické analýzy. Je nadějným vývojářem v oboru a při práci je závanem čerstvého vzduchu, který přináší nové nápady. Martin pracuje jako programátor pro společnost, která vyvíjí nabíječky pro elektromobily.",
         "personClass": "text-green-tertiary",
         "image": "Martin",
@@ -343,43 +354,43 @@
       },
       {
         "title": "Tomáš",
-        "profession": "Marketing Developer",
+        "profession": "Marketingový manažer",
         "text": "Náš marketingový specialista má zkušenosti v oblasti obchodu, marketingu a bankovnictví. Tomáš v současné době pracuje jako obchodní manažer v IT společnosti, kde se zaměřuje na marketing a budování značky. Všechny zkušenosti a znalosti se snaží využít k efektivnímu marketingu a propagaci prostřednictvím sociálních sítí a online marketingu.",
         "personClass": "text-purple-tertiary",
         "image": "Tomas",
-        "personLinkedIn": ""
+        "personLinkedIn": "https://www.linkedin.com/in/tom%C3%A1%C5%A1-han%C3%A1k-5a8998154/"
       },
       {
         "title": "Štefan",
-        "profession": "Fullstack Developer",
-        "text": "Štefan je full stack vývojář, který v současné době pracuje pro společnost zabývající se digitálním zdravotnictvím v Bratislavě. Specializuje se na JavaScript, front a back-end vývoj APP pro Android, IOS a Windows. Specializuje se na tvorbu obsahu pomocí dronů, které poskytují zážitky na celý život. Hraje důležitou roli při vývoji všeho, co se pro SafePets pustí do ostrého provozu.",
+        "profession": "Fullstack vývojář",
+        "text": "Štefan je náš rozvojový vývojář, který momentálně pracuje pro digitální zdravotnickou společnost v Bratislavě. Specializuje se na JavaScript, front a back-end vývoj aplikací pro Android, IOS a Windows. Ve svém soukromém životě se věnuje vytváření obsahu pomocí dronů, které poskytují zážitky na celý život. Štefan hraje důležitou úlohu při vývoji čehokoliv, do čeho se SafePets pustí",
         "personClass": "text-green-primary",
         "image": "default",
-        "personLinkedIn": ""
+        "personLinkedIn": "https://www.linkedin.com/in/%C5%A1tefan-golian-0a93bb229/"
       },
       {
         "title": "Alexandra",
-        "profession": "Graphic Designer",
-        "text": "Alexandra je mimořádně talentovaná grafická designérka na volné noze od roku 2015. Alexandra se specializuje na všechny aspekty grafického designu, identitu značky a velmi dobře rozumí reklamnímu designu. Provedla veškeré grafické návrhy a úpravy všech našich webových variant. Hraje také nedílnou roli v našem fenomenálním aspektu NFT galerie SafePets.",
+        "profession": "Grafický designér",
+        "text": "Alexandra je mimořádně talentovaná grafická designérka na volné noze od roku 2015. Alexandra se specializuje na všechny aspekty grafického designu, identitu značky a velmi dobře rozumí reklamnímu designu. Provedla veškeré grafické návrhy a úpravy všech našich webových variant. Hraje také nedílnou roli v našem fenomenálním aspektu SafePets NFT galerie.",
         "personClass": "text-green-primary",
         "image": "Alex",
-        "personLinkedIn": ""
+        "personLinkedIn": "https://linkedin.com/in/alex-hatal"
       },
       {
         "title": "Peter",
-        "profession": "Marketing Developer",
-        "text": " Peter je podnikatel s širokým portfoliem investičních společností, které investují do forexu, akcií, ETFS a dalších aktiv, jako jsou kryptoměny. V mladém věku se Peterovi podařilo vyvinout vlastní obchodní systém, který poskytuje úspěšné FX signály. Klíčový je při řízení našich marketingových kampaní, buduje důležitá partnerství a spolupracuje s naší komunitou a partnery. Jeho rozsáhlý rolodex klientů je zásadním aspektem budoucího úspěchu SafePets.",
+        "profession": "Marketingový specialista",
+        "text": "Peter je podnikatel s širokým portfoliem investičních společností, které investují do forexu, akcií, ETFS a dalších aktiv, jako jsou kryptoměny. V mladém věku se Peterovi podařilo vyvinout vlastní obchodní systém, který poskytuje úspěšné FX signály. Klíčový je při řízení našich marketingových kampaní, buduje důležitá partnerství a spolupracuje s naší komunitou a partnery. Jeho rozsáhlý rolodex klientů je zásadním aspektem budoucího úspěchu SafePets.",
         "personClass": "text-green-secondary",
         "image": "Peter",
         "personLinkedIn": "https://www.linkedin.com/in/peter-jandura-1b658b122"
       },
       {
         "title": "Jozef",
-        "profession": " Ambasador značky",
-        "text": " Jozef má téměř desetileté zkušenosti, skvěle rozumí vztahům mezi klienty a zákazníky a umí efektivně komunikovat s rodilými i nerodilými anglicky mluvícími účastníky online komunity. V současné době pracuje pro technologickou společnost jako zástupce VIP manažera se sídlem v Praze a pobočkami po celém světě. Proto je právě on tím pravým člověkem, který by měl SafePets zastupovat.",
+        "profession": "Ambasador značky",
+        "text": "Jozef má téměř desetileté zkušenosti, skvěle rozumí vztahům mezi klienty a zákazníky a umí efektivně komunikovat s rodilými i nerodilými anglicky mluvícími účastníky online komunity. V současné době pracuje pro technologickou společnost jako zástupce VIP manažera se sídlem v Praze a pobočkami po celém světě. Proto je právě on tím pravým člověkem, který by měl SafePets zastupovat.",
         "personClass": "text-green-tertiary",
         "image": "Jozef",
-        "personLinkedIn": ""
+        "personLinkedIn": "https://www.linkedin.com/in/jozef-kapel-aa8366150/"
       }
     ]
   },
@@ -417,7 +428,8 @@
     "success": "Hotovo"
   },
   "footer": {
-    "text": "Copyright © 2021 Safe Pets. Všechna práva vyhrazena - Zásady ochrany osobních údajů - Smluvní podmínky Safe Pets není investice. Safe Pets byl vytvořen jako meme parodie, nic neslibuje a není zodpovědný za případné ztráty nebo chyby."
+    "text": "SafePets není investice. SafePets byl vytvořen jako meme parodie, nic neslibuje a není zodpovědný za případné ztráty nebo chyby.",
+    "copyright": "Copyright © 2021 Safe Pets. Všechna práva vyhrazena - Zásady ochrany osobních údajů - Smluvní podmínky "
   },
   "contactUs": {
     "text": "Máte otázku?<br>Níže nám zašlete zprávu",
@@ -437,16 +449,16 @@
     "username": "Jméno je vyžadováno",
     "email": "E-mail musí být platný",
     "message": "Zpráva je vyžadována",
-    "establishmentName": "Establishment is required",
-    "address": "Address must be valid",
-    "companyName": "Company name is required",
-    "companyId": "Company ID is required",
-    "phone": "Phone number must be valid"
+    "establishmentName": "Je vyžadována provozovna",
+    "address": "Adresa musí být platná",
+    "companyName": "Vyžaduje se název společnosti",
+    "companyId": "Je vyžadováno ID společnosti",
+    "phone": "Telefonní číslo musí být platné"
   },
   "seo": {
     "homepage": {
-      "title": "SafePets Token - Komunitní token, vytvořený na pomoc zvířatům",
-      "description": "Světový komunitní token, vytvořený na pomoc zvířatům. Jsme hrdí na to, že jsme jako první tvůrci kryptoměny vytvořili unikátní token s neobvyklými cíli.",
+      "title": "SafePets Token - komunitní token vytvořený na pomoc zvířatům",
+      "description": "Světový komunitní token vytvořený na pomoc zvířatům. Jsme hrdí na to, že jsme prvními tvůrci kryptoměny, kteří při vytváření unikátního tokenu s netradičními cíli přemýšlejí netradičně.",
       "keywords": "crypto, cryptocurrency, safepets, wwf, safe, pets, coin, token, charity token"
     },
     "metamask": {
@@ -460,8 +472,8 @@
       "keywords": ""
     },
     "charityPartner": {
-      "title": "SafePets Token - Become SafePets charity partner",
-      "description": "Become SafePets charity partner",
+      "title": "Token SafePets - Staňte se partnerem charitativní organizace SafePets",
+      "description": "Je to snadné, pokud splňujete níže uvedené požadavky, podejte přihlášku a zástupce SafePets Vás bude co nejdříve kontaktovat",
       "keywords": ""
     }
   },

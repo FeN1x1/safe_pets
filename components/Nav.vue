@@ -10,41 +10,45 @@
             src="logo.png"
             alt="logo"
             class="sm:h-20 h-16"
-            :imgAttrs="{
-              id: 'my-id',
-              class: 'my-class',
-              style: 'display:block',
-              'data-my-data': 'my-value',
-            }"
           />
         </nuxt-link>
         <div v-if="isXl">
-          <nav class="flex items-center space-x-8 lg:flex">
+          <nav class="flex mt-2 items-center space-x-8 lg:flex">
             <NavButton
-              v-if="screen > 1350"
+              v-if="screen > 1380"
               :name="$t('header.navigation.tokenomics')"
               to="tokenomics"
             />
+            <a href='https://www.cryptovoxels.com/s/safepetsgallery' target='_blank' class='cursor-pointer nav-item'>
+              {{ this.$t('header.navigation.nft-gallery') }}
+            </a>
+            <NavButton :name="$t('header.navigation.partners')" to="partners" />
             <NavButton :name="$t('header.navigation.charity')" to="charity" />
             <NavButton :name="$t('header.navigation.roadmap')" to="roadmap" />
-            <NavButton :name="$t('header.navigation.faq')" to="faq" />
-            <NavButton :name="$t('header.navigation.ourTeam')" to="ourTeam" />
             <NavButton :name="$t('header.navigation.howToBuy')" to="howToBuy" />
-            <NavButton :name="$t('header.navigation.contact')" to="contactUs" />
-            <div class="button hover-blur" @click="toggleToast">
+            <AppInfoDropdown />
+            <a class="button -ml-4" href='https://pancakeswap.finance/swap?outputCurrency=0x7aa50494c6ce91f346660fd3a113d72b2e909572' target='_blank'>
               {{ this.$t('header.navigation.buyNow') }}
-            </div>
-            <AppLanguageDropdown :toast="toggleToast" />
+            </a>
+            <AppLanguageDropdown />
           </nav>
         </div>
         <div class="flex" v-else>
           <client-only>
             <Slide class="bottom-4" :closeOnNavigation="true" noOverlay right>
               <nav class="flex flex-col">
-                <AppMobileLanguageChanger :toast="toggleToast" />
+                <AppMobileLanguageChanger />
                 <NavButton
                   :name="$t('header.navigation.tokenomics')"
                   to="tokenomics"
+                  :desktop="false"
+                />
+                <a href='https://www.cryptovoxels.com/s/safepetsgallery' target='_blank' class='px-4 py-3 text-3xl text-green-secondary cursor-pointer'>
+                  {{ this.$t('header.navigation.nft-gallery') }}
+                </a>
+                <NavButton
+                  :name="$t('header.navigation.partners')"
+                  to="partners"
                   :desktop="false"
                 />
                 <NavButton
@@ -77,12 +81,12 @@
                   to="contactUs"
                   :desktop="false"
                 />
-                <div
+                <a
+                  href='https://pancakeswap.finance/swap?outputCurrency=0x7aa50494c6ce91f346660fd3a113d72b2e909572' target='_blank'
                   class="px-4 py-3 text-3xl text-green-secondary cursor-pointer"
-                  @click="toggleToast"
                 >
                   {{ $t('header.navigation.buyNow') }}
-                </div>
+                </a>
               </nav>
             </Slide></client-only
           >
@@ -123,8 +127,8 @@ export default {
   border-radius: 0.525rem;
 }
 .bm-burger-button {
+  right: -1px !important;
   top: 1.2rem !important;
-  right: 0.5rem !important;
   transform: scale(0.8);
 }
 </style>

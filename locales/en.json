@@ -8,7 +8,10 @@
       "ourTeam": "Our Team",
       "contact": "Contact",
       "buyNow": "Buy Now",
-      "howToBuy": "How To Buy"
+      "howToBuy": "How To Buy",
+      "information" : "Information",
+      "nft-gallery" : "NFT Gallery",
+      "partners" : "Partners"
     },
     "brandNewToken": "Brand New Token",
     "title": {
@@ -17,7 +20,8 @@
     },
     "text": "SafePets token was created with one purpose which is to help endangered animals and to make shelters for forgotten pets around the World. Our goal is to be the first accepted crypto currency in shelters and between organizations in the fight to help endangered animals worldwide. SafePets token provides static reflection that rewards holders, which means more tokens being automatically added to your wallet for each transaction made, even if it’s not yours. Guaranteed amazing 1% from every transaction is automatically added to SafePets charity wallet which is separated and donated to different shelters and world organizations in the fight for Animal health and Safety.",
     "comingSoon": "Coming soon...",
-    "copy": "Copy"
+    "copy": "Copy",
+    "download": "Download audit in .pdf"
   },
   "countdown": {
     "title": "When will Safepets Token Launch?",
@@ -39,16 +43,17 @@
     "charityText": "We have a designated charity wallet that allocates 1% of each transaction made and is donated to support our charity partners.",
     "liquidityTitle": "Growing Liquidity",
     "liquidityText": "3% of each transaction made is locked away in Pancakeswap’s liquidity pool.",
-    "transferAddress" : "0x16Fb5D7e4e68D788De1A16C5172AB1577d934915",
-    "transferAddressMobile" : "0x16Fb5D7e4e68D788De1A16C5...",
+    "transferAddress": "0x16Fb5D7e4e68D788De1A16C5172AB1577d934915",
+    "transferAddressMobile": "0x16Fb5D7e4e68D788De1A16C5...",
     "transferAddressTitle": "Transparent Charity wallet"
   },
   "charity": {
     "title": "Charity",
+    "partnerTitle" : "Partners",
     "donationDescription": "Donating to shelters and animal health organizations worldwide.",
     "donationText": "SafePets serves to help shelters with providing protection for animals, caring for animals in need and building a state-of-the-art animal adoption center. Animal shelters and rescues are amazing and need our support since they usually have limited resources, very little publicity and or funding. They help an untold number of animals which are just looking for a happy life. This is your chance to give back! Just be a part of our journey and find your way to our road map where you can learn how you can be a part of something world changing.",
-    "partner" : {
-      "title" : "Charity Partner’s",
+    "partner": {
+      "title": "Charity Partner’s",
       "button": "Become SafePets charity partner",
       "titlePart1": "Wondering how to become a charity partner with",
       "titlePart2": "SafePets?",
@@ -63,10 +68,10 @@
       },
       "form": {
         "text": "Charity Partner Application",
-        "establishment" : "Your Establishment name",
+        "establishment": "Your Establishment name",
         "address": "Address (of your business location)",
         "companyName": "Your Company name",
-        "companyId" : "Your Company ID number",
+        "companyId": "Your Company ID number",
         "email": "Your Email",
         "phoneNumber": "Your Phone number"
       }
@@ -83,7 +88,8 @@
             "phase": "KYC + Audit"
           },
           {
-            "phase": "Website launch"
+            "phase": "Website launch",
+            "completed" : "true"
           },
           {
             "phase": "Pre sale"
@@ -92,10 +98,12 @@
             "phase": "Token Launch"
           },
           {
-            "phase": "Launch of marketing campaign on social media networks"
+            "phase": "Launch of marketing campaign on social media networks",
+            "completed" : "true"
           },
           {
-            "phase": "Launch of charity & marketing wallets"
+            "phase": "Launch of charity & marketing wallets",
+            "completed" : "true"
           }
         ]
       },
@@ -137,6 +145,9 @@
           },
           {
             "phase": "NFT Gallery"
+          },
+          {
+            "phase": "Mobile game"
           },
           {
             "phase": "Second charity donation"
@@ -352,7 +363,7 @@
       {
         "title": "Stefan",
         "profession": "Full Stack Developer",
-        "text": "Stefan is a full stack developer currently working for a digital health company in Bratislava. He specializes in web development with main focus on JavaScript (Vue.js), but is also capable of developing backend and native applications for desktop or mobile devices. Specializes in creating content using drones to give the experience of a lifetime. Plays an important part in the development of anything that goes live for SafePets.",
+        "text": "Stefan is a full stack developer currently working for a digital health company in Bratislava. He specializes in web development with main focus on JavaScript (Vue.js), but is also capable of developing backend and native applications for desktop or mobile devices. Specializes in creating content using drones to give the experience of a lifetime. Plays an important part in the development of anything that goes live for SafePets - currently developing the website and mobile applications.",
         "personClass": "text-green-primary",
         "image": "default",
         "personLinkedIn": "https://www.linkedin.com/in/%C5%A1tefan-golian-0a93bb229/"
@@ -363,7 +374,7 @@
         "text": "Alexandra is an extraordinarily talented freelance graphic designer since 2015. Alexandra specialties are All aspects of graphic design, brand identity and has a very strong understanding of advertising design. She has done all the Graphic design and editing of all our web variants. She also plays an integral role in our phenomenal NFT gallery aspect of SafePets.",
         "personClass": "text-green-primary",
         "image": "Alex",
-        "personLinkedIn": ""
+        "personLinkedIn": "https://linkedin.com/in/alex-hatal"
       },
       {
         "title": "Peter",
@@ -417,7 +428,8 @@
     "success": "Success"
   },
   "footer": {
-    "text": "Copyright © 2021 SafePets. All Rights Reserved - Privacy Policy - Terms and Conditions SafePets is not an investment. SafePets makes no promises and is not responsible for any losses or errors."
+    "text": "SafePets is not an investment. SafePets makes no promises and is not responsible for any losses or errors.",
+    "copyright" : "Copyright © 2021 SafePets. All Rights Reserved - Privacy Policy - Terms and Conditions "
   },
   "contactUs": {
     "text": "Have some questions?<br>Send us a message below",
@@ -442,7 +454,6 @@
     "companyName": "Company name is required",
     "companyId": "Company ID is required",
     "phone": "Phone number must be valid"
-
   },
   "seo": {
     "homepage": {
@@ -462,7 +473,7 @@
     },
     "charityPartner": {
       "title": "SafePets Token - Become SafePets charity partner",
-      "description": "Become SafePets charity partner",
+      "description": "It’s easy, if you meet the requirements outlined below then put in an application and a SafePets representative will be in touch as soon as possible.",
       "keywords": ""
     }
   },

@@ -3,12 +3,12 @@
     <template v-if="desktop">
       <nuxt-link
         v-if="!checkIfHome()"
-        class="cursor-pointer nav-item"
+        :class="getClassForNav()"
         :to="{ path: localePath('/'), hash: `#${to}` }"
       >
         {{ this.name }}
       </nuxt-link>
-      <div v-else v-scroll-to="`#${to}`" class="cursor-pointer nav-item">
+      <div v-else v-scroll-to="`#${to}`" :class="getClassForNav()">
         {{ this.name }}
       </div>
     </template>
@@ -47,6 +47,10 @@ export default {
       type: Boolean,
       default: true,
     },
+    isDropdown: {
+      type: Boolean,
+      default: false
+    }
   },
   methods: {
     checkIfHome() {
@@ -56,6 +60,12 @@ export default {
         this.$route.path === '/cz'
       )
     },
+    getClassForNav() {
+      return {
+        'cursor-pointer nav-item' : !this.isDropdown,
+        'cursor-pointer -m-4 p-3 flex items-start rounded-lg hover:bg-green-secondary' : this.isDropdown
+      }
+    }
   },
 }
 </script>

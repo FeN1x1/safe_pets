@@ -1,16 +1,16 @@
 <template>
   <div>
-    <CharityPartnerHeader/>
+    <AppHeader title='charity.partner.titlePart1' subTitle='charity.partner.titlePart2' text='charity.partner.text' image='tokenomics/rewards.png'/>
     <CharityPartnerSteps/>
     <CharityPartnerContact/>
   </div>
 </template>
 
 <script>
-// import transition from '~/utils/lgNoTransition.js'
+import transition from '~/utils/lgNoTransition.js'
 
 export default {
-  // transition,
+  transition,
   head({ $seo }) {
     return $seo({
       title: this.$t('seo.charityPartner.title'),

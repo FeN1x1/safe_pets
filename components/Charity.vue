@@ -13,15 +13,15 @@
       </svg>
     </div>
     <section class="p-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl">
-      <div v-if="isSmallThanLg" class="flex pb-16">
-        <div>
+      <div v-if="isSmallThanLg" class="flex pt-4 pb-16">
+        <div class="z-0">
           <nuxt-img
             src="cat-with-wool.png"
             class="relative transform scale-125 cat-position"
             alt="cat"
           />
         </div>
-        <div class="w-4/5 sm:m-auto sm:text-center">
+        <div class="w-4/5 z-10 sm:m-auto sm:text-center">
           <AppTitleSecondary :title="$t('charity.title')" />
           <p
             class="
@@ -63,7 +63,7 @@
         </div>
       </div>
       <div v-else>
-        <div class="max-w-screen-md py-8 px-4 sm:m-auto sm:text-center">
+        <div class="max-w-screen-md sm:m-auto sm:text-center">
           <AppTitleSecondary :title="$t('charity.title')" class="mb-4" />
           <p
             class="
@@ -103,9 +103,7 @@
               pt-3
               pb-2
               mb-6
-              text-sm
-              text-center
-              text-white
+              text-sm text-center text-white
               uppercase
               rounded-xl
               bg-gradient-to-r
@@ -116,12 +114,42 @@
           <nuxt-img
             sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
             src="cat-with-wool.png"
-            class="w-ful"
+            class="w-full m-auto"
             alt="cat-with-wool"
           />
         </div>
       </div>
     </section>
+    <div id='partners' class="max-w-screen-2xl mx-auto px-4 sm:px-8 pb-12 sm:pb-32">
+      <AppTitleSmallerSecondary
+        :title="$t('charity.partnerTitle')"
+        class="-pb-4"
+      />
+      <div class="flex">
+        <a
+          class="
+            sm:mx-auto
+            text-center
+            cursor-pointer
+            transition
+            duration-300
+            transform
+            sm:px-4
+            mt-4
+            sm:mt-8
+          "
+          href="https://www.facebook.com/zvieratkovosk"
+          target="_blank"
+        >
+          <nuxt-img
+            class="w-64 h-64"
+            sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+            src="charity-partner/zvieratkovo.png"
+            alt="Zvieratkovo"
+          />
+        </a>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -132,6 +160,20 @@ export default {
     isSmallThanLg() {
       return this.$breakpoints.lLg
     },
+  },
+  data() {
+    return {
+      partners: [
+        {
+          image: 'zvieratkovo',
+          link: 'https://www.facebook.com/zvieratkovosk',
+        },
+        // { image: 'anc', link: '' },
+        // { image: 'national-park', link: '' },
+        // { image: 'parc-naturel', link: '' },
+      ],
+      isToastActive: false,
+    }
   },
 }
 </script>
