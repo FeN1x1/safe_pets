@@ -51,6 +51,9 @@
       >
         <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-6">
           <div>
+            <NavButton :isDropdown='true' :name="$t('header.navigation.roadmap')" to="roadmap" />
+          </div>
+          <div>
             <NavButton :isDropdown='true' :name="$t('header.navigation.ourTeam')" to="ourTeam" />
           </div>
           <div>

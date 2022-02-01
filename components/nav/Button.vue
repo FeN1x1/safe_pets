@@ -15,14 +15,14 @@
     <template v-else>
       <div
         v-if="!checkIfHome()"
-        class="px-4 py-3 text-3xl text-green-secondary cursor-pointer"
+        class="px-4 py-3 text-2xl text-green-secondary cursor-pointer"
       >
         <nuxt-link :to="{ path: localePath('/'), hash: `#${to}` }">
           {{ this.name }}
         </nuxt-link>
       </div>
       <div
-        class="px-4 py-3 text-3xl text-green-secondary cursor-pointer"
+        class="px-4 py-3 text-2xl text-green-secondary cursor-pointer"
         v-else
         v-scroll-to="`#${to}`"
       >

@@ -21,7 +21,10 @@
     "text": "SafePets token je vytvořen s jediným cílem – pomáhat ohroženým zvířatům a vytvořit útulek pro domácí mazlíčky po celém světě. SafePets token poskytuje statické odměny pro holdery. Každou transakcí automaticky narůstá počet mincí v peněžence držitele tokenů. Každou transakcí se také automaticky přidává 1% z transakce do oddělené charitativní peněženky. Vybrané prostředky budou poskytnuty vybraným útulkům a nebo organizacím, které bojují za zdraví a bezpečnost zvířat.",
     "comingSoon": "Již brzy...",
     "copy": "Kopírovat",
-    "download": "Stáhnout audit v .pdf"
+    "download": "Stáhnout audit v .pdf",
+    "contractTitle": "Kontrakt",
+    "contractAddress": "0x7AA50494C6ce91f346660fd3a113D72B2E909572",
+    "contractAddressMobile": "0x7AA50494C6ce91f346660fd3..."
   },
   "countdown": {
     "title": "Kdy bude token SafePets uveden na trh?",
@@ -85,14 +88,16 @@
       {
         "phases": [
           {
-            "phase": "KYC + Audit"
+            "phase": "KYC + Audit",
+            "completed" : "true"
           },
           {
             "phase": "Spuštění webových stránek",
             "completed" : "true"
           },
           {
-            "phase": "Předprodej"
+            "phase": "Předprodej",
+            "completed" : "true"
           },
           {
             "phase": "Uvedení tokenu na trh"
@@ -113,7 +118,8 @@
             "phase": "~500 držitelů tokenů"
           },
           {
-            "phase": "~1 000 Členů telegramové skupiny"
+            "phase": "~1 000 Členů telegramové skupiny",
+            "completed" : "true"
           },
           {
             "phase": "Marketingový tlak na šíření povědomí o projektu"
@@ -364,8 +370,8 @@
         "title": "Štefan",
         "profession": "Fullstack vývojář",
         "text": "Štefan je náš rozvojový vývojář, který momentálně pracuje pro digitální zdravotnickou společnost v Bratislavě. Specializuje se na JavaScript, front a back-end vývoj aplikací pro Android, IOS a Windows. Ve svém soukromém životě se věnuje vytváření obsahu pomocí dronů, které poskytují zážitky na celý život. Štefan hraje důležitou úlohu při vývoji čehokoliv, do čeho se SafePets pustí",
-        "personClass": "text-green-primary",
-        "image": "default",
+        "personClass": "text-purple-primary",
+        "image": "Stefan",
         "personLinkedIn": "https://www.linkedin.com/in/%C5%A1tefan-golian-0a93bb229/"
       },
       {
@@ -386,7 +392,7 @@
       },
       {
         "title": "Jozef",
-        "profession": "Ambasador značky",
+        "profession": "Manažér značky",
         "text": "Jozef má téměř desetileté zkušenosti, skvěle rozumí vztahům mezi klienty a zákazníky a umí efektivně komunikovat s rodilými i nerodilými anglicky mluvícími účastníky online komunity. V současné době pracuje pro technologickou společnost jako zástupce VIP manažera se sídlem v Praze a pobočkami po celém světě. Proto je právě on tím pravým člověkem, který by měl SafePets zastupovat.",
         "personClass": "text-green-tertiary",
         "image": "Jozef",

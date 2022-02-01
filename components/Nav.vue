@@ -19,15 +19,29 @@
               :name="$t('header.navigation.tokenomics')"
               to="tokenomics"
             />
-            <a href='https://www.cryptovoxels.com/s/safepetsgallery' target='_blank' class='cursor-pointer nav-item'>
+            <a
+              href="/safepets_audit.pdf"
+              target="_blank"
+              class="cursor-pointer nav-item"
+            >
+              Audit
+            </a>
+            <a
+              href="https://www.cryptovoxels.com/s/safepetsgallery"
+              target="_blank"
+              class="cursor-pointer nav-item"
+            >
               {{ this.$t('header.navigation.nft-gallery') }}
             </a>
             <NavButton :name="$t('header.navigation.partners')" to="partners" />
             <NavButton :name="$t('header.navigation.charity')" to="charity" />
-            <NavButton :name="$t('header.navigation.roadmap')" to="roadmap" />
             <NavButton :name="$t('header.navigation.howToBuy')" to="howToBuy" />
             <AppInfoDropdown />
-            <a class="button -ml-4" href='https://pancakeswap.finance/swap?outputCurrency=0x7aa50494c6ce91f346660fd3a113d72b2e909572' target='_blank'>
+            <a
+              class="button -ml-4"
+              href="https://www.pinksale.finance/#/launchpad/0x1bc55F32cE62779632c3E693F2DBAC4Ce412Fdd8?chain=BSC"
+              target="_blank"
+            >
               {{ this.$t('header.navigation.buyNow') }}
             </a>
             <AppLanguageDropdown />
@@ -38,12 +52,30 @@
             <Slide class="bottom-4" :closeOnNavigation="true" noOverlay right>
               <nav class="flex flex-col">
                 <AppMobileLanguageChanger />
+                <a
+                  href="https://www.pinksale.finance/#/launchpad/0x1bc55F32cE62779632c3E693F2DBAC4Ce412Fdd8?chain=BSC"
+                  target="_blank"
+                  class="px-4 py-3 text-2xl text-green-secondary cursor-pointer"
+                >
+                  {{ $t('header.navigation.buyNow') }}
+                </a>
                 <NavButton
                   :name="$t('header.navigation.tokenomics')"
                   to="tokenomics"
                   :desktop="false"
                 />
-                <a href='https://www.cryptovoxels.com/s/safepetsgallery' target='_blank' class='px-4 py-3 text-3xl text-green-secondary cursor-pointer'>
+                <a
+                  href="/safepets_audit.pdf"
+                  target="_blank"
+                  class="px-4 py-3 text-2xl text-green-secondary cursor-pointer"
+                >
+                  Audit
+                </a>
+                <a
+                  href="https://www.cryptovoxels.com/s/safepetsgallery"
+                  target="_blank"
+                  class="px-4 py-3 text-2xl text-green-secondary cursor-pointer"
+                >
                   {{ this.$t('header.navigation.nft-gallery') }}
                 </a>
                 <NavButton
@@ -81,12 +113,6 @@
                   to="contactUs"
                   :desktop="false"
                 />
-                <a
-                  href='https://pancakeswap.finance/swap?outputCurrency=0x7aa50494c6ce91f346660fd3a113d72b2e909572' target='_blank'
-                  class="px-4 py-3 text-3xl text-green-secondary cursor-pointer"
-                >
-                  {{ $t('header.navigation.buyNow') }}
-                </a>
               </nav>
             </Slide></client-only
           >
@@ -130,5 +156,8 @@ export default {
   right: -1px !important;
   top: 1.2rem !important;
   transform: scale(0.8);
+}
+.bm-menu {
+  padding-top: 10px !important;
 }
 </style>

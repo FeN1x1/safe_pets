@@ -21,7 +21,10 @@
     "text": "SafePets token bol vytvorený s jediným cieľom, a to pomôcť ohrozeným druhom zvierat a zabudnutým zvieracím spoločníkom po celom svete. Našim zámerom je to, aby sa tento token stal právoplatným platidlom medzi zvieracími útulkami a organizáciami, bojujúcimi za záchranu ohrozených zvierat po celom svete. SafePets token poskytuje statické odmeny pre holderov, čo znamená, že z každej transakcie vám pribudne do peňaženky viac tokenov, a tým si vybudujete svoj pasívny príjem. Každou transakciou sa taktiež automaticky pridá 1% z transakcie do oddelenej charitatívnej peňaženky, ktorej  finančné prostriedky budú poskytnuté vybraným zvieracím útulkom alebo organizáciám, bojujúcim za zdravie a bezpečnosť zvierat.",
     "comingSoon": "Čoskoro ...",
     "copy": "Kopírovať",
-    "download": "Stiahnuť audit v .pdf"
+    "download": "Stiahnuť audit v .pdf",
+    "contractTitle": "Kontrakt",
+    "contractAddress": "0x7AA50494C6ce91f346660fd3a113D72B2E909572",
+    "contractAddressMobile": "0x7AA50494C6ce91f346660fd3..."
   },
   "countdown": {
     "title": "Kedy bude token Safe pets uvedený na trh?",
@@ -85,14 +88,16 @@
       {
         "phases": [
           {
-            "phase": "KYC + Audit"
+            "phase": "KYC + Audit",
+            "completed" : "true"
           },
           {
             "phase": "Spustenie webovej stránky",
             "completed" : "true"
           },
           {
-            "phase": "Predpredaj"
+            "phase": "Predpredaj",
+            "completed" : "true"
           },
           {
             "phase": "Spustenie tokenu "
@@ -113,7 +118,8 @@
             "phase": "~500 držiteľov tokenov"
           },
           {
-            "phase": "~1 000 telegram členov"
+            "phase": "~1 000 telegram členov",
+            "completed" : "true"
           },
           {
             "phase": "Zviditeľnenie tokenu na základe zvýšenej marketingovej aktivity"
@@ -339,7 +345,7 @@
       {
         "title": "Daniel",
         "profession": "Manažér obchodného rozvoja",
-        "text": "Ako absolvent bankového inštitútu v Prahe ukončil program Administratívneho práva v obchodnej sfére. Daniel riadi naše kampane, partnerstvá a právne záležitosti, ktoré vznikajú. 15 rokov skúseností v biznise z neho robí kľúčového člena pre networking. Jeho obľúbený citát je:  :Možnosti sú nekonečné!",
+        "text": "Ako absolvent bankového inštitútu v Prahe ukončil program Administratívneho práva v obchodnej sfére. Daniel riadi naše kampane, partnerstvá a právne záležitosti, ktoré vznikajú. 15 rokov skúseností v biznise z neho robí kľúčového člena pre networking. Jeho obľúbený citát je: Možnosti sú nekonečné!",
         "personClass": "text-purple-primary",
         "image": "Daniel",
         "personLinkedIn": "https://www.linkedin.com/in/sucho-hajnik-30a8b282"
@@ -362,10 +368,10 @@
       },
       {
         "title": "Štefan",
-        "profession": "Vývojár",
-        "text": "Štefan je náš rozvojový vývojár, ktorý momentálne pracuje pre digitálnu zdravotnícku spoločnosť v Bratislave. Špecializuje sa na JavaScript, front a back-end vývoji aplikacií pre Android, IOS a Windows. Vo svojom súkromnom živote sa venuje vytváraniu obsahu pomocou dronov, ktoré poskytujú zážitok na celý život. Štefan hrá dôležitú úlohu pri vývoji čohokoľvek, do čoho sa SafePets tím pustí.",
-        "personClass": "text-green-primary",
-        "image": "default",
+        "profession": "Fullstack Vývojár",
+        "text": "Štefan je náš rozvojový vývojár, ktorý momentálne pracuje pre digitálnu zdravotnícku spoločnosť v Bratislave. Špecializuje sa na web development so zameraním na JavaScript (Vue.js), ale dokáže vyvíjať aj backendové prípadne natívne aplikácie pre mobilné zariadenia. Vo svojom súkromnom živote sa venuje vytváraniu obsahu pomocou dronov, ktoré poskytujú zážitok na celý život. Štefan hrá dôležitú úlohu pri vývoji čohokoľvek, do čoho sa SafePets tím pustí - momentálne sa venuje vývoji webovej stránky a mobilných aplikácií.",
+        "personClass": "text-purple-primary",
+        "image": "Stefan",
         "personLinkedIn": "https://www.linkedin.com/in/%C5%A1tefan-golian-0a93bb229/"
       },
       {
@@ -386,7 +392,7 @@
       },
       {
         "title": "Jozef",
-        "profession": "Reprezentant značky",
+        "profession": "Manažér značky",
         "text": "Jozef má takmer desaťročné skúsenosti vo vzťahu klient/zákazník a v efektívnej komunikácii  s obchodnými partnermi  v online komunite. V súčasnosti pracuje ako zástupca VIP manažéra pre technologickú spoločnosť, ktorá sídli v Prahe a má pobočky  po celom svete. Práve skúsenosti robia Jozefa toho pravého na zastupovanie nielen tokenu, ale aj celého tímu SafePets.",
         "personClass": "text-green-tertiary",
         "image": "Jozef",

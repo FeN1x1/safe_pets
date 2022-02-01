@@ -12,8 +12,8 @@
         ></path>
       </svg>
     </div>
-    <section class="p-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl">
-      <div v-if="isSmallThanLg" class="flex pt-4 pb-16">
+    <section class="px-4 pt-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl">
+      <div v-if="isSmallThanLg" class="flex pt-4">
         <div class="z-0">
           <nuxt-img
             src="cat-with-wool.png"
@@ -120,7 +120,7 @@
         </div>
       </div>
     </section>
-    <div id='partners' class="max-w-screen-2xl mx-auto px-4 sm:px-8 pb-12 sm:pb-32">
+    <div id='partners' class="max-w-screen-2xl mx-auto px-4 sm:px-8 pb-12 sm:pb-20">
       <AppTitleSmallerSecondary
         :title="$t('charity.partnerTitle')"
         class="-pb-4"

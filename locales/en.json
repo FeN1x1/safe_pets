@@ -21,7 +21,10 @@
     "text": "SafePets token was created with one purpose which is to help endangered animals and to make shelters for forgotten pets around the World. Our goal is to be the first accepted crypto currency in shelters and between organizations in the fight to help endangered animals worldwide. SafePets token provides static reflection that rewards holders, which means more tokens being automatically added to your wallet for each transaction made, even if it’s not yours. Guaranteed amazing 1% from every transaction is automatically added to SafePets charity wallet which is separated and donated to different shelters and world organizations in the fight for Animal health and Safety.",
     "comingSoon": "Coming soon...",
     "copy": "Copy",
-    "download": "Download audit in .pdf"
+    "download": "Download audit in .pdf",
+    "contractTitle": "Contract",
+    "contractAddress": "0x7AA50494C6ce91f346660fd3a113D72B2E909572",
+    "contractAddressMobile": "0x7AA50494C6ce91f346660fd3..."
   },
   "countdown": {
     "title": "When will Safepets Token Launch?",
@@ -85,14 +88,16 @@
       {
         "phases": [
           {
-            "phase": "KYC + Audit"
+            "phase": "KYC + Audit",
+            "completed" : "true"
           },
           {
             "phase": "Website launch",
             "completed" : "true"
           },
           {
-            "phase": "Pre sale"
+            "phase": "Pre sale",
+            "completed" : "true"
           },
           {
             "phase": "Token Launch"
@@ -113,7 +118,8 @@
             "phase": "~500 holders"
           },
           {
-            "phase": "~1 000 telegram members"
+            "phase": "~1 000 telegram members",
+            "completed" : "true"
           },
           {
             "phase": "Marketing push to spread awareness"
@@ -364,8 +370,8 @@
         "title": "Stefan",
         "profession": "Full Stack Developer",
         "text": "Stefan is a full stack developer currently working for a digital health company in Bratislava. He specializes in web development with main focus on JavaScript (Vue.js), but is also capable of developing backend and native applications for desktop or mobile devices. Specializes in creating content using drones to give the experience of a lifetime. Plays an important part in the development of anything that goes live for SafePets - currently developing the website and mobile applications.",
-        "personClass": "text-green-primary",
-        "image": "default",
+        "personClass": "text-purple-primary",
+        "image": "Stefan",
         "personLinkedIn": "https://www.linkedin.com/in/%C5%A1tefan-golian-0a93bb229/"
       },
       {
@@ -386,7 +392,7 @@
       },
       {
         "title": "Jozef",
-        "profession": "Brand Ambassador",
+        "profession": "Brand Manager",
         "text": "Jozef brings nearly a decade of experience, with an excellent understanding of client/customer relationship, and how to effectively communicate with Native and non-Native English-speaking stakeholders in the online community. He currently works for a tech company as a Deputy VIP Manager based in Prague and have offices worldwide. Which is why he is just the person to be representing SafePets.",
         "personClass": "text-green-tertiary",
         "image": "Jozef",

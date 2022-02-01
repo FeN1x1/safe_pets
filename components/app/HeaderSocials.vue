@@ -49,25 +49,25 @@
       </a>
     </div>
     <div class="px-4 my-auto lg:px-0">
-      <a target="_blank" href="https://www.reddit.com/user/Safe_Pets_Official">
+      <a target="_blank" href="https://www.youtube.com/channel/UCa5XAwfunBtSKzKK7iKnfpA">
         <nuxt-img
           sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
           class="object-cover w-10"
-          src="social/reddit.png"
+          src="social/youtube.png"
           alt="telegram"
         />
       </a>
     </div>
-    <div class="px-4 my-auto lg:px-0">
-      <a target="_blank" href="mailto:contact@safepetstoken.com">
-        <nuxt-img
-          sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
-          class="object-cover w-10"
-          src="social/email.png"
-          alt="email"
-        />
-      </a>
-    </div>
+<!--    <div class="px-4 my-auto lg:px-0">-->
+<!--      <a target="_blank" href="mailto:contact@safepetstoken.com">-->
+<!--        <nuxt-img-->
+<!--          sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"-->
+<!--          class="object-cover w-10"-->
+<!--          src="social/email.png"-->
+<!--          alt="email"-->
+<!--        />-->
+<!--      </a>-->
+<!--    </div>-->
   </div>
 </template>
 

@@ -55,8 +55,8 @@
               {{ $t('header.text') }}
             </p>
           </div>
-          <div class="flex flex-col mt-0 lg:mt-6 md:flex-row">
-            <div class="">
+          <div class=" mt-0 lg:mt-6">
+            <div>
               <h2
                 class="
                   max-w-lg
@@ -69,10 +69,12 @@
                   sm:text-3xl sm:leading-none
                 "
               >
-                Audit
+                {{ $t('header.contractTitle') }}
               </h2>
               <a
-                href="/safepets_audit.pdf" download=""
+                v-if="isLsm"
+                target="_blank"
+                href="https://bscscan.com/token/0x7AA50494C6ce91f346660fd3a113D72B2E909572"
                 class="
                   inline-block
                   px-4
@@ -90,8 +92,33 @@
                   to-green-primary
                 "
               >
-                {{ $t('header.download') }}
+                {{ $t('header.contractAddress') }}
               </a>
+              <a
+                v-else
+                target="_blank"
+                href="https://bscscan.com/token/0x7AA50494C6ce91f346660fd3a113D72B2E909572"
+                class="
+                  inline-block
+                  px-4
+                  pt-3
+                  pb-2
+                  mb-6
+                  text-base
+                  font-extrabold
+                  tracking-wide
+                  text-white
+                  uppercase
+                  rounded-xl
+                  bg-gradient-to-r
+                  from-green-secondary
+                  to-green-primary
+                "
+              >
+                {{ $t('header.contractAddressMobile') }}
+              </a>
+            </div>
+            <div>
               <h2
                 class="
                   max-w-lg
@@ -155,7 +182,7 @@
             </div>
           </div>
         </section>
-        <div class="lg:w-2/5">
+        <div class="lg:w-45/100">
           <nuxt-img
             sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
             class="object-cover w-full py-12 lg:py-0"
