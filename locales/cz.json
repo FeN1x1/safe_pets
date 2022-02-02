@@ -13,6 +13,7 @@
       "nft-gallery" : "NFT Galérie",
       "partners" : "Partneri"
     },
+    "clipboard" : "byl zkopírován do schránky",
     "brandNewToken": "Zbrusu Nový Token",
     "title": {
       "part1": "Světový komunitní token vytvořen za účelem pomoci",
@@ -122,7 +123,8 @@
             "completed" : "true"
           },
           {
-            "phase": "Marketingový tlak na šíření povědomí o projektu"
+            "phase": "Marketingový tlak na šíření povědomí o projektu",
+            "completed" : "true"
           },
           {
             "phase": "Nová partnerství s mezinárodními organizacemi WWF, IUCN, UNEP"
@@ -141,7 +143,8 @@
             "phase": "~1 000 držitelů tokenů"
           },
           {
-            "phase": "~2 000 Členů telegramové skupiny"
+            "phase": "~2 000 Členů telegramové skupiny",
+            "completed" : "true"
           },
           {
             "phase": "Video marketing"

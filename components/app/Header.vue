@@ -55,13 +55,14 @@
               {{ $t('header.text') }}
             </p>
           </div>
-          <div class=" mt-0 lg:mt-6">
+          <div class="mt-0 lg:mt-6">
             <div>
               <h2
                 class="
                   max-w-lg
-                  mb-4
-                  text-xl
+                  sm:mb-4
+                  mb-2
+                  text-2xl
                   font-bold
                   tracking-tight
                   text-white
@@ -71,59 +72,73 @@
               >
                 {{ $t('header.contractTitle') }}
               </h2>
-              <a
-                v-if="isLsm"
-                target="_blank"
-                href="https://bscscan.com/token/0x7AA50494C6ce91f346660fd3a113D72B2E909572"
-                class="
-                  inline-block
-                  px-4
-                  pt-3
-                  pb-2
-                  mb-6
-                  text-base
-                  font-extrabold
-                  tracking-wide
-                  text-white
-                  uppercase
-                  rounded-xl
-                  bg-gradient-to-r
-                  from-green-secondary
-                  to-green-primary
-                "
-              >
-                {{ $t('header.contractAddress') }}
-              </a>
-              <a
-                v-else
-                target="_blank"
-                href="https://bscscan.com/token/0x7AA50494C6ce91f346660fd3a113D72B2E909572"
-                class="
-                  inline-block
-                  px-4
-                  pt-3
-                  pb-2
-                  mb-6
-                  text-base
-                  font-extrabold
-                  tracking-wide
-                  text-white
-                  uppercase
-                  rounded-xl
-                  bg-gradient-to-r
-                  from-green-secondary
-                  to-green-primary
-                "
-              >
-                {{ $t('header.contractAddressMobile') }}
-              </a>
+              <div class="flex">
+                <a
+                  v-if="isLsm"
+                  target="_blank"
+                  href="https://bscscan.com/token/0x7AA50494C6ce91f346660fd3a113D72B2E909572"
+                  class="
+                    inline-block
+                    px-4
+                    pt-3
+                    pb-2
+                    mb-6
+                    text-sm
+                    font-extrabold
+                    tracking-wide
+                    text-white
+                    uppercase
+                    rounded-xl
+                    bg-gradient-to-r
+                    from-green-secondary
+                    to-green-primary
+                  "
+                >
+                  {{ $t('header.contractAddress') }}
+                </a>
+                <a
+                  v-else
+                  target="_blank"
+                  href="https://bscscan.com/token/0x7AA50494C6ce91f346660fd3a113D72B2E909572"
+                  class="
+                    inline-block
+                    px-3
+                    pt-3
+                    pb-2
+                    sm:mb-6
+                    mb-4
+                    text-sm
+                    font-extrabold
+                    tracking-wide
+                    text-white
+                    uppercase
+                    rounded-xl
+                    bg-gradient-to-r
+                    from-green-secondary
+                    to-green-primary
+                  "
+                >
+                  {{ $t('header.contractAddressMobile') }}
+                </a>
+                <span
+                  class="ml-6 hidden sm:flex"
+                  @click="copy('0x7AA50494C6ce91f346660fd3a113D72B2E909572')"
+                >
+                  <nuxt-img
+                    sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+                    class="h-6 mt-2 cursor-pointer"
+                    src="copy.png"
+                    alt="copy"
+                /></span>
+              </div>
             </div>
             <div>
               <h2
                 class="
                   max-w-lg
-                  mb-4
-                  text-xl
+                  sm:mb-4
+                  mb-2
+                  text-2xl
                   font-bold
                   tracking-tight
                   text-white
@@ -133,52 +148,65 @@
               >
                 {{ $t('tokenomics.transferAddressTitle') }}
               </h2>
-              <a
-                v-if="isLsm"
-                target="_blank"
-                href="https://bscscan.com/address/0x16Fb5D7e4e68D788De1A16C5172AB1577d934915"
-                class="
-                  inline-block
-                  px-4
-                  pt-3
-                  pb-2
-                  mb-6
-                  text-base
-                  font-extrabold
-                  tracking-wide
-                  text-white
-                  uppercase
-                  rounded-xl
-                  bg-gradient-to-r
-                  from-green-secondary
-                  to-green-primary
-                "
-              >
-                {{ $t('tokenomics.transferAddress') }}
-              </a>
-              <a
-                v-else
-                target="_blank"
-                href="https://bscscan.com/address/0x16Fb5D7e4e68D788De1A16C5172AB1577d934915"
-                class="
-                  inline-block
-                  px-4
-                  pt-3
-                  pb-2
-                  mb-6
-                  text-base
-                  font-extrabold
-                  tracking-wide
-                  text-white
-                  uppercase
-                  rounded-xl
-                  bg-gradient-to-r
-                  from-green-secondary
-                  to-green-primary
-                "
-              >
-                {{ $t('tokenomics.transferAddressMobile') }}
-              </a>
+              <div class="flex">
+                <a
+                  v-if="isLsm"
+                  target="_blank"
+                  href="https://bscscan.com/address/0x16Fb5D7e4e68D788De1A16C5172AB1577d934915"
+                  class="
+                    inline-block
+                    px-4
+                    pt-3
+                    pb-2
+                    mb-6
+                    text-sm
+                    font-extrabold
+                    tracking-wide
+                    text-white
+                    uppercase
+                    rounded-xl
+                    bg-gradient-to-r
+                    from-green-secondary
+                    to-green-primary
+                  "
+                >
+                  {{ $t('tokenomics.transferAddress') }}
+                </a>
+                <a
+                  v-else
+                  target="_blank"
+                  href="https://bscscan.com/address/0x16Fb5D7e4e68D788De1A16C5172AB1577d934915"
+                  class="
+                    inline-block
+                    px-3
+                    pt-3
+                    pb-2
+                    mb-6
+                    text-sm
+                    font-extrabold
+                    tracking-wide
+                    text-white
+                    uppercase
+                    rounded-xl
+                    bg-gradient-to-r
+                    from-green-secondary
+                    to-green-primary
+                  "
+                >
+                  {{ $t('tokenomics.transferAddressMobile') }}
+                </a>
+                <span
+                  class="ml-6 hidden sm:flex"
+                  @click="copy('0x16Fb5D7e4e68D788De1A16C5172AB1577d934915')"
+                >
+                  <nuxt-img
+                    class="mt-2 cursor-pointer h-6"
+                    sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+                    src="copy.png"
+                    alt="copy"
+                  />
+                </span>
+              </div>
             </div>
           </div>
         </section>
@@ -235,7 +263,7 @@
         <AppHeaderSocials class="mb-8 sm:mb-0" />
       </div>
     </div>
-    <div class='pb-8 sm:pb-12' v-if="isHomepage">
+    <div class="pb-8 sm:pb-12" v-if="isHomepage">
       <AppCountdown
         class="sm:mt-0 mt-10"
         endtime="Feb 5, 2022 21:00:00"
@@ -281,6 +309,11 @@
 <script>
 export default {
   name: 'Header',
+  data() {
+    return {
+      isToastActive: false
+    }
+  },
   props: {
     isHomepage: {
       type: Boolean,
@@ -306,6 +339,21 @@ export default {
   computed: {
     isLsm() {
       return this.$breakpoints.lSm
+    },
+  },
+  methods: {
+    copy(text) {
+      navigator.clipboard.writeText(text)
+      this.toggleToast(text)
+    },
+    toggleToast(text) {
+      if (!this.isToastActive) {
+        this.isToastActive = true
+        this.$toast.success(`${text} ${this.$t('header.clipboard')}`, {})
+        setTimeout(() => {
+          this.isToastActive = false
+        }, 5000)
+      }
     },
   },
 }

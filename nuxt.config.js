@@ -59,7 +59,7 @@ export default {
     'nuxt-breakpoints',
     '@nuxtjs/i18n',
     'nuxt-seo',
-    '@nuxtjs/robots',
+    '@nuxtjs/robots'
   ],
 
   // Another way to use options

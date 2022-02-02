@@ -13,6 +13,7 @@
       "nft-gallery" : "NFT Gallery",
       "partners" : "Partners"
     },
+    "clipboard" : "was copied to clipboard",
     "brandNewToken": "Brand New Token",
     "title": {
       "part1": "World's Community token created to help",
@@ -24,7 +25,7 @@
     "download": "Download audit in .pdf",
     "contractTitle": "Contract",
     "contractAddress": "0x7AA50494C6ce91f346660fd3a113D72B2E909572",
-    "contractAddressMobile": "0x7AA50494C6ce91f346660fd3..."
+    "contractAddressMobile": "0x7AA50494C6ce91f346660fd3a113D7..."
   },
   "countdown": {
     "title": "When will Safepets Token Launch?",
@@ -47,7 +48,7 @@
     "liquidityTitle": "Growing Liquidity",
     "liquidityText": "3% of each transaction made is locked away in Pancakeswap’s liquidity pool.",
     "transferAddress": "0x16Fb5D7e4e68D788De1A16C5172AB1577d934915",
-    "transferAddressMobile": "0x16Fb5D7e4e68D788De1A16C5...",
+    "transferAddressMobile": "0x16Fb5D7e4e68D788De1A16C5172AB1...",
     "transferAddressTitle": "Transparent Charity wallet"
   },
   "charity": {
@@ -122,7 +123,8 @@
             "completed" : "true"
           },
           {
-            "phase": "Marketing push to spread awareness"
+            "phase": "Marketing push to spread awareness",
+            "completed" : "true"
           },
           {
             "phase": "New Partnerships with international organizations e.g., WWF, IUCN, UNEP"
@@ -141,7 +143,8 @@
             "phase": "~1 000 holders"
           },
           {
-            "phase": "~2 000 telegram members"
+            "phase": "~2 000 telegram members",
+            "completed" : "true"
           },
           {
             "phase": "Video marketing"

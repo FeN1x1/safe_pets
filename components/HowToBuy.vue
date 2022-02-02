@@ -416,7 +416,6 @@
         :key="banner.image"
         :link="banner.link"
         :image="banner.image"
-        :toast="toggleToast"
       />
     </div>
   </section>
@@ -428,7 +427,7 @@ export default {
   data() {
     return {
       banners: [
-        { image: 'bscscan', link: 'https://pancakeswap.finance/swap' },
+        { image: 'bscscan', link: 'https://bscscan.com/' },
         { image: 'dextools', link: 'https://www.dextools.io/' },
         { image: 'binance-smart-chain', link: 'https://www.binance.com/' },
         { image: 'poocoin', link: 'https://poocoin.app/' },
