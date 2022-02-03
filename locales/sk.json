@@ -37,6 +37,9 @@
     "seconds": "Sekúnd",
     "text": "*Čas je iba približný a v prípade potreby sa môže zmeniť."
   },
+  "news": {
+    "title": "Novinky"
+  },
   "tokenomics": {
     "title": "Tokenómia",
     "marketingTitle": "Veľkolepý Marketing",

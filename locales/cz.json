@@ -9,11 +9,11 @@
       "contact": "Kontakt",
       "buyNow": "Koupit",
       "howToBuy": "Jak nakoupit",
-      "information" : "Informace",
-      "nft-gallery" : "NFT Galérie",
-      "partners" : "Partneri"
+      "information": "Informace",
+      "nft-gallery": "NFT Galérie",
+      "partners": "Partneri"
     },
-    "clipboard" : "byl zkopírován do schránky",
+    "clipboard": "byl zkopírován do schránky",
     "brandNewToken": "Zbrusu Nový Token",
     "title": {
       "part1": "Světový komunitní token vytvořen za účelem pomoci",
@@ -37,6 +37,9 @@
     "seconds": "Vteřin",
     "text": "*Čas je pouze přibližný a může se změnit."
   },
+  "news": {
+    "title": "Novinky"
+  },
   "tokenomics": {
     "title": "Tokenomie",
     "marketingTitle": "Velkolepý marketing",
@@ -53,7 +56,7 @@
   },
   "charity": {
     "title": "Charita",
-    "partnerTitle" : "Partneri",
+    "partnerTitle": "Partneri",
     "donationDescribtion": "Darování útulkům a organizacím zabývajícím se zdravím zvířat po celém světě",
     "donationText": "SafePets slouží jako pomoc útulkům při zajišťování ochrany zvířat, péči o zvířata v nouzi a budování nejmodernějších center pro adopci zvířat. Útulky a záchranné stanice pro zvířata jsou úžasné a potřebují naši podporu, protože obvykle mají omezené zdroje, velmi malou publicitu a nebo finanční prostředky. Pomáhají nespočetnému množství zvířat, která jen hledají šťastný život. Tohle je Vaše šance, jak jim to vrátit! Stačí se stát součástí naší cesty a najít si cestu k našemu plánu, kde se dozvíte, jak se můžete stát součástí něčeho, co změní svět.",
     "partner": {
@@ -90,26 +93,26 @@
         "phases": [
           {
             "phase": "KYC + Audit",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "Spuštění webových stránek",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "Předprodej",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "Uvedení tokenu na trh"
           },
           {
             "phase": "Uvedení tokenu na sociálních sítích",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "Spuštění charitativní a marketingové peněženky",
-            "completed" : "true"
+            "completed": "true"
           }
         ]
       },
@@ -120,11 +123,11 @@
           },
           {
             "phase": "~1 000 Členů telegramové skupiny",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "Marketingový tlak na šíření povědomí o projektu",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "Nová partnerství s mezinárodními organizacemi WWF, IUCN, UNEP"
@@ -144,7 +147,7 @@
           },
           {
             "phase": "~2 000 Členů telegramové skupiny",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "Video marketing"

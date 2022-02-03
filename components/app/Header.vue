@@ -266,7 +266,7 @@
     <div class="pb-8 sm:pb-12" v-if="isHomepage">
       <AppCountdown
         class="sm:mt-0 mt-10"
-        endtime="Feb 5, 2022 21:00:00"
+        endtime="Feb 5, 2022 21:10:00"
         starttime="Nov 5, 2018 15:37:25"
         trans='{
                "day":"Day",
@@ -294,6 +294,8 @@
           justify-center
           w-12
           h-12
+          sm:mb-4
+          mb-2
           mx-auto
           text-white
           duration-300

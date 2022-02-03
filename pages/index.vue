@@ -1,6 +1,7 @@
 <template>
   <main>
     <AppHeader :isHomepage='true' />
+    <NewsPage/>
     <Tokenomics />
     <Charity />
     <Roadmap />

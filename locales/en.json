@@ -37,6 +37,9 @@
     "seconds": "Seconds",
     "text": "*Time is only approximate and subject to change if necessary"
   },
+  "news": {
+    "title": "News"
+  },
   "tokenomics": {
     "title": "Tokenomics",
     "marketingTitle": "Monstrous Marketing",
@@ -348,7 +351,7 @@
       {
         "title": "Daniel",
         "profession": "Business Development Manager",
-        "text": "As a graduate of the banking institute of Prague, he finished the program of Law administration in the business sphere. Daniel manages our campaigns, partnerships & law matters that arise. 15 years of experience in the business making him a key member for networking. He's favorite quote is: Sky is the limit!",
+        "text": "As a graduate of the banking institute of Prague, he finished the program of Law administration in the business sphere. Daniel manages our campaigns, partnerships & law matters that arise. 15 years of experience in the business making him a key member for networking. His favorite quote is: Sky is the limit!",
         "personClass": "text-purple-primary",
         "image": "Daniel",
         "personLinkedIn": "https://www.linkedin.com/in/sucho-hajnik-30a8b282"
