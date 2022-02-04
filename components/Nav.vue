@@ -19,13 +19,7 @@
               :name="$t('header.navigation.tokenomics')"
               to="tokenomics"
             />
-            <a
-              href="/safepets_audit.pdf"
-              target="_blank"
-              class="cursor-pointer nav-item"
-            >
-              Audit
-            </a>
+            <NavButton :name="$t('header.navigation.news')" to="news" />
             <a
               href="https://www.cryptovoxels.com/s/safepetsgallery"
               target="_blank"
@@ -38,7 +32,7 @@
             <NavButton :name="$t('header.navigation.howToBuy')" to="howToBuy" />
             <AppInfoDropdown />
             <a
-              class="button -ml-4"
+              class="hover:opacity-90 transform duration-300 button -ml-4"
               href="https://www.pinksale.finance/#/launchpad/0x1bc55F32cE62779632c3E693F2DBAC4Ce412Fdd8?chain=BSC"
               target="_blank"
             >
@@ -59,6 +53,11 @@
                 >
                   {{ $t('header.navigation.buyNow') }}
                 </a>
+                <NavButton
+                  :name="$t('header.navigation.news')"
+                  to="news"
+                  :desktop="false"
+                />
                 <NavButton
                   :name="$t('header.navigation.tokenomics')"
                   to="tokenomics"

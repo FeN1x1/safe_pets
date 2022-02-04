@@ -1,20 +1,18 @@
 <template>
-  <div class="example">
-    <div v-swiper="swiperOption">
-      <div class="swiper-wrapper mb-16 pt-1 sm:pt-0 sm:mb-24">
-        <RoadmapPhase
-          class="swiper-slide"
-          v-for="(phase, index) in $t('roadmap.phases')"
-          :key="index + 1"
-          :phases="phase.phases"
-          :phase="index + 1"
-        />
-      </div>
-      <div class="swiper-pagination" slot="pagination"></div>
-      <div class="lg:flex hidden">
-        <div class="swiper-button-prev" slot="button-prev"></div>
-        <div class="swiper-button-next" slot="button-next"></div>
-      </div>
+  <div v-swiper="swiperOption">
+    <div class="swiper-wrapper mb-16 pt-1 sm:pt-0 sm:mb-24">
+      <RoadmapPhase
+        class="swiper-slide"
+        v-for="(phase, index) in $t('roadmap.phases')"
+        :key="index + 1"
+        :phases="phase.phases"
+        :phase="index + 1"
+      />
+    </div>
+    <div class="swiper-pagination" slot="pagination"></div>
+    <div class="lg:flex hidden">
+      <div class="swiper-button-prev" slot="button-prev"></div>
+      <div class="swiper-button-next" slot="button-next"></div>
     </div>
   </div>
 </template>
@@ -63,18 +61,3 @@ export default {
   },
 }
 </script>
-
-<style>
-.swiper-button-prev,
-.swiper-button-next {
-  color: #0ce2af !important;
-}
-.swiper-pagination-bullet {
-  height: 24px !important;
-  width: 24px !important;
-  padding-top: 1.5px;
-}
-.swiper-pagination-bullet-active {
-  background: #0ce2af !important;
-}
-</style>

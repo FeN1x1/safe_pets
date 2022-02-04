@@ -2,6 +2,7 @@
   <main>
     <AppHeader :isHomepage='true' />
     <NewsPage/>
+    <Partners />
     <Tokenomics />
     <Charity />
     <Roadmap />

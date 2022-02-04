@@ -37,21 +37,14 @@
           <div>
             <ul class="mt-2 space-y-2">
               <li>
+                <NavButton :name="$t('header.navigation.news')" to="news" />
+              </li>
+              <li>
                 <NavButton
                   :name="$t('header.navigation.tokenomics')"
                   to="tokenomics"
                 />
               </li>
-              <li>
-                <a
-                  href="/safepets_audit.pdf"
-                  target="_blank"
-                  class="cursor-pointer nav-item"
-                >
-                  Audit
-                </a>
-              </li>
-
               <li>
                 <a
                   href="https://www.cryptovoxels.com/s/safepetsgallery"
@@ -86,6 +79,15 @@
           </div>
           <div>
             <ul class="mt-2 space-y-2">
+              <li>
+                <a
+                  href="/safepets_audit.pdf"
+                  target="_blank"
+                  class="cursor-pointer nav-item"
+                >
+                  Audit
+                </a>
+              </li>
               <li>
                 <NavButton
                   :name="$t('header.navigation.roadmap')"
@@ -130,6 +132,38 @@
                   hover:text-green-secondary
                 "
                 >contact@safepetstoken.com</a
+              >
+            </div>
+            <div class="flex">
+              <p class="mr-2 text-white">Facebook:</p>
+              <a
+                href="https://www.facebook.com/SafePets-102695672332868/"
+                aria-label="Our facebook"
+                title="Our facebook"
+                target="_blank"
+                class="
+                  transition-colors
+                  duration-300
+                  text-green-tertiary
+                  hover:text-green-secondary
+                "
+                >https://fb.com/SafePets</a
+              >
+            </div>
+            <div class="flex">
+              <p class="mr-2 text-white">Twitter:</p>
+              <a
+                href="https://twitter.com/safepets_token"
+                aria-label="Our twitter"
+                title="Our twitter"
+                target="_blank"
+                class="
+                  transition-colors
+                  duration-300
+                  text-green-tertiary
+                  hover:text-green-secondary
+                "
+                >https://twitter.com/safepets_token</a
               >
             </div>
             <div class="flex">
@@ -243,7 +277,16 @@
               hover:text-green-secondary
             "
           >
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class='h-6' viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="h-6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+              />
+            </svg>
           </a>
           <a
             target="_blank"

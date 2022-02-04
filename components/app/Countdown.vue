@@ -1,5 +1,5 @@
 <template>
-  <div v-if='!isZeroTime' class="mb-8 text-white">
+  <div class="mb-8 text-white">
     <h2 class="text-3xl text-center mb-3 font-extralight">
       {{ $t('countdown.title') }}<span class="text-green-primary">*</span>
     </h2>

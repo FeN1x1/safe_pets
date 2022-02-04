@@ -9,11 +9,12 @@
       "contact": "Contact",
       "buyNow": "Buy Now",
       "howToBuy": "How To Buy",
-      "information" : "Information",
-      "nft-gallery" : "NFT Gallery",
-      "partners" : "Partners"
+      "information": "Information",
+      "nft-gallery": "NFT Gallery",
+      "partners": "Partners",
+      "news": "News"
     },
-    "clipboard" : "was copied to clipboard",
+    "clipboard": "was copied to clipboard",
     "brandNewToken": "Brand New Token",
     "title": {
       "part1": "World's Community token created to help",
@@ -28,7 +29,7 @@
     "contractAddressMobile": "0x7AA50494C6ce91f346660fd3a113D7..."
   },
   "countdown": {
-    "title": "When will Safepets Token Launch?",
+    "title": "When will Safepets Token Presale Launch?",
     "in": "in",
     "and": "and",
     "days": "Days",
@@ -38,7 +39,39 @@
     "text": "*Time is only approximate and subject to change if necessary"
   },
   "news": {
-    "title": "News"
+    "title": "News",
+    "comingSoon": "Coming soon...",
+    "readMore": "Read more",
+    "posts": [
+      {
+        "image": "zvieratkovo",
+        "author": "Michal",
+        "date": "4TH Feb, 2022",
+        "title": "Zvieratkovo",
+        "textNews": "OZ Zvieratkovo is a civil association that was created in 2017. This amazing animal shelter in the central region of Slovakia has been helping animals for 5 years and counting, but unfortunately, they lack the funding that is needed to be able to reach their full potential and be able to take care of every animal that they find on the streets. Each year the number of animals seeking shelter grows, and it’s getting harder and harder for them because they are running out of capacity to take on these defenseless creatures.",
+        "text": "OZ Zvieratkovo is a civil association that was created in 2017. This amazing animal shelter in the central region of Slovakia has been helping animals for 5 years and counting, but unfortunately, they lack the funding that is needed to be able to reach their full potential and be able to take care of every animal that they find on the streets. Each year the number of animals seeking shelter grows, and it’s getting harder and harder for them because they are running out of capacity to take on these defenseless creatures. According to the owner, quite often it happens that because of the capacity issue of the shelter, and the rough shape that some of these animals come in and require constant attention, they are left with no other choice them to put the animal to sleep, to end their suffering because they do not have the means to take care of them, the way they need to be cared for. This is the direct result of not having the financial means that the community of animals on the street’s require from them to survive and be helped. Therefore, the Safepets team is doing everything in its power to break this cycle and bring in money that this facility needs to not have to turn down any animal every again. The story of this shelter interested us so much that we decided to grant them with the very first SafePets Charity Donation! The expected date of this donation is 18.2.2022. We will keep everyone posted if any changes arise. Below we have added some photos of the animals from this shelter, we hope you enjoy them as much as we did!\n",
+        "link": "/news/feb/zvieratkovo"
+      },
+      {
+        "image": "coingecko",
+        "imageNews": "coingecko-logo",
+        "author": "Tomas",
+        "date": "4TH Feb, 2022",
+        "title": "Coingecko",
+        "textNews": "Say Hello to Tomas everyone! Tomas is our marketing developer and would like everyone to know that he...",
+        "text": "Say Hello to Tomas everyone! Tomas is our marketing developer and would like everyone to know that he has applied for the listing of SafePets to Coingecko on 30.01.2022. Surprisingly we’ve already received a response, and they’ve already heard about us. So, what happens next? Well, we must wait to hear back from them as to when we will officially be listed. As soon as that happens you will be the first to hear about it! The reward will be ever so rewarding, we are expecting that the price of SafePets token will increase your investment by 5x or more and it would bring that much more to the charity wallet. Isn’t that wonderful!? This way, we will be able to support more pets, shelters, and nonprofit organizations. Thank you for being here with us! Stay tuned for more, were just getting started!",
+        "link": "/news/feb/coingecko"
+      },
+      {
+        "image": "sucho-afrika",
+        "author": "Michal",
+        "date": "4TH Feb, 2022",
+        "title": "Sucho in Afrika",
+        "textNews": "We would like to tell you a bit about one of the Dev’s of the SafePets project, Daniel. He absolutely...",
+        "text": "We would like to tell you a bit about one of the Dev’s of the SafePets project, Daniel. He absolutely loves animals and has so since childhood. He has helped develop charities in the past including several countries in Africa and the Canary Islands. In Africa, he managed to visit Niokola Koba National Park in Senegal, where you can see animals like giraffes, wild ostriches, and zebras. Such parks need a significant financial injection which they would be lost without. Daniel is a major steppingstone to the creation and the coming to be of SafePets, bringing a bunch of friends together for one purpose and one dream! Which is to be the first global cryptocurrency intended primarily for animals. Daniel firmly believes that our efforts will blossom and grow to be able to ensure that animals will be able to move freely and reproduce not only in zoos. Thanks for reading! We hope you enjoyed and stay tuned for more stories of Daniels travels and adventures!\n",
+        "link": "/news/feb/sucho-afrika"
+      }
+    ]
   },
   "tokenomics": {
     "title": "Tokenomics",
@@ -56,11 +89,12 @@
   },
   "charity": {
     "title": "Charity",
-    "partnerTitle" : "Partners",
+    "partnerTitle": "Partners",
     "donationDescription": "Donating to shelters and animal health organizations worldwide.",
     "donationText": "SafePets serves to help shelters with providing protection for animals, caring for animals in need and building a state-of-the-art animal adoption center. Animal shelters and rescues are amazing and need our support since they usually have limited resources, very little publicity and or funding. They help an untold number of animals which are just looking for a happy life. This is your chance to give back! Just be a part of our journey and find your way to our road map where you can learn how you can be a part of something world changing.",
     "partner": {
       "title": "Charity Partner’s",
+      "more": "More",
       "button": "Become SafePets charity partner",
       "titlePart1": "Wondering how to become a charity partner with",
       "titlePart2": "SafePets?",
@@ -81,7 +115,15 @@
         "companyId": "Your Company ID number",
         "email": "Your Email",
         "phoneNumber": "Your Phone number"
-      }
+      },
+      "partners": [
+        {
+          "image": "zvieratkovo",
+          "title": "Zvieratkovo.sk",
+          "text": "CIEĽOM nášho OZ je zlepšenie života všetkých zvierat, hlavne opustených, nechcených, či týraných",
+          "link": "https://www.facebook.com/zvieratkovosk"
+        }
+      ]
     }
   },
   "roadmap": {
@@ -93,26 +135,26 @@
         "phases": [
           {
             "phase": "KYC + Audit",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "Website launch",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "Pre sale",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "Token Launch"
           },
           {
             "phase": "Launch of marketing campaign on social media networks",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "Launch of charity & marketing wallets",
-            "completed" : "true"
+            "completed": "true"
           }
         ]
       },
@@ -123,11 +165,11 @@
           },
           {
             "phase": "~1 000 telegram members",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "Marketing push to spread awareness",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "New Partnerships with international organizations e.g., WWF, IUCN, UNEP"
@@ -147,7 +189,7 @@
           },
           {
             "phase": "~2 000 telegram members",
-            "completed" : "true"
+            "completed": "true"
           },
           {
             "phase": "Video marketing"
@@ -441,7 +483,7 @@
   },
   "footer": {
     "text": "SafePets is not an investment. SafePets makes no promises and is not responsible for any losses or errors.",
-    "copyright" : "Copyright © 2021 SafePets. All Rights Reserved - Privacy Policy - Terms and Conditions "
+    "copyright": "Copyright © 2021 SafePets. All Rights Reserved - Privacy Policy - Terms and Conditions "
   },
   "contactUs": {
     "text": "Have some questions?<br>Send us a message below",

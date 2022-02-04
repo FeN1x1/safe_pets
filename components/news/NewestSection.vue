@@ -4,23 +4,23 @@
     tabindex="0"
     class="
       cursor-pointer
+      border-t-2
       focus:outline-none
-      border-2
     "
-    aria-label="card 2"
+    aria-label="card 1"
   >
     <nuxt-img
-      class="focus:outline-none w-full h-56 object-cover"
+      class="focus:outline-none w-full"
       :src="`news/${image}.png`"
       :alt="image"
     />
-    <div class="py-2 px-4 w-full bg-green-primary">
+    <div class="py-4 px-8 w-full my-auto bg-green-primary">
       <div class="mt-1 flex justify-between">
         <p
           tabindex="0"
           class="
             focus:outline-none
-            text-sm text-white
+            text-base text-white
             font-semibold
             tracking-wide
           "
@@ -31,23 +31,26 @@
           tabindex="0"
           class="
             focus:outline-none
-            text-sm text-white
+            text-base text-white
             font-semibold
             tracking-wide
+
           "
         >
           {{ date }}
         </p>
       </div>
     </div>
-    <div class="bg-white px-4 lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
+    <div class="bg-white sm:px-10 px-4 pb-6 pt-6
+      border-b-2 border-l-2 border-r-2">
       <h1
         tabindex="0"
         class="
           focus:outline-none
-          text-xl text-brown-primary
+          text-4xl text-brown-primary
           font-semibold
           tracking-wider
+          mt-2
         "
       >
         {{ title }}
@@ -56,13 +59,14 @@
         tabindex="0"
         class="
           focus:outline-none
+          text-black text-base
           light-font
           font-bold
-          text-base
-          text-black
+          lg:text-lg
           leading-6
-          pr-4
-          mt-2
+          tracking-wide
+          mt-6
+          max-lines
         "
       >
         {{ text }}
@@ -74,7 +78,7 @@
 
 <script>
 export default {
-  name: 'Section.vue',
+  name: 'NewestSection',
   props: {
     image: {
       type: String,

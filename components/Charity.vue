@@ -12,7 +12,7 @@
         ></path>
       </svg>
     </div>
-    <section class="px-4 pt-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl">
+    <section class="px-4 pt-4 pb-8 sm:pb-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl">
       <div v-if="isSmallThanLg" class="flex pt-4">
         <div class="z-0">
           <nuxt-img
@@ -120,36 +120,6 @@
         </div>
       </div>
     </section>
-    <div id='partners' class="max-w-screen-2xl mx-auto px-4 sm:px-8 pb-12 sm:pb-20">
-      <AppTitleSmallerSecondary
-        :title="$t('charity.partnerTitle')"
-        class="-pb-4"
-      />
-      <div class="flex">
-        <a
-          class="
-            sm:mx-auto
-            text-center
-            cursor-pointer
-            transition
-            duration-300
-            transform
-            sm:px-4
-            mt-4
-            sm:mt-8
-          "
-          href="https://www.facebook.com/zvieratkovosk"
-          target="_blank"
-        >
-          <nuxt-img
-            class="w-64 h-64"
-            sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
-            src="charity-partner/zvieratkovo.png"
-            alt="Zvieratkovo"
-          />
-        </a>
-      </div>
-    </div>
   </section>
 </template>
 

@@ -51,6 +51,15 @@
       >
         <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-6">
           <div>
+            <a
+              href="/safepets_audit.pdf"
+              target="_blank"
+              class="cursor-pointer -m-4 p-3 flex items-start rounded-lg hover:bg-green-secondary"
+            >
+              Audit
+            </a>
+          </div>
+          <div>
             <NavButton :isDropdown='true' :name="$t('header.navigation.roadmap')" to="roadmap" />
           </div>
           <div>

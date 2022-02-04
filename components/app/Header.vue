@@ -18,7 +18,7 @@
         pt-4
         mx-auto
         pb-8
-        sm:pb-14 sm:pt-12 sm:max-w-xl
+        sm:pt-12 sm:max-w-xl
         md:max-w-full
         lg:max-w-screen-2xl
         md:px-8
@@ -92,6 +92,9 @@
                     bg-gradient-to-r
                     from-green-secondary
                     to-green-primary
+                    hover:opacity-90
+                    transform
+                    duration-300
                   "
                 >
                   {{ $t('header.contractAddress') }}
@@ -168,6 +171,9 @@
                     bg-gradient-to-r
                     from-green-secondary
                     to-green-primary
+                    hover:opacity-90
+                    transform
+                    duration-300
                   "
                 >
                   {{ $t('tokenomics.transferAddress') }}
@@ -284,7 +290,7 @@
       />
       <nuxt-img
         sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
-        v-scroll-to="'#tokenomics'"
+        v-scroll-to="'#news'"
         src="button_up.png"
         alt="up"
         class="
@@ -313,7 +319,7 @@ export default {
   name: 'Header',
   data() {
     return {
-      isToastActive: false
+      isToastActive: false,
     }
   },
   props: {

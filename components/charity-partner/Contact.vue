@@ -239,7 +239,13 @@
                   :class="{ 'cursor-not-allowed': !isButtonEnabled }"
                   type="submit"
                   :disabled="!isButtonEnabled"
-                  class="button-wider w-32 hover:text-green-tertiary"
+                  class="
+                    button-wider
+                    w-32
+                    hover:opacity-90
+                    transform
+                    duration-300
+                  "
                 >
                   {{ $t('contactUs.send') }}
                 </button>
